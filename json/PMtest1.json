@@ -1,0 +1,254 @@
+{
+    "Section I": [
+        "Basic Considerations",
+        {
+            "q1": {
+                "desc": "Anatomy and Physiology of the Pain Signaling Process",
+                "qt": "Which part of the nervous system is primarily responsible for transmitting pain signals from the site of injury to the brain?",
+                "A": "Central nervous system",
+                "B": "Peripheral nervous system",
+                "C": "Autonomic nervous system",
+                "D": "Enteric nervous system",
+                "ans": ""
+            },
+            "q2": {
+                "desc": "Neurochemistry of Somatosensory and Pain Processing",
+                "qt": "Which neurotransmitter is most commonly associated with the sensation of pain?",
+                "A": "Dopamine",
+                "B": "Serotonin",
+                "C": "Glutamate",
+                "D": "Acetylcholine",
+                "ans": ""
+            },
+            "q3": {
+                "desc": "Taxonomy: Definition of Pain Terms and Chronic Pain Syndromes",
+                "qt": "Which term is used to describe pain that persists for longer than three months?",
+                "A": "Acute pain",
+                "B": "Chronic pain",
+                "C": "Subacute pain",
+                "D": "Recurrent pain",
+                "ans": ""
+            }
+        }
+    ],
+    "Section II": [
+        "Clinical Evaluation and Diagnostic Examinations",
+        {
+            "q4": {
+                "desc": "Physical Examination of the Patient with Pain",
+                "qt": "During a physical examination, which method is commonly used to assess a patient's pain level?",
+                "A": "Blood pressure measurement",
+                "B": "Pain scale rating",
+                "C": "Reflex testing",
+                "D": "Blood glucose testing",
+                "ans": ""
+            },
+            "q5": {
+                "desc": "Psychological Evaluation and Testing",
+                "qt": "Which tool is commonly used for psychological evaluation of pain?",
+                "A": "Beck Depression Inventory",
+                "B": "Glucose tolerance test",
+                "C": "MRI scan",
+                "D": "Pulmonary function test",
+                "ans": ""
+            },
+            "q6": {
+                "desc": "Mental Disorders and Pain Management Diagnostic and Statistical Manual of Mental Disorders",
+                "qt": "Which edition of the DSM is currently used for diagnosing mental disorders related to pain?",
+                "A": "DSM-III",
+                "B": "DSM-IV",
+                "C": "DSM-V",
+                "D": "DSM-VI",
+                "ans": ""
+            },
+            "q7": {
+                "desc": "Neurophysiologic Testing for Pain",
+                "qt": "Which test measures the electrical activity in muscles and nerves?",
+                "A": "Electromyography (EMG)",
+                "B": "MRI",
+                "C": "CT scan",
+                "D": "X-ray",
+                "ans": ""
+            },
+            "q8": {
+                "desc": "Anatomy, Imaging, and Common Pain-Generating Degenerative Pathologies of the Spine",
+                "qt": "Which imaging technique is most commonly used to diagnose degenerative spine conditions?",
+                "A": "X-ray",
+                "B": "MRI",
+                "C": "Ultrasound",
+                "D": "PET scan",
+                "ans": ""
+            },
+            "q9": {
+                "desc": "Determination of Disability",
+                "qt": "Which scale is commonly used to assess disability related to pain?",
+                "A": "Visual Analog Scale (VAS)",
+                "B": "Oswestry Disability Index (ODI)",
+                "C": "Hamilton Anxiety Scale",
+                "D": "Montreal Cognitive Assessment (MoCA)",
+                "ans": ""
+            }
+        }
+    ],
+    "Section III": [
+        "Perioperative Pain Management",
+        {
+            "q10": {
+                "desc": "Preventive Analgesia",
+                "qt": "Which approach aims to reduce postoperative pain by administering analgesics before surgery?",
+                "A": "Reactive analgesia",
+                "B": "Preventive analgesia",
+                "C": "Delayed analgesia",
+                "D": "Rescue analgesia",
+                "ans": ""
+            },
+            "q11": {
+                "desc": "Perioperative Nonopioid Infusions for Postoperative Pain Management ",
+                "qt": "Which nonopioid medication is commonly used in perioperative infusions for pain management?",
+                "A": "Fentanyl",
+                "B": "Ketamine",
+                "C": "Morphine",
+                "D": "Tramadol",
+                "ans": ""
+            },
+            "q12": {
+                "desc": "Patient-Controlled Analgesia",
+                "qt": "Patient-Controlled Analgesia (PCA) allows patients to:",
+                "A": "Set their own pain medication dosage limits",
+                "B": "Administer their own pain medication within preset limits",
+                "C": "Prescribe their own medication",
+                "D": "Refill their own medication",
+                "ans": ""
+            },
+            "q13": {
+                "desc": "Intrathecal Opioids for Postoperative Pain",
+                "qt": "Which space in the spine is targeted for intrathecal opioid administration?",
+                "A": "Epidural space",
+                "B": "Subarachnoid space",
+                "C": "Intervertebral space",
+                "D": "Paravertebral space",
+                "ans": ""
+            },
+            "q14": {
+                "desc": "Epidural Opioids for Postoperative Pain",
+                "qt": "Epidural opioids are administered into which part of the spine?",
+                "A": "Subarachnoid space",
+                "B": "Epidural space",
+                "C": "Intervertebral disc",
+                "D": "Lumbar vertebrae",
+                "ans": ""
+            },
+            "q15": {
+                "desc": "Continuous Peripheral Nerve Blocks",
+                "qt": "Continuous peripheral nerve blocks are used primarily to:",
+                "A": "Treat chronic pain",
+                "B": "Provide long-term pain relief",
+                "C": "Provide regional anesthesia",
+                "D": "Reduce inflammation",
+                "ans": ""
+            },
+            "q16": {
+                "desc": "Pediatric Postoperative Pain",
+                "qt": "Which medication is most commonly used for managing postoperative pain in children?",
+                "A": "Ibuprofen",
+                "B": "Fentanyl",
+                "C": "Ketamine",
+                "D": "Aspirin",
+                "ans": ""
+            },
+            "q17": {
+                "desc": "Chronic Pain After Surgery",
+                "qt": "What is the term for pain that persists long after surgical healing?",
+                "A": "Acute postoperative pain",
+                "B": "Phantom pain",
+                "C": "Chronic postoperative pain",
+                "D": "Reflex sympathetic dystrophy",
+                "ans": ""
+            }
+        }
+    ],
+    "Section IV": [
+        "Chronic Pain Syndromes",
+        {
+            "q": {
+                "desc": "",
+                "qt": "",
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": "",
+                "ans": ""
+            }
+        }
+    ],
+    "Section V": [
+        "Cancer Pain and Pain in Special Situations",
+        {
+            "q": {
+                "desc": "",
+                "qt": "",
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": "",
+                "ans": ""
+            }
+        }
+    ],
+    "Section VI": [
+        "Pharmacology and Pharmacologic Modalities",
+        {
+            "q": {
+                "desc": "",
+                "qt": "",
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": "",
+                "ans": ""
+            }
+        }
+    ]
+    ,"Section VII": [
+        "Therapeutic Interventions",
+        {
+            "q": {
+                "desc": "",
+                "qt": "",
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": "",
+                "ans": ""
+            }
+        }
+    ],
+    "Section VIII": [
+        "Interventional Techniques for Pain Management",
+        {
+            "q": {
+                "desc": "",
+                "qt": "",
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": "",
+                "ans": ""
+            }
+        }
+    ],
+    "Section IX": [
+        "Other Nerve Blocks in Pain Medicine",
+        {
+            "q": {
+                "desc": "",
+                "qt": "",
+                "A": "",
+                "B": "",
+                "C": "",
+                "D": "",
+                "ans": ""
+            }
+        }
+    ]
+}

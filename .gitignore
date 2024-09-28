@@ -121,3 +121,4 @@ Thumbs.db
 !.phpcs.xml.dist
 
 testing/
+.vscode

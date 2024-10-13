@@ -2,14 +2,77 @@
     "Section IX": [
         "Other Nerve Blocks in Pain Medicine",
         {
-            "Q": {
-                "desc": "",
-                "qt": "",
-                "A": "",
-                "B": "",
-                "C": "",
-                "D": "",
-                "ans": ""
+            "Q55": {
+                "desc": "Ultrasound-Guided Procedures for Pain Management: Spine Injections and Relevant Peripheral Nerve Blocks",
+                "qt": "What is the primary advantage of using ultrasound guidance for nerve blocks?",
+                "A": "Reduced pain during injection",
+                "B": "Increased accuracy of injection",
+                "C": "Faster procedure time",
+                "D": "Lower cost",
+                "ans": "B"
+            },
+            "Q56": {
+                "desc": "Deep Muscle Injections: Piriformis, Scalene Muscle, Iliopsoas Injection Techniques",
+                "qt": "Deep muscle injections are commonly used to treat:",
+                "A": "Joint pain",
+                "B": "Muscle spasms",
+                "C": "Bone fractures",
+                "D": "Skin infections",
+                "ans": "B"
+            },
+            "Q57": {
+                "desc": "Ultrasound-Guided Musculoskeletal Injections—Shoulder, Hip, Knee",
+                "qt": "Ultrasound-guided musculoskeletal injections are often used to treat pain in which areas?",
+                "A": "Shoulder, hip, knee",
+                "B": "Head, neck, back",
+                "C": "Hand, wrist, ankle",
+                "D": "Abdomen, chest, pelvis",
+                "ans": "A"
+            },
+            "Q58": {
+                "desc": "Head and Neck Blocks",
+                "qt": "Which condition is commonly treated with head and neck nerve blocks?",
+                "A": "Migraine",
+                "B": "Hypertension",
+                "C": "Diabetes",
+                "D": "Asthma",
+                "ans": "A"
+            },
+            "Q59": {
+                "desc": "Truncal Blocks: Paravertebral, Intercostal, Pectoral Nerve, Suprascapular, Ilioinguinal, Iliohypogastric Nerve, and Transversus Abdominis Plane Blocks",
+                "qt": "Truncal blocks are primarily used to manage pain in which part of the body?",
+                "A": "Arms",
+                "B": "Legs",
+                "C": "Trunk",
+                "D": "Head",
+                "ans": "C"
+            },
+            "Q60": {
+                "desc": "Fluoroscopy and Ultrasound-Guided Sympathetic Blocks: Stellate Ganglion, Lumbar Sympathetic Blocks, and Visceral Sympathetic Blocks",
+                "qt": "Fluoroscopy and ultrasound are used in sympathetic blocks to:",
+                "A": "Visualize the target area",
+                "B": "Reduce the need for anesthesia",
+                "C": "Shorten recovery time",
+                "D": "Increase the duration of pain relief",
+                "ans": "A"
+            },
+            "Q61": {
+                "desc": "Interventional Pain Procedures in Patients on Anticoagulants",
+                "qt": "When performing interventional pain procedures on patients taking anticoagulants, it is important to:",
+                "A": "Stop all anticoagulants immediately",
+                "B": "Monitor for bleeding complications",
+                "C": "Increase the dose of anticoagulants",
+                "D": "Avoid using imaging guidance",
+                "ans": "B"
+            },
+            "Q62": {
+                "desc": "Interventional Pain Procedures and the Risk of Infection",
+                "qt": "Which measure is essential to minimize the risk of infection during interventional pain procedures?",
+                "A": "Using sterile techniques",
+                "B": "Administering antibiotics post-procedure",
+                "C": "Increasing procedure time",
+                "D": "Avoiding local anesthesia",
+                "ans": "A"
             }
         }
     ]

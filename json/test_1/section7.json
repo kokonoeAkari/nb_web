@@ -2,14 +2,50 @@
     "Section VII": [
         "Therapeutic Interventions",
         {
-            "Q": {
-                "desc": "",
-                "qt": "",
-                "A": "",
-                "B": "",
-                "C": "",
-                "D": "",
-                "ans": ""
+            "Q40": {
+                "desc": "Ablative Neurosurgical Procedures for Treatment of Chronic Pain",
+                "qt": "Which procedure involves the destruction of nerve tissue to relieve pain?",
+                "A": "Nerve block",
+                "B": "Neurolysis",
+                "C": "Ablative neurosurgery",
+                "D": "Radiofrequency ablation",
+                "ans": "C"
+            },
+            "Q41": {
+                "desc": "Physical Medicine and Rehabilitation Approaches to Pain Management",
+                "qt": "Which therapy is commonly included in physical medicine for pain management?",
+                "A": "Electroconvulsive therapy",
+                "B": "Physical therapy",
+                "C": "Chemotherapy",
+                "D": "Dialysis",
+                "ans": "B"
+            },
+            "Q42": {
+                "desc": "Psychologic Interventions for Chronic Pain",
+                "qt": "Which psychological intervention is frequently used for managing chronic pain?",
+                "A": "Cognitive-behavioral therapy (CBT)",
+                "B": "Psychoanalysis",
+                "C": "Hypnosis",
+                "D": "Dialectical behavior therapy (DBT)",
+                "ans": "A"
+            },
+            "Q43": {
+                "desc": "Acupuncture",
+                "qt": "Which principle underlies the practice of acupuncture for pain relief?",
+                "A": "Blocking nerve signals",
+                "B": "Balancing energy flow",
+                "C": "Reducing inflammation",
+                "D": "Increasing blood pressure",
+                "ans": "B"
+            },
+            "Q44": {
+                "desc": "Tai Chi and Chronic Pain",
+                "qt": "Tai Chi is primarily used to manage chronic pain by improving:",
+                "A": "Cardiovascular fitness",
+                "B": "Mental health",
+                "C": "Flexibility and balance",
+                "D": "Bone density",
+                "ans": "C"
             }
         }
     ]

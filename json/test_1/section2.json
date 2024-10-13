@@ -9,7 +9,7 @@
                 "B": "Pain scale rating",
                 "C": "Reflex testing",
                 "D": "Blood glucose testing",
-                "ans": ""
+                "ans": "B"
             },
             "Q5": {
                 "desc": "Psychological Evaluation and Testing",
@@ -18,7 +18,7 @@
                 "B": "Glucose tolerance test",
                 "C": "MRI scan",
                 "D": "Pulmonary function test",
-                "ans": ""
+                "ans": "A"
             },
             "Q6": {
                 "desc": "Mental Disorders and Pain Management Diagnostic and Statistical Manual of Mental Disorders",
@@ -27,7 +27,7 @@
                 "B": "DSM-IV",
                 "C": "DSM-V",
                 "D": "DSM-VI",
-                "ans": ""
+                "ans": "C"
             },
             "Q7": {
                 "desc": "Neurophysiologic Testing for Pain",
@@ -36,7 +36,7 @@
                 "B": "MRI",
                 "C": "CT scan",
                 "D": "X-ray",
-                "ans": ""
+                "ans": "A"
             },
             "Q8": {
                 "desc": "Anatomy, Imaging, and Common Pain-Generating Degenerative Pathologies of the Spine",
@@ -45,7 +45,7 @@
                 "B": "MRI",
                 "C": "Ultrasound",
                 "D": "PET scan",
-                "ans": ""
+                "ans": "B"
             },
             "Q9": {
                 "desc": "Determination of Disability",
@@ -54,7 +54,7 @@
                 "B": "Oswestry Disability Index (ODI)",
                 "C": "Hamilton Anxiety Scale",
                 "D": "Montreal Cognitive Assessment (MoCA)",
-                "ans": ""
+                "ans": "B"
             }
         }
     ]

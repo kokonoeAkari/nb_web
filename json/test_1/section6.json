@@ -2,14 +2,86 @@
     "Section VI": [
         "Pharmacology and Pharmacologic Modalities",
         {
-            "Q": {
-                "desc": "",
-                "qt": "",
-                "A": "",
-                "B": "",
-                "C": "",
-                "D": "",
-                "ans": ""
+            "Q31": {
+                "desc": "Major Opioids in Pain Management",
+                "qt": "Which opioid is considered a major opioid used in pain management?",
+                "A": "Codeine",
+                "B": "Morphine",
+                "C": "Tramadol",
+                "D": "Acetaminophen",
+                "ans": "B"
+            },
+            "Q32": {
+                "desc": "Opioids Used for Mild to Moderate Pain",
+                "qt": "Which opioid is commonly prescribed for mild to moderate pain?",
+                "A": "Fentanyl",
+                "B": "Morphine",
+                "C": "Codeine",
+                "D": "Oxycodone",
+                "ans": "C"
+            },
+            "Q33": {
+                "desc": "The Prescription Drug Abuse Epidemic and Emerging Prescribing Guidelines",
+                "qt": "Which guideline aims to reduce prescription opioid abuse?",
+                "A": "CDC Guideline for Prescribing Opioids",
+                "B": "ADA Pain Management Guideline",
+                "C": "WHO Antibiotic Prescribing Guideline",
+                "D": "AHA Hypertension Guideline",
+                "ans": "A"
+            },
+            "Q34": {
+                "desc": "Legal and Regulatory Issues in Pain Management",
+                "qt": "Which agency regulates the prescription of controlled substances?",
+                "A": "FDA",
+                "B": "CDC",
+                "C": "DEA",
+                "D": "NIH",
+                "ans": "C"
+            },
+            "Q35": {
+                "desc": "Urine Drug Testing in Pain Medicine",
+                "qt": "Which purpose does urine drug testing serve in pain management?",
+                "A": "Diagnosing infections",
+                "B": "Monitoring medication adherence",
+                "C": "Measuring blood sugar levels",
+                "D": "Checking kidney function",
+                "ans": "B"
+            },
+            "Q36": {
+                "desc": "Substance Use Disorders and Detoxification",
+                "qt": "Which treatment is often used for opioid detoxification?",
+                "A": "Methadone",
+                "B": "Ibuprofen",
+                "C": "Cortisone",
+                "D": "Acetaminophen",
+                "ans": "A"
+            },
+            "Q37": {
+                "desc": "Psychopharmacology for Pain Medicine",
+                "qt": "Which class of medication is often used to treat both depression and chronic pain?",
+                "A": "Antibiotics",
+                "B": "Antidepressants",
+                "C": "Antihistamines",
+                "D": "Antivirals",
+                "ans": "B"
+            },
+            "Q38": {
+                "desc": "Membrane Stabilizers",
+                "qt": "Which medication is considered a membrane stabilizer used for neuropathic pain?",
+                "A": "Gabapentin",
+                "B": "Ibuprofen",
+                "C": "Acetaminophen",
+                "D": "Morphine",
+                "ans": "A"
+            },
+            "Q39": {
+                "desc": "Recommendations for Pharmacologic Therapy of Neuropathic Pain",
+                "qt": "Which class of drugs is recommended as first-line therapy for neuropathic pain?",
+                "A": "NSAIDs",
+                "B": "Anticonvulsants",
+                "C": "Beta-blockers",
+                "D": "Antibiotics",
+                "ans": "B"
             }
         }
     ]

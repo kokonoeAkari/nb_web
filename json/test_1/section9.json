@@ -8,8 +8,7 @@
                 "A": "Reduced pain during injection",
                 "B": "Increased accuracy of injection",
                 "C": "Faster procedure time",
-                "D": "Lower cost",
-                "ans": "B"
+                "D": "Lower cost"
             },
             "Q56": {
                 "desc": "Deep Muscle Injections: Piriformis, Scalene Muscle, Iliopsoas Injection Techniques",
@@ -17,8 +16,7 @@
                 "A": "Joint pain",
                 "B": "Muscle spasms",
                 "C": "Bone fractures",
-                "D": "Skin infections",
-                "ans": "B"
+                "D": "Skin infections"
             },
             "Q57": {
                 "desc": "Ultrasound-Guided Musculoskeletal Injections—Shoulder, Hip, Knee",
@@ -26,8 +24,7 @@
                 "A": "Shoulder, hip, knee",
                 "B": "Head, neck, back",
                 "C": "Hand, wrist, ankle",
-                "D": "Abdomen, chest, pelvis",
-                "ans": "A"
+                "D": "Abdomen, chest, pelvis"
             },
             "Q58": {
                 "desc": "Head and Neck Blocks",
@@ -35,8 +32,7 @@
                 "A": "Migraine",
                 "B": "Hypertension",
                 "C": "Diabetes",
-                "D": "Asthma",
-                "ans": "A"
+                "D": "Asthma"
             },
             "Q59": {
                 "desc": "Truncal Blocks: Paravertebral, Intercostal, Pectoral Nerve, Suprascapular, Ilioinguinal, Iliohypogastric Nerve, and Transversus Abdominis Plane Blocks",
@@ -44,8 +40,7 @@
                 "A": "Arms",
                 "B": "Legs",
                 "C": "Trunk",
-                "D": "Head",
-                "ans": "C"
+                "D": "Head"
             },
             "Q60": {
                 "desc": "Fluoroscopy and Ultrasound-Guided Sympathetic Blocks: Stellate Ganglion, Lumbar Sympathetic Blocks, and Visceral Sympathetic Blocks",
@@ -53,8 +48,7 @@
                 "A": "Visualize the target area",
                 "B": "Reduce the need for anesthesia",
                 "C": "Shorten recovery time",
-                "D": "Increase the duration of pain relief",
-                "ans": "A"
+                "D": "Increase the duration of pain relief"
             },
             "Q61": {
                 "desc": "Interventional Pain Procedures in Patients on Anticoagulants",
@@ -62,8 +56,7 @@
                 "A": "Stop all anticoagulants immediately",
                 "B": "Monitor for bleeding complications",
                 "C": "Increase the dose of anticoagulants",
-                "D": "Avoid using imaging guidance",
-                "ans": "B"
+                "D": "Avoid using imaging guidance"
             },
             "Q62": {
                 "desc": "Interventional Pain Procedures and the Risk of Infection",
@@ -71,8 +64,7 @@
                 "A": "Using sterile techniques",
                 "B": "Administering antibiotics post-procedure",
                 "C": "Increasing procedure time",
-                "D": "Avoiding local anesthesia",
-                "ans": "A"
+                "D": "Avoiding local anesthesia"
             }
         }
     ]

@@ -8,8 +8,7 @@
                 "A": "Antidepressants",
                 "B": "NSAIDs",
                 "C": "Opioids",
-                "D": "Antihistamines",
-                "ans": "C"
+                "D": "Antihistamines"
             },
             "Q24": {
                 "desc": "Management of Pain at End of Life",
@@ -17,8 +16,7 @@
                 "A": "Aggressive curative treatment",
                 "B": "Palliative care",
                 "C": "Preventive analgesia",
-                "D": "Elective surgery",
-                "ans": "B"
+                "D": "Elective surgery"
             },
             "Q25": {
                 "desc": "Pain Management in the Emergency Department",
@@ -26,8 +24,7 @@
                 "A": "Acetaminophen",
                 "B": "Ibuprofen",
                 "C": "Morphine",
-                "D": "Aspirin",
-                "ans": "C"
+                "D": "Aspirin"
             },
             "Q26": {
                 "desc": "Chronic Pain Management in Children and Adolescents",
@@ -35,8 +32,7 @@
                 "A": "Cognitive-behavioral therapy",
                 "B": "Psychoanalysis",
                 "C": "Hypnosis",
-                "D": "Electroconvulsive therapy",
-                "ans": "A"
+                "D": "Electroconvulsive therapy"
             },
             "Q27": {
                 "desc": "Sickle Cell Disease",
@@ -44,8 +40,7 @@
                 "A": "Neuropathic pain",
                 "B": "Inflammatory pain",
                 "C": "Acute pain crisis",
-                "D": "Phantom limb pain",
-                "ans": "C"
+                "D": "Phantom limb pain"
             },
             "Q28": {
                 "desc": "Pain Management During Pregnancy and Lactation",
@@ -53,8 +48,7 @@
                 "A": "Ibuprofen",
                 "B": "Aspirin",
                 "C": "Acetaminophen",
-                "D": "Naproxen",
-                "ans": "C"
+                "D": "Naproxen"
             },
             "Q29": {
                 "desc": "Pain Control in the Critically Ill Patient",
@@ -62,8 +56,7 @@
                 "A": "Avoiding all medications",
                 "B": "Minimizing sedation",
                 "C": "Prioritizing non-pharmacological treatments",
-                "D": "Using high-dose opioids exclusively",
-                "ans": "B"
+                "D": "Using high-dose opioids exclusively"
             },
             "Q30": {
                 "desc": "Geriatric Pain",
@@ -71,8 +64,7 @@
                 "A": "High pain tolerance",
                 "B": "Poor medication absorption",
                 "C": "Polypharmacy",
-                "D": "Fast metabolism of drugs",
-                "ans": "C"
+                "D": "Fast metabolism of drugs"
             }
         }
     ]

@@ -8,8 +8,7 @@
                 "A": "Central nervous system",
                 "B": "Peripheral nervous system",
                 "C": "Autonomic nervous system",
-                "D": "Enteric nervous system",
-                "ans": "B"
+                "D": "Enteric nervous system"
             },
             "Q2": {
                 "desc": "Neurochemistry of Somatosensory and Pain Processing",
@@ -17,8 +16,7 @@
                 "A": "Dopamine",
                 "B": "Serotonin",
                 "C": "Glutamate",
-                "D": "Acetylcholine",
-                "ans": "C"
+                "D": "Acetylcholine"
             },
             "Q3": {
                 "desc": "Taxonomy: Definition of Pain Terms and Chronic Pain Syndromes",
@@ -26,8 +24,7 @@
                 "A": "Acute pain",
                 "B": "Chronic pain",
                 "C": "Subacute pain",
-                "D": "Recurrent pain",
-                "ans": "B"
+                "D": "Recurrent pain"
             }
         }
     ]

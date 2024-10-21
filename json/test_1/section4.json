@@ -8,8 +8,7 @@
                 "A": "Runny nose",
                 "B": "Throbbing head pain",
                 "C": "Coughing",
-                "D": "Sore throat",
-                "ans": "B"
+                "D": "Sore throat"
             },
             "Q19": {
                 "desc": "Tension-Type Headache, Chronic Tension-Type Headache, and Other Chronic Headache Types",
@@ -17,8 +16,7 @@
                 "A": "Migraine",
                 "B": "Cluster headache",
                 "C": "Tension-type headache",
-                "D": "Sinus headache",
-                "ans": "C"
+                "D": "Sinus headache"
             },
             "Q20": {
                 "desc": "Postmeningeal Puncture Headache and Spontaneous Intracranial Hypotension",
@@ -26,8 +24,7 @@
                 "A": "Standing up quickly",
                 "B": "Lying flat",
                 "C": "Heavy exercise",
-                "D": "Bending forward",
-                "ans": "B"
+                "D": "Bending forward"
             },
             "Q21": {
                 "desc": "Cervicogenic Headache ",
@@ -35,8 +32,7 @@
                 "A": "Cervical spine",
                 "B": "Thoracic spine",
                 "C": "Lumbar spine",
-                "D": "Sacral spine",
-                "ans": "A"
+                "D": "Sacral spine"
             },
             "Q22": {
                 "desc": "Orofacial Pain ",
@@ -44,8 +40,7 @@
                 "A": "Tension-type headache",
                 "B": "Migraine",
                 "C": "Orofacial pain",
-                "D": "Cluster headache",
-                "ans": "C"
+                "D": "Cluster headache"
             }
         }
     ]

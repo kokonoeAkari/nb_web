@@ -8,8 +8,7 @@
                 "A": "Nerve block",
                 "B": "Neurolysis",
                 "C": "Ablative neurosurgery",
-                "D": "Radiofrequency ablation",
-                "ans": "C"
+                "D": "Radiofrequency ablation"
             },
             "Q41": {
                 "desc": "Physical Medicine and Rehabilitation Approaches to Pain Management",
@@ -17,8 +16,7 @@
                 "A": "Electroconvulsive therapy",
                 "B": "Physical therapy",
                 "C": "Chemotherapy",
-                "D": "Dialysis",
-                "ans": "B"
+                "D": "Dialysis"
             },
             "Q42": {
                 "desc": "Psychologic Interventions for Chronic Pain",
@@ -26,8 +24,7 @@
                 "A": "Cognitive-behavioral therapy (CBT)",
                 "B": "Psychoanalysis",
                 "C": "Hypnosis",
-                "D": "Dialectical behavior therapy (DBT)",
-                "ans": "A"
+                "D": "Dialectical behavior therapy (DBT)"
             },
             "Q43": {
                 "desc": "Acupuncture",
@@ -35,8 +32,7 @@
                 "A": "Blocking nerve signals",
                 "B": "Balancing energy flow",
                 "C": "Reducing inflammation",
-                "D": "Increasing blood pressure",
-                "ans": "B"
+                "D": "Increasing blood pressure"
             },
             "Q44": {
                 "desc": "Tai Chi and Chronic Pain",
@@ -44,8 +40,7 @@
                 "A": "Cardiovascular fitness",
                 "B": "Mental health",
                 "C": "Flexibility and balance",
-                "D": "Bone density",
-                "ans": "C"
+                "D": "Bone density"
             }
         }
     ]

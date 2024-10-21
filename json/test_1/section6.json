@@ -8,8 +8,7 @@
                 "A": "Codeine",
                 "B": "Morphine",
                 "C": "Tramadol",
-                "D": "Acetaminophen",
-                "ans": "B"
+                "D": "Acetaminophen"
             },
             "Q32": {
                 "desc": "Opioids Used for Mild to Moderate Pain",
@@ -17,8 +16,7 @@
                 "A": "Fentanyl",
                 "B": "Morphine",
                 "C": "Codeine",
-                "D": "Oxycodone",
-                "ans": "C"
+                "D": "Oxycodone"
             },
             "Q33": {
                 "desc": "The Prescription Drug Abuse Epidemic and Emerging Prescribing Guidelines",
@@ -26,8 +24,7 @@
                 "A": "CDC Guideline for Prescribing Opioids",
                 "B": "ADA Pain Management Guideline",
                 "C": "WHO Antibiotic Prescribing Guideline",
-                "D": "AHA Hypertension Guideline",
-                "ans": "A"
+                "D": "AHA Hypertension Guideline"
             },
             "Q34": {
                 "desc": "Legal and Regulatory Issues in Pain Management",
@@ -35,8 +32,7 @@
                 "A": "FDA",
                 "B": "CDC",
                 "C": "DEA",
-                "D": "NIH",
-                "ans": "C"
+                "D": "NIH"
             },
             "Q35": {
                 "desc": "Urine Drug Testing in Pain Medicine",
@@ -44,8 +40,7 @@
                 "A": "Diagnosing infections",
                 "B": "Monitoring medication adherence",
                 "C": "Measuring blood sugar levels",
-                "D": "Checking kidney function",
-                "ans": "B"
+                "D": "Checking kidney function"
             },
             "Q36": {
                 "desc": "Substance Use Disorders and Detoxification",
@@ -53,8 +48,7 @@
                 "A": "Methadone",
                 "B": "Ibuprofen",
                 "C": "Cortisone",
-                "D": "Acetaminophen",
-                "ans": "A"
+                "D": "Acetaminophen"
             },
             "Q37": {
                 "desc": "Psychopharmacology for Pain Medicine",
@@ -62,8 +56,7 @@
                 "A": "Antibiotics",
                 "B": "Antidepressants",
                 "C": "Antihistamines",
-                "D": "Antivirals",
-                "ans": "B"
+                "D": "Antivirals"
             },
             "Q38": {
                 "desc": "Membrane Stabilizers",
@@ -71,8 +64,7 @@
                 "A": "Gabapentin",
                 "B": "Ibuprofen",
                 "C": "Acetaminophen",
-                "D": "Morphine",
-                "ans": "A"
+                "D": "Morphine"
             },
             "Q39": {
                 "desc": "Recommendations for Pharmacologic Therapy of Neuropathic Pain",
@@ -80,8 +72,7 @@
                 "A": "NSAIDs",
                 "B": "Anticonvulsants",
                 "C": "Beta-blockers",
-                "D": "Antibiotics",
-                "ans": "B"
+                "D": "Antibiotics"
             }
         }
     ]

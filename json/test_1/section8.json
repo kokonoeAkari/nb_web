@@ -8,8 +8,7 @@
                 "A": "Headaches",
                 "B": "Lower back pain",
                 "C": "Abdominal pain",
-                "D": "Joint pain",
-                "ans": "B"
+                "D": "Joint pain"
             },
             "Q46": {
                 "desc": "Transforaminal Epidural Steroid Injections and Selective Nerve Root Blocks",
@@ -17,8 +16,7 @@
                 "A": "The type of medication used",
                 "B": "The target location of the injection",
                 "C": "The duration of pain relief",
-                "D": "The level of pain treated",
-                "ans": "B"
+                "D": "The level of pain treated"
             },
             "Q47": {
                 "desc": "Antitumor Necrosis Factor-α Therapy",
@@ -26,8 +24,7 @@
                 "A": "Osteoarthritis",
                 "B": "Rheumatoid arthritis",
                 "C": "Migraine",
-                "D": "Tension-type headache",
-                "ans": "B"
+                "D": "Tension-type headache"
             },
             "Q48": {
                 "desc": "Disease-Modifying Antirheumatic Drugs for Low Back Pain",
@@ -35,8 +32,7 @@
                 "A": "Methotrexate",
                 "B": "Acetaminophen",
                 "C": "Ibuprofen",
-                "D": "Aspirin",
-                "ans": "A"
+                "D": "Aspirin"
             },
             "Q49": {
                 "desc": "Sacroiliac Joint Pain",
@@ -44,8 +40,7 @@
                 "A": "Epidural injection",
                 "B": "Facet joint injection",
                 "C": "Sacroiliac joint injection",
-                "D": "Trigger point injection",
-                "ans": "C"
+                "D": "Trigger point injection"
             },
             "Q50": {
                 "desc": "Piriformis Syndrome",
@@ -53,8 +48,7 @@
                 "A": "Neck",
                 "B": "Lower back",
                 "C": "Buttocks",
-                "D": "Shoulders",
-                "ans": "C"
+                "D": "Shoulders"
             },
             "Q51": {
                 "desc": "Pulsed Radiofrequency, Water-Cooled Radiofrequency, and Cryoneurolysis",
@@ -62,8 +56,7 @@
                 "A": "Pulsed radiofrequency",
                 "B": "Water-cooled radiofrequency",
                 "C": "Cryoneurolysis",
-                "D": "Neurostimulation",
-                "ans": "C"
+                "D": "Neurostimulation"
             },
             "Q52": {
                 "desc": "Discography",
@@ -71,8 +64,7 @@
                 "A": "Muscles",
                 "B": "Bones",
                 "C": "Intervertebral discs",
-                "D": "Ligaments",
-                "ans": "C"
+                "D": "Ligaments"
             },
             "Q53": {
                 "desc": "Vertebroplasty and Kyphoplasty",
@@ -80,8 +72,7 @@
                 "A": "Spinal fractures",
                 "B": "Herniated discs",
                 "C": "Scoliosis",
-                "D": "Muscle spasms",
-                "ans": "A"
+                "D": "Muscle spasms"
             },
             "Q54": {
                 "desc": "Neurolytic Sympathetic Blocks",
@@ -89,8 +80,7 @@
                 "A": "Headaches",
                 "B": "Neuropathic pain",
                 "C": "Visceral pain",
-                "D": "Joint pain",
-                "ans": "C"
+                "D": "Joint pain"
             }
         }
     ]

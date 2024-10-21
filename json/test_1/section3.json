@@ -8,8 +8,7 @@
                 "A": "Reactive analgesia",
                 "B": "Preventive analgesia",
                 "C": "Delayed analgesia",
-                "D": "Rescue analgesia",
-                "ans": "B"
+                "D": "Rescue analgesia"
             },
             "Q11": {
                 "desc": "Perioperative Nonopioid Infusions for Postoperative Pain Management ",
@@ -17,8 +16,7 @@
                 "A": "Fentanyl",
                 "B": "Ketamine",
                 "C": "Morphine",
-                "D": "Tramadol",
-                "ans": "B"
+                "D": "Tramadol"
             },
             "Q12": {
                 "desc": "Patient-Controlled Analgesia",
@@ -26,8 +24,7 @@
                 "A": "Set their own pain medication dosage limits",
                 "B": "Administer their own pain medication within preset limits",
                 "C": "Prescribe their own medication",
-                "D": "Refill their own medication",
-                "ans": "B"
+                "D": "Refill their own medication"
             },
             "Q13": {
                 "desc": "Intrathecal Opioids for Postoperative Pain",
@@ -35,8 +32,7 @@
                 "A": "Epidural space",
                 "B": "Subarachnoid space",
                 "C": "Intervertebral space",
-                "D": "Paravertebral space",
-                "ans": "B"
+                "D": "Paravertebral space"
             },
             "Q14": {
                 "desc": "Epidural Opioids for Postoperative Pain",
@@ -44,8 +40,7 @@
                 "A": "Subarachnoid space",
                 "B": "Epidural space",
                 "C": "Intervertebral disc",
-                "D": "Lumbar vertebrae",
-                "ans": "B"
+                "D": "Lumbar vertebrae"
             },
             "Q15": {
                 "desc": "Continuous Peripheral Nerve Blocks",
@@ -53,8 +48,7 @@
                 "A": "Treat chronic pain",
                 "B": "Provide long-term pain relief",
                 "C": "Provide regional anesthesia",
-                "D": "Reduce inflammation",
-                "ans": "C"
+                "D": "Reduce inflammation"
             },
             "Q16": {
                 "desc": "Pediatric Postoperative Pain",
@@ -62,8 +56,7 @@
                 "A": "Ibuprofen",
                 "B": "Fentanyl",
                 "C": "Ketamine",
-                "D": "Aspirin",
-                "ans": "A"
+                "D": "Aspirin"
             },
             "Q17": {
                 "desc": "Chronic Pain After Surgery",
@@ -71,8 +64,7 @@
                 "A": "Acute postoperative pain",
                 "B": "Phantom pain",
                 "C": "Chronic postoperative pain",
-                "D": "Reflex sympathetic dystrophy",
-                "ans": "C"
+                "D": "Reflex sympathetic dystrophy"
             }
         }
     ]

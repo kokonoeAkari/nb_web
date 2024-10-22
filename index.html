@@ -7,42 +7,38 @@
         <link rel="icon" href="#">
 
         <!-- JS -->
-        <script src="./js/main.js"></script>
+        <script src="js/main.js"></script>
         <script type="module" src="./js/common.js"></script>
-        <script src="./libs/jquery/jquery-3.7.1.js"></script>
-        <script src="./libs/bootstrap-5.3.3/js/bootstrap.bundle.js"></script>
+        <script src="libs/jquery/jquery-3.7.1.js"></script>
 
         <!-- CSS -->
-        <link rel="stylesheet" href="./css/style.css"/>
-        <link rel="stylesheet" href="./libs/bootstrap-5.3.3/css/bootstrap.css">
+        <link rel="stylesheet" href="css/common.css"/>
     </head>
     <body>
         <!-- header -->
         <div class="header">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Pain Medicine</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" _mstaria-label="320099">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="nerveblock.html">Nerve Block</a>
+            <div>
+                <h1 class="pm-logo"><a href="index.html">Logo</a></h1>
+            </div>
+            <nav class="pm-navbar">
+                <ul class="pm-navbar-nav">
+                    <li class="pm-nav-item">
+                        <a href="nerveblock.html">Nerve Block</a>
+                    </li>
+                    <li class="pm-nav-item">
+                        <a href="#">試題測驗</a>
+                        <ul class="pm-nav-dropdown">
+                            <li class="pm-dropdown-item">
+                                <a href="exam_te1.html">Test 1</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">測驗</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="exam_te1.html">Test 1</a></li>
-                                    <li><a class="dropdown-item" href="exam_te2.html">Test 2</a></li>
-                                </ul>
+                            <li class="">
+                                <a href="#">Test 2</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </nav>
         </div>
-
         
     </body>
 </html>

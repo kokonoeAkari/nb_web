@@ -1,116 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Test 2</title>
+        <title>Pain Medicine</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="#">
 
         <!-- JS -->
         <script src="js/main.js"></script>
-        <script type="module" src="js/common.js"></script>
+        <script type="module" src="./js/common.js"></script>
         <script src="libs/jquery/jquery-3.7.1.js"></script>
-        <script src="libs/bootstrap-5.3.3/js/bootstrap.bundle.js"></script>
 
         <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="libs/bootstrap-5.3.3/css/bootstrap.css">
+        <link rel="stylesheet" href="css/common.css"/>
     </head>
     <body>
         <!-- header -->
         <div class="header">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">Pain Medicine</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" _mstaria-label="320099">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="nerveblock.html">Nerve Block</a>
+            <div>
+                <h1 class="pm-logo"><a href="index.html">Logo</a></h1>
+            </div>
+            <nav class="pm-navbar">
+                <button class="pm-navbar-btn" type="button" title="navbar-btn">
+                    <span><img src="asset/image/icon.svg" alt="" width="40px" height="30px"></span>
+                </button>
+                <ul class="pm-navbar-nav">
+                    <li class="pm-nav-item">
+                        <a href="nerveblock.html">Nerve Block</a>
+                    </li>
+                    <li class="pm-nav-item">
+                        <a href="#">試題測驗</a>
+                        <ul class="pm-nav-dropdown">
+                            <li class="pm-dropdown-item">
+                                <a href="exam_te1.html">Test 1</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">測驗</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="exam_te1.html">Test 1</a></li>
-                                    <li><a class="dropdown-item" href="exam_te2.html">Test 2</a></li>
-                                </ul>
+                            <li class="">
+                                <a href="exam_te2.html">Test 2</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </nav>
         </div>
 
-        <!-- main -->
-        <div class="content">
-            <div class="sidebar-menu">
-                <ul class="side-navbar-nav">
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 1<br></span>
-                            <span class="section-intro" ></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 2<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 3<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 4<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 5<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 6<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 7<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 8<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">Section 9<br></span>
-                            <span class="section-intro"></span>
-                        </a>
-                    </li>
-                    <li class="side-nav-item">
-                        <a class="side-nav-link" style="font-size: 15pt;" href="#">
-                            <span class="section-title" style="white-space: pre-wrap;">綜合測驗<br></span>
-                        </a>
-                    </li>
-                </ul>
+        <div class="main-content">
+            <div class="pm-section-content">
+                <nav class="">
+                    <div style="font-size: 24pt;padding: 10px;text-align: center;">選擇章節</div>
+                    <ul class="pm-sidebar-nav">
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 1<br></span>
+                                <span style="margin-left: 25px;">Basic Considerations</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 2<br></span>
+                                <span style="margin-left: 25px;">Clinical Evaluation and Diagnostic Examinations</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 3<br></span>
+                                <span style="margin-left: 25px;">Perioperative Pain Management</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 4<br></span>
+                                <span style="margin-left: 25px;">Chronic Pain Syndromes</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 5<br></span>
+                                <span style="margin-left: 25px;">Cancer Pain and Pain in Special Situations</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 6<br></span>
+                                <span style="margin-left: 25px;">Pharmacology and Pharmacologic Modalities</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 7<br></span>
+                                <span style="margin-left: 25px;">Therapeutic Interventions</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 8<br></span>
+                                <span style="margin-left: 25px;">Interventional Techniques for Pain Management</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">section 9<br></span>
+                                <span style="margin-left: 25px;">Other Nerve Blocks in Pain Medicine</span>
+                            </a>
+                        </li>
+                        <li class="pm-sidebar-nav-item">
+                            <a href="#">
+                                <span style="margin-left: 15px;font-size: 18pt;">綜合測驗</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="main-content">
-                main content
+            <div class="pm-content">
+                <div class="pm-queston">
+                    q1
+                </div>
             </div>
         </div>
+        
     </body>
 </html>

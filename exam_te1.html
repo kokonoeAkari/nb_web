@@ -7,8 +7,6 @@
         <link rel="icon" href="#">
 
         <!-- JS -->
-        <script src="js/main.js"></script>
-        <script type="module" src="./js/common.js"></script>
         <script src="libs/jquery/jquery-3.7.1.js"></script>
 
         <!-- CSS -->
@@ -22,16 +20,16 @@
             </div>
             <nav class="pm-navbar">
                 <button class="pm-navbar-btn" type="button" title="navbar-btn">
-                    <span><img src="asset/image/icon.svg" alt="" width="40px" height="30px"></span>
+                    <img class="pm-navbar-btn-img" src="asset/image/icon.svg" alt="">
                 </button>
-                <ul class="pm-navbar-nav">
+                <ul class="pm-navbar-nav" id="pm-navbar-nav">
                     <li class="pm-nav-item">
                         <a href="nerveblock.html">Nerve Block</a>
                     </li>
                     <li class="pm-nav-item">
                         <a href="#">試題測驗</a>
                         <ul class="pm-nav-dropdown">
-                            <li class="pm-dropdown-item">
+                            <li class="">
                                 <a href="exam_te1.html">Test 1</a>
                             </li>
                             <li class="">
@@ -39,12 +37,29 @@
                             </li>
                         </ul>
                     </li>
+                </ul>  
+            </nav>
+            <nav class="pm-navbar-dropdown" id="pm-navbar-dropdown">
+                <ul class="pm-navbar-nav-dropdown">
+                    <li class="pm-navbar-nav-dropdown-item">
+                        <a href="nerveblock.html">Nerve Block</a>
+                    </li>
+                    <li class="pm-navbar-nav-dropdown-item">
+                        <a href="#">試題測驗</a>
+                        <ul class="pm-navbar-nav-dropdown-item-dropdown">
+                            <li class="pm-navbar-nav-dropdown-item">
+                                <a href="exam_te1.html">Test 1</a>
+                            </li>
+                            <li class="pm-navbar-nav-dropdown-item">
+                                <a href="exam_te2.html">Test 2</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
-
         <div class="main-content">
-            <div class="pm-section-content">
+            <div class="pm-section-content" id="pm-section-content">
                 <nav class="">
                     <div style="font-size: 24pt;padding: 10px;text-align: center;">選擇章節</div>
                     <ul class="pm-sidebar-nav">
@@ -122,5 +137,7 @@
             </div>
         </div>
         
+        <!-- JS -->
+        <script src="js/main.js"></script>
     </body>
 </html>

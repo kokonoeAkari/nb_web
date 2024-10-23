@@ -9,8 +9,8 @@ a{
     color: black;
 }
 
-div.header{
-    display: flex;
+/* Header */
+.header{
     position: fixed;
     width: 100%;
     top: 0;
@@ -18,38 +18,41 @@ div.header{
     background-color: #c5beb5;
 }
 
-h1.pm-logo{
+/* Logo */
+.pm-logo{
     display: inline-block;
     padding: 2px;
     margin: 10px;
 }
-h1.pm-logo a{
+.pm-logo a{
     padding: 10px 5px 5px;
 }
-nav.pm-navbar{
+
+/* Header Nav */
+.pm-navbar{
     position: absolute;
     right: 0;
     top: 0;
 }
-ul.pm-navbar-nav{
+.pm-navbar-nav{
     display: flex;
     padding: 2px;
     margin: 5px;
 }
-li.pm-nav-item{
+.pm-nav-item{
     font-size: 1.2em;
     padding: 0.2em 0.5em 0.2em 0.5em;
 }
-ul.pm-navbar-nav a{
+.pm-navbar-nav a{
     display: block;
     padding: 0.2em 30px;
     line-height: 1.8em;
     border-radius: 10px;
 }
-ul.pm-navbar-nav a:hover{
+.pm-navbar-nav a:hover{
     background-color: azure;
 }
-ul.pm-nav-dropdown{
+.pm-nav-dropdown{
     background-color: #c5beb5;
     position: absolute;
     display: none;
@@ -57,18 +60,61 @@ ul.pm-nav-dropdown{
     margin: 2px;
     border-radius: 10px;
 }
-ul.pm-navbar-nav li.pm-nav-item:hover > ul.pm-nav-dropdown{
+.pm-navbar-nav li.pm-nav-item:hover > ul.pm-nav-dropdown{
     display: block;
 }
-button.pm-navbar-btn{
+.pm-navbar-btn{
     display: none;
     padding: 5px;
     border-radius: 8px;
     border-width: 0px;
     margin: 8px 20px;
+    padding: 0;
+    width: 45px;
+    height: 40px;
+}
+.pm-navbar-btn-img{
+    width: 45px;
+    height: 40px;
 }
 
-div.main-content{
+/* Header Nav dropdown */
+.pm-navbar-dropdown{
+    display: none;
+    margin-top: 5px;
+    padding: 5px;
+    animation-name: dropdown-animation;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+.pm-navbar-nav-dropdown{
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.pm-navbar-nav-dropdown-item{
+    border: solid;
+    border-width: 0;
+}
+.pm-navbar-nav-dropdown-item-dropdown{
+    background-color: #d8d0c6;
+    padding-left: 15px;
+}
+.pm-navbar-nav-dropdown-item a{
+    display: block;
+    padding: 0.3em 20px;
+    line-height: 1.4em;
+}
+.pm-navbar-nav-dropdown-item a:hover{
+    border-radius: 10px;
+    background-color: azure;
+}
+@keyframes dropdown-animation {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Content */
+.main-content{
     display: flex;
     position: relative;
     justify-content: center;
@@ -77,7 +123,9 @@ div.main-content{
     padding: 5px;
     z-index: 0;
 }
-div.pm-home-content{
+
+/* Index content */
+.pm-home-content{
     position: relative;
     width: 500px;
     height: 500px;
@@ -87,77 +135,89 @@ div.pm-home-content{
     text-align: center;
 }
 
-div.pm-section-content{
+/* Section content */
+.pm-section-content{
     display: none;
     position: relative;
     border-radius: 25px;
     background-color: bisque;
 }
-ul.pm-sidebar-nav{
+.pm-sidebar-nav{
     padding: 10px 0 10px 0;
     margin-top: 10px;
 }
-li.pm-sidebar-nav-item{
+.pm-sidebar-nav-item{
     margin: 8px 0 8px 0;
 }
-li.pm-sidebar-nav-item a{
+.pm-sidebar-nav-item a{
     display: block;
     line-height: 1.5em;
     border-radius: 10px;
     font-size: 15pt;
 }
-li.pm-sidebar-nav-item a:hover{
+.pm-sidebar-nav-item a:hover{
     background-color: azure;
 }
-div.pm-content{
+
+/* Question content */
+.pm-content{
     display: block;
     position: relative;
     width: 75%;
     border-radius: 10px;
     background-color: bisque;
 }
-div.pm-queston{
+.pm-queston{
     padding: 10px;
+}
+
+/* Display */
+.show{
+    display: block;
 }
 
 /* Medium devices (portrait tablets and large phones and phones, 768px and down) */
 @media only screen and (max-width: 768px) {
-    div.header{
+    .header{
         line-height: 60px;
     }
-    h1.pm-logo a{
+    .pm-logo a{
         display: none;
     }
-    button.pm-navbar-btn{
+    .pm-navbar-btn{
         display: block;
     }
-    button.pm-navbar-btn:hover{
+    .pm-navbar-btn:hover{
         cursor: pointer;
     }
-    ul.pm-navbar-nav{
+    .pm-navbar-nav{
         display: none;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    button.pm-navbar-btn{
+    .pm-navbar-btn{
         display: block;
     }
-    button.pm-navbar-btn:hover{
+    .pm-navbar-btn:hover{
         cursor: pointer;
     }
-    ul.pm-navbar-nav{
+    .pm-navbar-nav{
         display: none;
     }
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    button.pm-navbar-btn{
+    .pm-navbar-btn{
         display: none;
     }
-    ul.pm-navbar-nav{
+    .pm-navbar-dropdown{
+        display: none;
+    }
+    .pm-navbar-nav{
         display: flex;
     }
 }

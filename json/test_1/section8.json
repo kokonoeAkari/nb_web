@@ -4,7 +4,7 @@
         {
             "Q45": {
                 "desc": "Interlaminar Epidural Steroid Injections",
-                "qt": "Interlaminar epidural steroid injections are most commonly used to treat:",
+                "question": "Interlaminar epidural steroid injections are most commonly used to treat:",
                 "A": "Headaches",
                 "B": "Lower back pain",
                 "C": "Abdominal pain",
@@ -12,7 +12,7 @@
             },
             "Q46": {
                 "desc": "Transforaminal Epidural Steroid Injections and Selective Nerve Root Blocks",
-                "qt": "What is the main difference between transforaminal and interlaminar epidural steroid injections?",
+                "question": "What is the main difference between transforaminal and interlaminar epidural steroid injections?",
                 "A": "The type of medication used",
                 "B": "The target location of the injection",
                 "C": "The duration of pain relief",
@@ -20,7 +20,7 @@
             },
             "Q47": {
                 "desc": "Antitumor Necrosis Factor-α Therapy",
-                "qt": "Which condition is primarily treated with antitumor necrosis factor-α therapy?",
+                "question": "Which condition is primarily treated with antitumor necrosis factor-α therapy?",
                 "A": "Osteoarthritis",
                 "B": "Rheumatoid arthritis",
                 "C": "Migraine",
@@ -28,7 +28,7 @@
             },
             "Q48": {
                 "desc": "Disease-Modifying Antirheumatic Drugs for Low Back Pain",
-                "qt": "Which medication is considered a disease-modifying antirheumatic drug (DMARD) for low back pain?",
+                "question": "Which medication is considered a disease-modifying antirheumatic drug (DMARD) for low back pain?",
                 "A": "Methotrexate",
                 "B": "Acetaminophen",
                 "C": "Ibuprofen",
@@ -36,7 +36,7 @@
             },
             "Q49": {
                 "desc": "Sacroiliac Joint Pain",
-                "qt": "Which type of injection is commonly used to diagnose and treat sacroiliac joint pain?",
+                "question": "Which type of injection is commonly used to diagnose and treat sacroiliac joint pain?",
                 "A": "Epidural injection",
                 "B": "Facet joint injection",
                 "C": "Sacroiliac joint injection",
@@ -44,7 +44,7 @@
             },
             "Q50": {
                 "desc": "Piriformis Syndrome",
-                "qt": "Piriformis syndrome primarily affects which part of the body?",
+                "question": "Piriformis syndrome primarily affects which part of the body?",
                 "A": "Neck",
                 "B": "Lower back",
                 "C": "Buttocks",
@@ -52,7 +52,7 @@
             },
             "Q51": {
                 "desc": "Pulsed Radiofrequency, Water-Cooled Radiofrequency, and Cryoneurolysis",
-                "qt": "Which technique uses low temperature to disrupt nerve function and relieve pain?",
+                "question": "Which technique uses low temperature to disrupt nerve function and relieve pain?",
                 "A": "Pulsed radiofrequency",
                 "B": "Water-cooled radiofrequency",
                 "C": "Cryoneurolysis",
@@ -60,7 +60,7 @@
             },
             "Q52": {
                 "desc": "Discography",
-                "qt": "Discography is primarily used to diagnose pain originating from:",
+                "question": "Discography is primarily used to diagnose pain originating from:",
                 "A": "Muscles",
                 "B": "Bones",
                 "C": "Intervertebral discs",
@@ -68,7 +68,7 @@
             },
             "Q53": {
                 "desc": "Vertebroplasty and Kyphoplasty",
-                "qt": "Vertebroplasty and kyphoplasty are procedures designed to treat:",
+                "question": "Vertebroplasty and kyphoplasty are procedures designed to treat:",
                 "A": "Spinal fractures",
                 "B": "Herniated discs",
                 "C": "Scoliosis",
@@ -76,7 +76,7 @@
             },
             "Q54": {
                 "desc": "Neurolytic Sympathetic Blocks",
-                "qt": "Neurolytic sympathetic blocks are primarily used for managing:",
+                "question": "Neurolytic sympathetic blocks are primarily used for managing:",
                 "A": "Headaches",
                 "B": "Neuropathic pain",
                 "C": "Visceral pain",

@@ -4,7 +4,7 @@
         {
             "Q55": {
                 "desc": "Ultrasound-Guided Procedures for Pain Management: Spine Injections and Relevant Peripheral Nerve Blocks",
-                "qt": "What is the primary advantage of using ultrasound guidance for nerve blocks?",
+                "question": "What is the primary advantage of using ultrasound guidance for nerve blocks?",
                 "A": "Reduced pain during injection",
                 "B": "Increased accuracy of injection",
                 "C": "Faster procedure time",
@@ -12,7 +12,7 @@
             },
             "Q56": {
                 "desc": "Deep Muscle Injections: Piriformis, Scalene Muscle, Iliopsoas Injection Techniques",
-                "qt": "Deep muscle injections are commonly used to treat:",
+                "question": "Deep muscle injections are commonly used to treat:",
                 "A": "Joint pain",
                 "B": "Muscle spasms",
                 "C": "Bone fractures",
@@ -20,7 +20,7 @@
             },
             "Q57": {
                 "desc": "Ultrasound-Guided Musculoskeletal Injections—Shoulder, Hip, Knee",
-                "qt": "Ultrasound-guided musculoskeletal injections are often used to treat pain in which areas?",
+                "question": "Ultrasound-guided musculoskeletal injections are often used to treat pain in which areas?",
                 "A": "Shoulder, hip, knee",
                 "B": "Head, neck, back",
                 "C": "Hand, wrist, ankle",
@@ -28,7 +28,7 @@
             },
             "Q58": {
                 "desc": "Head and Neck Blocks",
-                "qt": "Which condition is commonly treated with head and neck nerve blocks?",
+                "question": "Which condition is commonly treated with head and neck nerve blocks?",
                 "A": "Migraine",
                 "B": "Hypertension",
                 "C": "Diabetes",
@@ -36,7 +36,7 @@
             },
             "Q59": {
                 "desc": "Truncal Blocks: Paravertebral, Intercostal, Pectoral Nerve, Suprascapular, Ilioinguinal, Iliohypogastric Nerve, and Transversus Abdominis Plane Blocks",
-                "qt": "Truncal blocks are primarily used to manage pain in which part of the body?",
+                "question": "Truncal blocks are primarily used to manage pain in which part of the body?",
                 "A": "Arms",
                 "B": "Legs",
                 "C": "Trunk",
@@ -44,7 +44,7 @@
             },
             "Q60": {
                 "desc": "Fluoroscopy and Ultrasound-Guided Sympathetic Blocks: Stellate Ganglion, Lumbar Sympathetic Blocks, and Visceral Sympathetic Blocks",
-                "qt": "Fluoroscopy and ultrasound are used in sympathetic blocks to:",
+                "question": "Fluoroscopy and ultrasound are used in sympathetic blocks to:",
                 "A": "Visualize the target area",
                 "B": "Reduce the need for anesthesia",
                 "C": "Shorten recovery time",
@@ -52,7 +52,7 @@
             },
             "Q61": {
                 "desc": "Interventional Pain Procedures in Patients on Anticoagulants",
-                "qt": "When performing interventional pain procedures on patients taking anticoagulants, it is important to:",
+                "question": "When performing interventional pain procedures on patients taking anticoagulants, it is important to:",
                 "A": "Stop all anticoagulants immediately",
                 "B": "Monitor for bleeding complications",
                 "C": "Increase the dose of anticoagulants",
@@ -60,7 +60,7 @@
             },
             "Q62": {
                 "desc": "Interventional Pain Procedures and the Risk of Infection",
-                "qt": "Which measure is essential to minimize the risk of infection during interventional pain procedures?",
+                "question": "Which measure is essential to minimize the risk of infection during interventional pain procedures?",
                 "A": "Using sterile techniques",
                 "B": "Administering antibiotics post-procedure",
                 "C": "Increasing procedure time",

@@ -4,7 +4,7 @@
         {
             "Q4": {
                 "desc": "Physical Examination of the Patient with Pain",
-                "qt": "During a physical examination, which method is commonly used to assess a patient's pain level?",
+                "question": "During a physical examination, which method is commonly used to assess a patient's pain level?",
                 "A": "Blood pressure measurement",
                 "B": "Pain scale rating",
                 "C": "Reflex testing",
@@ -12,7 +12,7 @@
             },
             "Q5": {
                 "desc": "Psychological Evaluation and Testing",
-                "qt": "Which tool is commonly used for psychological evaluation of pain?",
+                "question": "Which tool is commonly used for psychological evaluation of pain?",
                 "A": "Beck Depression Inventory",
                 "B": "Glucose tolerance test",
                 "C": "MRI scan",
@@ -20,7 +20,7 @@
             },
             "Q6": {
                 "desc": "Mental Disorders and Pain Management Diagnostic and Statistical Manual of Mental Disorders",
-                "qt": "Which edition of the DSM is currently used for diagnosing mental disorders related to pain?",
+                "question": "Which edition of the DSM is currently used for diagnosing mental disorders related to pain?",
                 "A": "DSM-III",
                 "B": "DSM-IV",
                 "C": "DSM-V",
@@ -28,7 +28,7 @@
             },
             "Q7": {
                 "desc": "Neurophysiologic Testing for Pain",
-                "qt": "Which test measures the electrical activity in muscles and nerves?",
+                "question": "Which test measures the electrical activity in muscles and nerves?",
                 "A": "Electromyography (EMG)",
                 "B": "MRI",
                 "C": "CT scan",
@@ -36,7 +36,7 @@
             },
             "Q8": {
                 "desc": "Anatomy, Imaging, and Common Pain-Generating Degenerative Pathologies of the Spine",
-                "qt": "Which imaging technique is most commonly used to diagnose degenerative spine conditions?",
+                "question": "Which imaging technique is most commonly used to diagnose degenerative spine conditions?",
                 "A": "X-ray",
                 "B": "MRI",
                 "C": "Ultrasound",
@@ -44,7 +44,7 @@
             },
             "Q9": {
                 "desc": "Determination of Disability",
-                "qt": "Which scale is commonly used to assess disability related to pain?",
+                "question": "Which scale is commonly used to assess disability related to pain?",
                 "A": "Visual Analog Scale (VAS)",
                 "B": "Oswestry Disability Index (ODI)",
                 "C": "Hamilton Anxiety Scale",

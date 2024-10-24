@@ -1,0 +1,97 @@
+{
+    "Section VI": [
+        "Pharmacology and Pharmacologic Modalities",
+        {
+            "Q31": {
+                "desc": "Major Opioids in Pain Management",
+                "question": "Match the opioid with its typical use",
+                "label": ["Opioid", "Typical Use"],
+                "option": ["Morphine", "Fentanyl", "Oxycodone", "Hydrocodone"],
+                "A": "Severe pain",
+                "B": "Chronic pain",
+                "C": "Postoperative pain",
+                "D": "Moderate to severe pain"
+            },
+            "Q32": {
+                "desc": "Opioids Used for Mild to Moderate Pain",
+                "question": "Match the opioid with its common indication",
+                "label": ["Opioid", "Common Indication"],
+                "option": ["Codeine", "Tramadol", "Hydrocodone", "Buprenorphine"],
+                "A": "Mild to moderate pain",
+                "B": "Moderate pain",
+                "C": "Moderate to severe pain",
+                "D": "Pain management and addiction treatment"
+            },
+            "Q33": {
+                "desc": "The Prescription Drug Abuse Epidemic and Emerging Prescribing Guidelines",
+                "question": "Match the guideline with its purpose in reducing opioid abuse",
+                "label": ["Guideline", "Purpose"],
+                "option": ["CDC Guideline for Prescribing Opioids", "FDA REMS", "State PDMPs", "Opioid contracts"],
+                "A": "Providing safer prescribing practices",
+                "B": "Monitoring medication risks",
+                "C": "Tracking prescription data",
+                "D": "Establishing patient-provider agreements"
+            },
+            "Q34": {
+                "desc": "Legal and Regulatory Issues in Pain Management",
+                "question": "Match the regulatory body with its role in pain management",
+                "label": ["Regulatory Body", "Role"],
+                "option": ["DEA", "FDA", "CMS", "State medical boards"],
+                "A": "Enforcing controlled substance laws",
+                "B": "Regulating medications",
+                "C": "Overseeing Medicare and Medicaid",
+                "D": "Licensing and regulating physicians"
+            },
+            "Q35": {
+                "desc": "Urine Drug Testing in Pain Medicine",
+                "question": "Match the urine drug test result with its interpretation",
+                "label": ["Test Result", "Interpretation"],
+                "option": ["Positive for prescribed opioid", "Positive for non-prescribed drug", "Negative for prescribed opioid", "Positive for metabolites"],
+                "A": "Patient is adherent to treatment",
+                "B": "Possible substance abuse",
+                "C": "Possible non-adherence",
+                "D": "Confirming medication metabolism"
+            },
+            "Q36": {
+                "desc": "Substance Use Disorders and Detoxification",
+                "question": "Match the detoxification method with its substance use disorder",
+                "label": ["Detoxification Method", "Substance Use Disorder"],
+                "option": ["Methadone", "Buprenorphine", "Benzodiazepines", "Nicotine replacement therapy"],
+                "A": "Opioid dependence",
+                "B": "Opioid dependence",
+                "C": "Alcohol dependence",
+                "D": "Tobacco dependence"
+            },
+            "Q37": {
+                "desc": "Psychopharmacology for Pain Medicine",
+                "question": "Match the psychotropic medication with its pain management use",
+                "label": ["Medication", "Pain Management Use"],
+                "option": ["Antidepressants", "Anticonvulsants", "Anxiolytics", "Antipsychotics"],
+                "A": "Neuropathic pain",
+                "B": "Chronic pain",
+                "C": "Anxiety-related pain",
+                "D": "Severe pain with psychosis"
+            },
+            "Q38": {
+                "desc": "Membrane Stabilizers",
+                "question": "Match the membrane stabilizer with its primary effect on pain",
+                "label": ["Membrane Stabilizer", "Primary Effect"],
+                "option": ["Gabapentin", "Pregabalin", "Carbamazepine", "Lidocaine"],
+                "A": "Reducing neuropathic pain",
+                "B": "Decreasing nerve excitability",
+                "C": "Treating trigeminal neuralgia",
+                "D": "Providing local anesthesia"
+            },
+            "Q39": {
+                "desc": "Recommendations for Pharmacologic Therapy of Neuropathic Pain",
+                "question": "Match the recommended drug class with its example for neuropathic pain",
+                "label": ["Drug Class", "Example"],
+                "option": ["Anticonvulsants", "Antidepressants", "Opioids", "Topical agents"],
+                "A": "Gabapentin",
+                "B": "Amitriptyline",
+                "C": "Morphine",
+                "D": "Capsaicin"
+            }
+        }
+    ]
+}

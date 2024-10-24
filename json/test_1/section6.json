@@ -4,7 +4,7 @@
         {
             "Q31": {
                 "desc": "Major Opioids in Pain Management",
-                "qt": "Which opioid is considered a major opioid used in pain management?",
+                "question": "Which opioid is considered a major opioid used in pain management?",
                 "A": "Codeine",
                 "B": "Morphine",
                 "C": "Tramadol",
@@ -12,7 +12,7 @@
             },
             "Q32": {
                 "desc": "Opioids Used for Mild to Moderate Pain",
-                "qt": "Which opioid is commonly prescribed for mild to moderate pain?",
+                "question": "Which opioid is commonly prescribed for mild to moderate pain?",
                 "A": "Fentanyl",
                 "B": "Morphine",
                 "C": "Codeine",
@@ -20,7 +20,7 @@
             },
             "Q33": {
                 "desc": "The Prescription Drug Abuse Epidemic and Emerging Prescribing Guidelines",
-                "qt": "Which guideline aims to reduce prescription opioid abuse?",
+                "question": "Which guideline aims to reduce prescription opioid abuse?",
                 "A": "CDC Guideline for Prescribing Opioids",
                 "B": "ADA Pain Management Guideline",
                 "C": "WHO Antibiotic Prescribing Guideline",
@@ -28,7 +28,7 @@
             },
             "Q34": {
                 "desc": "Legal and Regulatory Issues in Pain Management",
-                "qt": "Which agency regulates the prescription of controlled substances?",
+                "question": "Which agency regulates the prescription of controlled substances?",
                 "A": "FDA",
                 "B": "CDC",
                 "C": "DEA",
@@ -36,7 +36,7 @@
             },
             "Q35": {
                 "desc": "Urine Drug Testing in Pain Medicine",
-                "qt": "Which purpose does urine drug testing serve in pain management?",
+                "question": "Which purpose does urine drug testing serve in pain management?",
                 "A": "Diagnosing infections",
                 "B": "Monitoring medication adherence",
                 "C": "Measuring blood sugar levels",
@@ -44,7 +44,7 @@
             },
             "Q36": {
                 "desc": "Substance Use Disorders and Detoxification",
-                "qt": "Which treatment is often used for opioid detoxification?",
+                "question": "Which treatment is often used for opioid detoxification?",
                 "A": "Methadone",
                 "B": "Ibuprofen",
                 "C": "Cortisone",
@@ -52,7 +52,7 @@
             },
             "Q37": {
                 "desc": "Psychopharmacology for Pain Medicine",
-                "qt": "Which class of medication is often used to treat both depression and chronic pain?",
+                "question": "Which class of medication is often used to treat both depression and chronic pain?",
                 "A": "Antibiotics",
                 "B": "Antidepressants",
                 "C": "Antihistamines",
@@ -60,7 +60,7 @@
             },
             "Q38": {
                 "desc": "Membrane Stabilizers",
-                "qt": "Which medication is considered a membrane stabilizer used for neuropathic pain?",
+                "question": "Which medication is considered a membrane stabilizer used for neuropathic pain?",
                 "A": "Gabapentin",
                 "B": "Ibuprofen",
                 "C": "Acetaminophen",
@@ -68,7 +68,7 @@
             },
             "Q39": {
                 "desc": "Recommendations for Pharmacologic Therapy of Neuropathic Pain",
-                "qt": "Which class of drugs is recommended as first-line therapy for neuropathic pain?",
+                "question": "Which class of drugs is recommended as first-line therapy for neuropathic pain?",
                 "A": "NSAIDs",
                 "B": "Anticonvulsants",
                 "C": "Beta-blockers",

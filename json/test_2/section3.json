@@ -1,0 +1,87 @@
+{
+    "Section III": [
+        "Perioperative Pain Management",
+        {
+            "Q10": {
+                "desc": "Preventive Analgesia",
+                "question": "Match the analgesic approach with its description",
+                "label": ["Analgesic Approach", "Description"],
+                "option": ["Preemptive analgesia", "Preventive analgesia", "Multimodal analgesia", "Rescue analgesia"],
+                "A": "Administered after surgery to control pain",
+                "B": "Given before surgery to prevent pain",
+                "C": "Using multiple drugs to manage pain",
+                "D": "Used to alleviate breakthrough pain"
+            },
+            "Q11": {
+                "desc": "Perioperative Nonopioid Infusions for Postoperative Pain Management",
+                "question": "Match the nonopioid medication with its mechanism of action",
+                "label": ["Nonopioid Medication", "Mechanism of Action"],
+                "option": ["Ketamine", "Lidocaine", "Acetaminophen", "Dexmedetomidine"],
+                "A": "NMDA receptor antagonist",
+                "B": "Sodium channel blocker",
+                "C": "COX inhibitor",
+                "D": "Alpha-2 adrenergic agonist"
+            },
+            "Q12": {
+                "desc": "Patient-Controlled Analgesia",
+                "question": "Match the component of the PCA device with its function",
+                "label": ["PCA Component", "Function"],
+                "option": ["Pump", "Button", "Reservoir", "Display"],
+                "A": "Stores the analgesic solution",
+                "B": "Delivers the set dose of medication",
+                "C": "Allows the patient to control dosing",
+                "D": "Shows the remaining doses"
+            },
+            "Q13": {
+                "desc": "Intrathecal Opioids for Postoperative Pain",
+                "question": "Match the opioid with its common intrathecal use",
+                "label": ["Opioid", "Intrathecal Use"],
+                "option": ["Morphine", "Fentanyl", "Hydromorphone", "Sufentanil"],
+                "A": "Short-term pain relief",
+                "B": "Long-term pain control",
+                "C": "Moderate to severe pain management",
+                "D": "Highly potent analgesic"
+            },
+            "Q14": {
+                "desc": "Epidural Opioids for Postoperative Pain",
+                "question": "Match the benefit of epidural opioids with the corresponding outcome",
+                "label": ["Benefit", "Outcome"],
+                "option": ["Lower systemic side effects", "Better pain control", "Reduced need for systemic opioids", "Improved mobility"],
+                "A": "Faster recovery",
+                "B": "Less respiratory depression",
+                "C": "Enhanced patient comfort",
+                "D": "Lower pain scores"
+            },
+            "Q15": {
+                "desc": "Continuous Peripheral Nerve Blocks",
+                "question": "Match the nerve block with its target area",
+                "label": ["Nerve Block", "Target Area"],
+                "option": ["Femoral nerve block", "Sciatic nerve block", "Brachial plexus block", "Popliteal nerve block"],
+                "A": "Shoulder and upper arm",
+                "B": "Lower leg and foot",
+                "C": "Hip and knee",
+                "D": "Ankle and foot"
+            },
+            "Q16": {
+                "desc": "Pediatric Postoperative Pain",
+                "question": "Match the pain management strategy with its pediatric use",
+                "label": ["Pain Management Strategy", "Pediatric Use"],
+                "option": ["Ibuprofen", "Fentanyl", "Acetaminophen", "Regional anesthesia"],
+                "A": "Mild to moderate pain",
+                "B": "Severe pain",
+                "C": "Fever and mild pain",
+                "D": "Localized pain control"
+            },
+            "Q17": {
+                "desc": "Chronic Pain After Surgery",
+                "question": "Match the type of chronic pain with its common cause",
+                "label": ["Type of Chronic Pain", "Common Cause"],
+                "option": ["Neuropathic pain", "Phantom limb pain", "Myofascial pain", "Complex regional pain syndrome"],
+                "A": "Nerve injury during surgery",
+                "B": "Limb amputation",
+                "C": "Muscle overuse or strain",
+                "D": "Injury or surgery affecting a limb"
+            }
+        }
+    ]
+}

@@ -4,7 +4,7 @@
         {
             "Q10": {
                 "desc": "Preventive Analgesia",
-                "qt": "Which approach aims to reduce postoperative pain by administering analgesics before surgery?",
+                "question": "Which approach aims to reduce postoperative pain by administering analgesics before surgery?",
                 "A": "Reactive analgesia",
                 "B": "Preventive analgesia",
                 "C": "Delayed analgesia",
@@ -12,7 +12,7 @@
             },
             "Q11": {
                 "desc": "Perioperative Nonopioid Infusions for Postoperative Pain Management ",
-                "qt": "Which nonopioid medication is commonly used in perioperative infusions for pain management?",
+                "question": "Which nonopioid medication is commonly used in perioperative infusions for pain management?",
                 "A": "Fentanyl",
                 "B": "Ketamine",
                 "C": "Morphine",
@@ -20,7 +20,7 @@
             },
             "Q12": {
                 "desc": "Patient-Controlled Analgesia",
-                "qt": "Patient-Controlled Analgesia (PCA) allows patients to:",
+                "question": "Patient-Controlled Analgesia (PCA) allows patients to:",
                 "A": "Set their own pain medication dosage limits",
                 "B": "Administer their own pain medication within preset limits",
                 "C": "Prescribe their own medication",
@@ -28,7 +28,7 @@
             },
             "Q13": {
                 "desc": "Intrathecal Opioids for Postoperative Pain",
-                "qt": "Which space in the spine is targeted for intrathecal opioid administration?",
+                "question": "Which space in the spine is targeted for intrathecal opioid administration?",
                 "A": "Epidural space",
                 "B": "Subarachnoid space",
                 "C": "Intervertebral space",
@@ -36,7 +36,7 @@
             },
             "Q14": {
                 "desc": "Epidural Opioids for Postoperative Pain",
-                "qt": "Epidural opioids are administered into which part of the spine?",
+                "question": "Epidural opioids are administered into which part of the spine?",
                 "A": "Subarachnoid space",
                 "B": "Epidural space",
                 "C": "Intervertebral disc",
@@ -44,7 +44,7 @@
             },
             "Q15": {
                 "desc": "Continuous Peripheral Nerve Blocks",
-                "qt": "Continuous peripheral nerve blocks are used primarily to:",
+                "question": "Continuous peripheral nerve blocks are used primarily to:",
                 "A": "Treat chronic pain",
                 "B": "Provide long-term pain relief",
                 "C": "Provide regional anesthesia",
@@ -52,7 +52,7 @@
             },
             "Q16": {
                 "desc": "Pediatric Postoperative Pain",
-                "qt": "Which medication is most commonly used for managing postoperative pain in children?",
+                "question": "Which medication is most commonly used for managing postoperative pain in children?",
                 "A": "Ibuprofen",
                 "B": "Fentanyl",
                 "C": "Ketamine",
@@ -60,7 +60,7 @@
             },
             "Q17": {
                 "desc": "Chronic Pain After Surgery",
-                "qt": "What is the term for pain that persists long after surgical healing?",
+                "question": "What is the term for pain that persists long after surgical healing?",
                 "A": "Acute postoperative pain",
                 "B": "Phantom pain",
                 "C": "Chronic postoperative pain",

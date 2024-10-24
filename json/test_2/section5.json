@@ -1,0 +1,87 @@
+{
+    "Section V": [
+        "Cancer Pain and Pain in Special Situations",
+        {
+            "Q23": {
+                "desc": "Approach to the Management of Cancer Pain",
+                "question": "Match the cancer pain treatment with its mechanism",
+                "label": ["Treatment", "Mechanism"],
+                "option": ["Opioids", "NSAIDs", "Corticosteroids", "Antidepressants"],
+                "A": "Inhibit pain signals",
+                "B": "Reduce inflammation",
+                "C": "Decrease swelling and pain",
+                "D": "Modulate pain perception"
+            },
+            "Q24": {
+                "desc": "Management of Pain at End of Life",
+                "question": "Match the pain management approach with its primary goal",
+                "label": ["Approach", "Primary Goal"],
+                "option": ["Palliative care", "Curative treatment", "Preventive analgesia", "Symptom management"],
+                "A": "Enhance quality of life",
+                "B": "Eliminate the disease",
+                "C": "Prevent onset of pain",
+                "D": "Alleviate specific symptoms"
+            },
+            "Q25": {
+                "desc": "Pain Management in the Emergency Department ",
+                "question": "Match the medication with its typical use in emergency pain management",
+                "label": ["Medication", "Typical Use"],
+                "option": ["Morphine", "Acetaminophen", "Ketorolac", "Lidocaine"],
+                "A": "Severe pain",
+                "B": "Mild to moderate pain",
+                "C": "Short-term moderate to severe pain",
+                "D": "Local anesthesia"
+            },
+            "Q26": {
+                "desc": "Chronic Pain Management in Children and Adolescents",
+                "question": "Match the intervention with its role in pediatric pain management",
+                "label": ["Intervention", "Role"],
+                "option": ["Cognitive-behavioral therapy", "Physical therapy", "Medications", "Family therapy"],
+                "A": "Addressing negative thought patterns",
+                "B": "Improving physical function",
+                "C": "Reducing pain intensity",
+                "D": "Supporting family involvement"
+            },
+            "Q27": {
+                "desc": "Sickle Cell Disease",
+                "question": "Match the type of pain with its associated condition in sickle cell disease",
+                "label": ["Type of Pain", "Associated Condition"],
+                "option": ["Acute pain crisis", "Chronic pain", "Neuropathic pain", "Myofascial pain"],
+                "A": "Vaso-occlusive crisis",
+                "B": "Organ damage",
+                "C": "Nerve injury",
+                "D": "Muscle overuse"
+            },
+            "Q28": {
+                "desc": "Pain Management During Pregnancy and Lactation",
+                "question": "Match the pain management strategy with its safety during pregnancy",
+                "label": ["Strategy", "Safety"],
+                "option": ["Acetaminophen", "NSAIDs", "Opioids", "Aspirin"],
+                "A": "Generally safe",
+                "B": "Generally not recommended",
+                "C": "Use with caution",
+                "D": "Avoid during third trimester"
+            },
+            "Q29": {
+                "desc": "Pain Control in the Critically Ill Patient",
+                "question": "Match the pain management consideration with its corresponding patient outcome",
+                "label": ["Consideration", "Patient Outcome"],
+                "option": ["Minimizing sedation", "Using multimodal analgesia", "Monitoring for side effects", "Individualizing treatment"],
+                "A": "Maintaining alertness",
+                "B": "Reducing opioid requirements",
+                "C": "Preventing complications",
+                "D": "Tailoring to patient needs"
+            },
+            "Q30": {
+                "desc": "Geriatric Pain",
+                "question": "Match the challenge in geriatric pain management with its explanation",
+                "label": ["Challenge", "Explanation"],
+                "option": ["Polypharmacy", "Poor medication absorption", "Increased sensitivity to medications", "Cognitive impairment"],
+                "A": "Multiple medications leading to interactions",
+                "B": "Reduced gastrointestinal function",
+                "C": "Altered pharmacodynamics",
+                "D": "Difficulty in pain assessment"
+            }
+        }
+    ]
+}

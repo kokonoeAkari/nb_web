@@ -3,7 +3,7 @@ function navbarBTN(event){
 }
 
 const dropdownBTN = document.getElementsByClassName("pm-navbar-btn")[0];
-console.log(dropdownBTN);
+//console.log();
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {

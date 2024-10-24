@@ -4,7 +4,7 @@
         {
             "Q23": {
                 "desc": "Approach to the Management of Cancer Pain",
-                "qt": "Which medication class is commonly used for managing moderate to severe cancer pain?",
+                "question": "Which medication class is commonly used for managing moderate to severe cancer pain?",
                 "A": "Antidepressants",
                 "B": "NSAIDs",
                 "C": "Opioids",
@@ -12,7 +12,7 @@
             },
             "Q24": {
                 "desc": "Management of Pain at End of Life",
-                "qt": "Which approach is often used to manage pain at the end of life?",
+                "question": "Which approach is often used to manage pain at the end of life?",
                 "A": "Aggressive curative treatment",
                 "B": "Palliative care",
                 "C": "Preventive analgesia",
@@ -20,7 +20,7 @@
             },
             "Q25": {
                 "desc": "Pain Management in the Emergency Department",
-                "qt": "Which medication is often first-line for acute severe pain in the emergency department?",
+                "question": "Which medication is often first-line for acute severe pain in the emergency department?",
                 "A": "Acetaminophen",
                 "B": "Ibuprofen",
                 "C": "Morphine",
@@ -28,7 +28,7 @@
             },
             "Q26": {
                 "desc": "Chronic Pain Management in Children and Adolescents",
-                "qt": "Which psychological approach is commonly used in managing chronic pain in children and adolescents?",
+                "question": "Which psychological approach is commonly used in managing chronic pain in children and adolescents?",
                 "A": "Cognitive-behavioral therapy",
                 "B": "Psychoanalysis",
                 "C": "Hypnosis",
@@ -36,7 +36,7 @@
             },
             "Q27": {
                 "desc": "Sickle Cell Disease",
-                "qt": "What type of pain is most commonly associated with sickle cell disease?",
+                "question": "What type of pain is most commonly associated with sickle cell disease?",
                 "A": "Neuropathic pain",
                 "B": "Inflammatory pain",
                 "C": "Acute pain crisis",
@@ -44,7 +44,7 @@
             },
             "Q28": {
                 "desc": "Pain Management During Pregnancy and Lactation",
-                "qt": "Which pain medication is generally considered safe during pregnancy?",
+                "question": "Which pain medication is generally considered safe during pregnancy?",
                 "A": "Ibuprofen",
                 "B": "Aspirin",
                 "C": "Acetaminophen",
@@ -52,7 +52,7 @@
             },
             "Q29": {
                 "desc": "Pain Control in the Critically Ill Patient",
-                "qt": "What is a key consideration when managing pain in critically ill patients?",
+                "question": "What is a key consideration when managing pain in critically ill patients?",
                 "A": "Avoiding all medications",
                 "B": "Minimizing sedation",
                 "C": "Prioritizing non-pharmacological treatments",
@@ -60,7 +60,7 @@
             },
             "Q30": {
                 "desc": "Geriatric Pain",
-                "qt": "Which is a common challenge in managing pain in geriatric patients?",
+                "question": "Which is a common challenge in managing pain in geriatric patients?",
                 "A": "High pain tolerance",
                 "B": "Poor medication absorption",
                 "C": "Polypharmacy",

@@ -1,0 +1,67 @@
+{
+    "Section II": [
+        "Clinical Evaluation and Diagnostic Examinations",
+        {
+            "Q4": {
+                "desc": "Physical Examination of the Patient with Pain",
+                "question": "Match the examination technique with its purpose",
+                "label": ["Examination Technique", "Purpose"],
+                "option": ["Palpation", "Visual inspection", "Gait analysis", "Range of motion testing"],
+                "A": "Assessing range of motion",
+                "B": "Identifying areas of tenderness",
+                "C": "Observing physical abnormalities",
+                "D": "Analyzing walking patterns"
+            },
+            "Q5": {
+                "desc": "Psychological Evaluation and Testing",
+                "question": "Match the psychological test with its application in pain evaluation",
+                "label": ["Psychological Test", "Application"],
+                "option": ["Beck Depression Inventory", "McGill Pain Questionnaire", "State-Trait Anxiety Inventory", "Pain Catastrophizing Scale"],
+                "A": "Evaluating anxiety levels",
+                "B": "Assessing pain perception and intensity",
+                "C": "Measuring depression severity",
+                "D": "Determining negative pain-related thoughts"
+            },
+            "Q6": {
+                "desc": "Mental Disorders and Pain Management Diagnostic and Statistical Manual of Mental Disorders",
+                "question": "Match the mental disorder with its typical pain-related symptom",
+                "label": ["Mental Disorder", "Pain-Related Symptom"],
+                "option": ["Depression", "Anxiety", "Somatic symptom disorder", "PTSD"],
+                "A": "Increased pain sensitivity",
+                "B": "Muscle tension",
+                "C": "Unexplained physical pain",
+                "D": "Chronic headaches"
+            },
+            "Q7": {
+                "desc": "Neurophysiologic Testing for Pain",
+                "question": "Match the neurophysiologic test with what it measures",
+                "label": ["Neurophysiologic Test", "Measurement"],
+                "option": ["Electromyography (EMG)", "Nerve conduction study", "Electroencephalography (EEG)", "Somatosensory evoked potentials (SSEPs)"],
+                "A": "Brain activity",
+                "B": "Muscle electrical activity",
+                "C": "Nerve signal transmission",
+                "D": "Sensory pathway function"
+            },
+            "Q8": {
+                "desc": "Anatomy, Imaging, and Common Pain-Generating Degenerative Pathologies of the Spine",
+                "question": "Match the imaging technique with its primary use in diagnosing spine conditions",
+                "label": ["Imaging Technique", "Primary Use"],
+                "option": ["X-ray", "MRI", "CT scan", "Ultrasound"],
+                "A": "Soft tissue evaluation",
+                "B": "Bone structure visualization",
+                "C": "Detailed cross-sectional images",
+                "D": "Real-time imaging of moving structures"
+            },
+            "Q9": {
+                "desc": "Determination of Disability",
+                "question": "Match the disability assessment tool with its focus area",
+                "label": ["Assessment Tool", "Focus Area"],
+                "option": ["Oswestry Disability Index", "Visual Analog Scale (VAS)", "SF-36 Health Survey", "Roland-Morris Disability Questionnaire"],
+                "A": "Functional limitations",
+                "B": "Pain intensity",
+                "C": "General health and well-being",
+                "D": "Back pain-specific disability"
+            }
+        }
+    ]
+}

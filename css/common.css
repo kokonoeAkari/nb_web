@@ -137,7 +137,7 @@ a{
 
 /* Section content */
 .pm-section-content{
-    display: none;
+    display: block;
     position: relative;
     border-radius: 25px;
     background-color: bisque;
@@ -161,14 +161,39 @@ a{
 
 /* Question content */
 .pm-content{
-    display: block;
+    display: none;
     position: relative;
     width: 75%;
     border-radius: 10px;
     background-color: bisque;
 }
-.pm-queston{
+.pm-question{
     padding: 10px;
+}
+.pm-question-title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.pm-question-title-section{
+    font-size: 24pt;
+    text-align: center;
+}
+.pm-question-titleBTN{
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+.pm-question-titleBTN button{
+    background-color: #c5beb5;
+    border-width: 0;
+    border-radius: 10px;
+    font-size: 15pt;
+    padding: 5px;
+}
+.pm-question-titleBTN button:hover{
+    cursor: pointer;
+    background-color: azure;
 }
 
 /* Display */

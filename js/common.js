@@ -34,16 +34,20 @@ function loadQuestion(e, myTitle){
     });
 }
 
+function setSectionTitle(SectionName){
+    let sectionTitle = document.getElementById("pm-question-title-section");
+    let newTitle = document.createElement("div");
+    newTitle.setAttribute("id", "sectionTitle");
+    let textNode = document.createTextNode(SectionName);
+    newTitle.appendChild(textNode);
+    sectionTitle.appendChild(newTitle);
+}
+
 sect1.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[1], "Section I");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section I");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section I");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -53,12 +57,7 @@ sect2.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[2], "Section II");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section II");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section II");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -68,12 +67,7 @@ sect3.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[3], "Section III");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section III");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section III");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -83,12 +77,7 @@ sect4.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[4], "Section IV");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section IV");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section IV");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -98,12 +87,7 @@ sect5.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[5], "Section V");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section V");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section V");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -113,12 +97,7 @@ sect6.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[6], "Section VI");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section VI");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section VI");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -128,12 +107,7 @@ sect7.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[7], "Section VII");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section VII");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section VII");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -143,12 +117,7 @@ sect8.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[8], "Section VIII");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section VIII");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section VIII");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -158,12 +127,7 @@ sect9.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[9], "Section IX");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("Section IX");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("Section IX");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }
@@ -173,12 +137,7 @@ seca.addEventListener(
     "click",
     function(){
         loadQuestion(section_data[0], "Section ALL");
-        let sectionTitle = document.getElementById("pm-question-title-section");
-        let newTitle = document.createElement("div");
-        newTitle.setAttribute("id", "sectionTitle");
-        let textNode = document.createTextNode("綜合測驗");
-        newTitle.appendChild(textNode);
-        sectionTitle.appendChild(newTitle);
+        setSectionTitle("綜合測驗");
         document.getElementById("pm-content").style.cssText="display: block;";
         document.getElementById("pm-section-content").style.cssText="display: none;";
     }

@@ -119,7 +119,7 @@ a{
     position: relative;
     justify-content: center;
     width: 99%;
-    margin-top: 60px;
+    margin-top: 65px;
     padding: 5px;
     z-index: 0;
 }
@@ -143,20 +143,34 @@ a{
     background-color: bisque;
 }
 .pm-sidebar-nav{
-    padding: 10px 0 10px 0;
+    padding: 7px;
     margin-top: 10px;
 }
 .pm-sidebar-nav-item{
-    margin: 8px 0 8px 0;
+    margin: 3px 0 3px 0;
+    padding: 3px;
 }
 .pm-sidebar-nav-item a{
     display: block;
     line-height: 1.5em;
     border-radius: 10px;
     font-size: 15pt;
+    padding: 0 8px 0 8px;
 }
 .pm-sidebar-nav-item a:hover{
     background-color: azure;
+}
+.pm-section-chapter{
+    font-size: 24pt;
+    padding: 10px;
+    text-align: center;
+}
+.pm-section-title{
+    margin-left: 15px;
+    font-size: 18pt;
+}
+.pm-section-desc{
+    margin-left: 25px;
 }
 
 /* Question content */
@@ -204,10 +218,7 @@ a{
 /* Medium devices (portrait tablets and large phones and phones, 768px and down) */
 @media only screen and (max-width: 768px) {
     .header{
-        line-height: 60px;
-    }
-    .pm-logo a{
-        display: none;
+        line-height: 37px;
     }
     .pm-navbar-btn{
         display: block;

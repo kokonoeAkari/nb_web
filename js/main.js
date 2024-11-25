@@ -1,10 +1,5 @@
 const dropdownBTN = document.getElementsByClassName("pm-navbar-btn")[0];
-const backTitle = document.getElementById("pm-question-titleBTN");
 //console.log();
-
-function navbarBTN(event){
-    document.getElementById("pm-navbar-dropdown").classList.toggle("show");
-}
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
@@ -18,7 +13,7 @@ window.onclick = function(event) {
             }
         }
     }
-}
+};
 
 window.addEventListener("resize", function(){
     //console.log(window.innerWidth);
@@ -34,14 +29,9 @@ window.addEventListener("resize", function(){
     }
 });
 
-dropdownBTN.addEventListener("click", navbarBTN);
-
-backTitle.addEventListener(
+dropdownBTN.addEventListener(
     "click",
     function(){
-        document.getElementById("pm-content").style.cssText="display: none;";
-        document.getElementById("pm-section-content").style.cssText="display: block;";
-        let sectionTitle = document.getElementById("sectionTitle");
-        sectionTitle.remove();
+        document.getElementById("pm-navbar-dropdown").classList.toggle("show");
     }
-)
+);

@@ -188,6 +188,7 @@ a{
     display: flex;
     position: relative;
     justify-content: center;
+    padding: 5px;
 }
 .pm-question-title-section{
     font-size: 24pt;
@@ -196,7 +197,7 @@ a{
 .pm-question-titleBTN{
     position: absolute;
     right: 0;
-    margin: 5px;
+    margin: 2px;
 }
 .pm-question-titleBTN button{
     background-color: #c5beb5;
@@ -206,6 +207,44 @@ a{
     padding: 5px;
 }
 .pm-question-titleBTN button:hover{
+    cursor: pointer;
+    background-color: azure;
+}
+.pm-question-content{
+    margin: 3px;
+}
+.pm-question-block{
+    margin-top: 5px;
+}
+.pm-question-desc{
+    background-color:rgb(240, 224, 81);
+    border-width: 0;
+    border-radius: 10px;
+    font-size: 18pt;
+    padding: 3px 6px;
+}
+.pm-question-ques{
+    font-size: 15pt;
+    padding: 0 7px;
+}
+.pm-question-options{
+    font-size: 14pt;
+    padding: 0 10px;
+}
+.formBTN{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 2px;
+}
+.formBTN button{
+    background-color: #c5beb5;
+    border-width: 0;
+    border-radius: 10px;
+    font-size: 14pt;
+    padding: 5px 12px;
+}
+.formBTN button:hover{
     cursor: pointer;
     background-color: azure;
 }

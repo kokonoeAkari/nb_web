@@ -38,13 +38,27 @@ const sec8_MC = document.getElementById("sec8");
 const sec9_MC = document.getElementById("sec9");
 const seca_MC = document.getElementById("seca");
 
-let backTitle = document.getElementById("pm-question-titleBTN");
+const backTitle = document.getElementById("pm-question-titleBTN");
+
+const myform = document.querySelector("form");
+
+myform.addEventListener(
+    "submit",
+    (event) => {
+        const data = new FormData(myform);
+        for(let [key, value] of data.entries()) {
+            console.log(key+ ', '+ value);
+        }
+        event.preventDefault();
+    }
+);
 
 function loadQuestion(e, myTitle){
     $.getJSON(e)
         .done(function(data) {
             //console.log(data);
             let jsondata = JSON.parse(JSON.stringify(data));
+            console.log(jsondata);
             console.log(jsondata[myTitle][0]);
             console.log(typeof jsondata);
             console.log(Object.keys(jsondata));
@@ -136,5 +150,6 @@ backTitle.addEventListener(
     "click",
     function(){
         removeSectionTitle();
+        myform.reset();
     }
 );

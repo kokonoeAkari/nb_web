@@ -5,74 +5,92 @@
             "Q31": {
                 "desc": "Major Opioids in Pain Management",
                 "question": "Which opioid is considered a major opioid used in pain management?",
-                "A": "Codeine",
-                "B": "Morphine",
-                "C": "Tramadol",
-                "D": "Acetaminophen"
+                "options": {
+                    "A": "Codeine",
+                    "B": "Morphine",
+                    "C": "Tramadol",
+                    "D": "Acetaminophen"
+                }
             },
             "Q32": {
                 "desc": "Opioids Used for Mild to Moderate Pain",
                 "question": "Which opioid is commonly prescribed for mild to moderate pain?",
-                "A": "Fentanyl",
-                "B": "Morphine",
-                "C": "Codeine",
-                "D": "Oxycodone"
+                "options": {
+                    "A": "Fentanyl",
+                    "B": "Morphine",
+                    "C": "Codeine",
+                    "D": "Oxycodone"
+                }
             },
             "Q33": {
                 "desc": "The Prescription Drug Abuse Epidemic and Emerging Prescribing Guidelines",
                 "question": "Which guideline aims to reduce prescription opioid abuse?",
-                "A": "CDC Guideline for Prescribing Opioids",
-                "B": "ADA Pain Management Guideline",
-                "C": "WHO Antibiotic Prescribing Guideline",
-                "D": "AHA Hypertension Guideline"
+                "options": {
+                    "A": "CDC Guideline for Prescribing Opioids",
+                    "B": "ADA Pain Management Guideline",
+                    "C": "WHO Antibiotic Prescribing Guideline",
+                    "D": "AHA Hypertension Guideline"
+                }
             },
             "Q34": {
                 "desc": "Legal and Regulatory Issues in Pain Management",
                 "question": "Which agency regulates the prescription of controlled substances?",
-                "A": "FDA",
-                "B": "CDC",
-                "C": "DEA",
-                "D": "NIH"
+                "options": {
+                    "A": "FDA",
+                    "B": "CDC",
+                    "C": "DEA",
+                    "D": "NIH"
+                }
             },
             "Q35": {
                 "desc": "Urine Drug Testing in Pain Medicine",
                 "question": "Which purpose does urine drug testing serve in pain management?",
-                "A": "Diagnosing infections",
-                "B": "Monitoring medication adherence",
-                "C": "Measuring blood sugar levels",
-                "D": "Checking kidney function"
+                "options": {
+                    "A": "Diagnosing infections",
+                    "B": "Monitoring medication adherence",
+                    "C": "Measuring blood sugar levels",
+                    "D": "Checking kidney function"
+                }
             },
             "Q36": {
                 "desc": "Substance Use Disorders and Detoxification",
                 "question": "Which treatment is often used for opioid detoxification?",
-                "A": "Methadone",
-                "B": "Ibuprofen",
-                "C": "Cortisone",
-                "D": "Acetaminophen"
+                "options": {
+                    "A": "Methadone",
+                    "B": "Ibuprofen",
+                    "C": "Cortisone",
+                    "D": "Acetaminophen"
+                }
             },
             "Q37": {
                 "desc": "Psychopharmacology for Pain Medicine",
                 "question": "Which class of medication is often used to treat both depression and chronic pain?",
-                "A": "Antibiotics",
-                "B": "Antidepressants",
-                "C": "Antihistamines",
-                "D": "Antivirals"
+                "options": {
+                    "A": "Antibiotics",
+                    "B": "Antidepressants",
+                    "C": "Antihistamines",
+                    "D": "Antivirals"
+                }
             },
             "Q38": {
                 "desc": "Membrane Stabilizers",
                 "question": "Which medication is considered a membrane stabilizer used for neuropathic pain?",
-                "A": "Gabapentin",
-                "B": "Ibuprofen",
-                "C": "Acetaminophen",
-                "D": "Morphine"
+                "options": {
+                    "A": "Gabapentin",
+                    "B": "Ibuprofen",
+                    "C": "Acetaminophen",
+                    "D": "Morphine"
+                }
             },
             "Q39": {
                 "desc": "Recommendations for Pharmacologic Therapy of Neuropathic Pain",
                 "question": "Which class of drugs is recommended as first-line therapy for neuropathic pain?",
-                "A": "NSAIDs",
-                "B": "Anticonvulsants",
-                "C": "Beta-blockers",
-                "D": "Antibiotics"
+                "options": {
+                    "A": "NSAIDs",
+                    "B": "Anticonvulsants",
+                    "C": "Beta-blockers",
+                    "D": "Antibiotics"
+                }
             }
         }
     ]

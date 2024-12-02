@@ -5,26 +5,32 @@
             "Q1": {
                 "desc": "Anatomy and Physiology of the Pain Signaling Process",
                 "question": "Which part of the nervous system is primarily responsible for transmitting pain signals from the site of injury to the brain?",
-                "A": "Central nervous system",
-                "B": "Peripheral nervous system",
-                "C": "Autonomic nervous system",
-                "D": "Enteric nervous system"
+                "options": {
+                    "A": "Central nervous system",
+                    "B": "Peripheral nervous system",
+                    "C": "Autonomic nervous system",
+                    "D": "Enteric nervous system"
+                }
             },
             "Q2": {
                 "desc": "Neurochemistry of Somatosensory and Pain Processing",
                 "question": "Which neurotransmitter is most commonly associated with the sensation of pain?",
-                "A": "Dopamine",
-                "B": "Serotonin",
-                "C": "Glutamate",
-                "D": "Acetylcholine"
+                "options": {
+                    "A": "Dopamine",
+                    "B": "Serotonin",
+                    "C": "Glutamate",
+                    "D": "Acetylcholine"
+                }
             },
             "Q3": {
                 "desc": "Taxonomy: Definition of Pain Terms and Chronic Pain Syndromes",
                 "question": "Which term is used to describe pain that persists for longer than three months?",
-                "A": "Acute pain",
-                "B": "Chronic pain",
-                "C": "Subacute pain",
-                "D": "Recurrent pain"
+                "options": {
+                    "A": "Acute pain",
+                    "B": "Chronic pain",
+                    "C": "Subacute pain",
+                    "D": "Recurrent pain"
+                }
             }
         }
     ]

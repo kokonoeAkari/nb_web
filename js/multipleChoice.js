@@ -1,5 +1,5 @@
 // Multiple choice
-import {removeSectionTitle, setSectionTitle, switchSectionTitle} from './common.js';
+import {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData} from './common.js';
 
 const section_data = [
     '../json/test_1/section_all.json',
@@ -53,15 +53,65 @@ myform.addEventListener(
     }
 );
 
+function createQT(className, myText){
+    let x = document.createElement("div");
+    x.setAttribute("class", className);
+    let y = document.createTextNode(myText);
+    x.appendChild(y);
+    return x
+}
+
+function createOPT(op, opName){
+    //console.log(op, opName);
+    let opt = document.createElement("div");
+    opt.setAttribute("class", "pm-question-options");
+    for(let k in op){
+        let d = document.createElement("div");
+        let i = document.createElement("input");
+        i.setAttribute("type", "radio");
+        i.setAttribute("id", opName+k);
+        i.setAttribute("name", opName);
+        i.setAttribute("value", k);
+        let l = document.createElement("label");
+        l.setAttribute("for", opName+k);
+        let lText = document.createTextNode(k+'. '+op[k]);
+        l.appendChild(lText);
+        d.appendChild(i);
+        d.appendChild(l);
+        opt.appendChild(d);
+    }
+    return opt
+}
+
 function loadQuestion(e, myTitle){
     $.getJSON(e)
         .done(function(data) {
             //console.log(data);
             let jsondata = JSON.parse(JSON.stringify(data));
-            console.log(jsondata);
-            console.log(jsondata[myTitle][0]);
-            console.log(typeof jsondata);
-            console.log(Object.keys(jsondata));
+            //console.log(jsondata);
+            //console.log(jsondata[myTitle][1]);
+            let myQT = jsondata[myTitle][1];
+            let mainBlock = document.getElementById("pm-question-form");
+            for(let k in myQT){
+                //console.log(k+ ', '+ myQT[k])
+                let q = myQT[k]
+                //for(let k_ in q){console.log(k_+ ', '+ q[k_])}
+                let qtBlock = document.createElement("div");
+                qtBlock.setAttribute("class", "pm-question-block");
+                let desc = createQT("pm-question-desc", k+". "+q["desc"]);
+                let qt = createQT("pm-question-ques", "Question: "+q["question"]);
+                let op = createOPT(q["options"], k);
+                qtBlock.appendChild(desc);
+                qtBlock.appendChild(qt);
+                qtBlock.appendChild(op);
+                mainBlock.appendChild(qtBlock);
+            }
+            let formBtn = document.createElement("div");
+            formBtn.setAttribute("class", "formBTN");
+            let ansConfirm = document.createElement("button");
+            ansConfirm.setAttribute("type", "submit");
+            let ansText = document.createTextNode("確認答案");
+            mainBlock.appendChild(formBtn).appendChild(ansConfirm).appendChild(ansText);
     });
 }
 
@@ -149,6 +199,7 @@ seca_MC.addEventListener(
 backTitle.addEventListener(
     "click",
     function(){
+        removeFormData();
         removeSectionTitle();
         myform.reset();
     }

@@ -5,42 +5,52 @@
             "Q40": {
                 "desc": "Ablative Neurosurgical Procedures for Treatment of Chronic Pain",
                 "question": "Which procedure involves the destruction of nerve tissue to relieve pain?",
-                "A": "Nerve block",
-                "B": "Neurolysis",
-                "C": "Ablative neurosurgery",
-                "D": "Radiofrequency ablation"
+                "options": {
+                    "A": "Nerve block",
+                    "B": "Neurolysis",
+                    "C": "Ablative neurosurgery",
+                    "D": "Radiofrequency ablation"
+                }
             },
             "Q41": {
                 "desc": "Physical Medicine and Rehabilitation Approaches to Pain Management",
                 "question": "Which therapy is commonly included in physical medicine for pain management?",
-                "A": "Electroconvulsive therapy",
-                "B": "Physical therapy",
-                "C": "Chemotherapy",
-                "D": "Dialysis"
+                "options": {
+                    "A": "Electroconvulsive therapy",
+                    "B": "Physical therapy",
+                    "C": "Chemotherapy",
+                    "D": "Dialysis"
+                }
             },
             "Q42": {
                 "desc": "Psychologic Interventions for Chronic Pain",
                 "question": "Which psychological intervention is frequently used for managing chronic pain?",
-                "A": "Cognitive-behavioral therapy (CBT)",
-                "B": "Psychoanalysis",
-                "C": "Hypnosis",
-                "D": "Dialectical behavior therapy (DBT)"
+                "options": {
+                    "A": "Cognitive-behavioral therapy (CBT)",
+                    "B": "Psychoanalysis",
+                    "C": "Hypnosis",
+                    "D": "Dialectical behavior therapy (DBT)"
+                }
             },
             "Q43": {
                 "desc": "Acupuncture",
                 "question": "Which principle underlies the practice of acupuncture for pain relief?",
-                "A": "Blocking nerve signals",
-                "B": "Balancing energy flow",
-                "C": "Reducing inflammation",
-                "D": "Increasing blood pressure"
+                "options": {
+                    "A": "Blocking nerve signals",
+                    "B": "Balancing energy flow",
+                    "C": "Reducing inflammation",
+                    "D": "Increasing blood pressure"
+                }
             },
             "Q44": {
                 "desc": "Tai Chi and Chronic Pain",
                 "question": "Tai Chi is primarily used to manage chronic pain by improving:",
-                "A": "Cardiovascular fitness",
-                "B": "Mental health",
-                "C": "Flexibility and balance",
-                "D": "Bone density"
+                "options": {
+                    "A": "Cardiovascular fitness",
+                    "B": "Mental health",
+                    "C": "Flexibility and balance",
+                    "D": "Bone density"
+                }
             }
         }
     ]

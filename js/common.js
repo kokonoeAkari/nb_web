@@ -19,4 +19,11 @@ function switchSectionTitle(){
     document.getElementById("pm-section-content").style.cssText="display: none;";
 }
 
-export {removeSectionTitle, setSectionTitle, switchSectionTitle}
+function removeFormData(){
+    let formData = document.getElementById("pm-question-form");
+    while (formData.hasChildNodes()){
+        formData.removeChild(formData.firstChild);
+    }
+}
+
+export {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData}

@@ -5,66 +5,82 @@
             "Q23": {
                 "desc": "Approach to the Management of Cancer Pain",
                 "question": "Which medication class is commonly used for managing moderate to severe cancer pain?",
-                "A": "Antidepressants",
-                "B": "NSAIDs",
-                "C": "Opioids",
-                "D": "Antihistamines"
+                "options": {
+                    "A": "Antidepressants",
+                    "B": "NSAIDs",
+                    "C": "Opioids",
+                    "D": "Antihistamines"
+                }
             },
             "Q24": {
                 "desc": "Management of Pain at End of Life",
                 "question": "Which approach is often used to manage pain at the end of life?",
-                "A": "Aggressive curative treatment",
-                "B": "Palliative care",
-                "C": "Preventive analgesia",
-                "D": "Elective surgery"
+                "options": {
+                    "A": "Aggressive curative treatment",
+                    "B": "Palliative care",
+                    "C": "Preventive analgesia",
+                    "D": "Elective surgery"
+                }
             },
             "Q25": {
                 "desc": "Pain Management in the Emergency Department",
                 "question": "Which medication is often first-line for acute severe pain in the emergency department?",
-                "A": "Acetaminophen",
-                "B": "Ibuprofen",
-                "C": "Morphine",
-                "D": "Aspirin"
+                "options": {
+                    "A": "Acetaminophen",
+                    "B": "Ibuprofen",
+                    "C": "Morphine",
+                    "D": "Aspirin"
+                }
             },
             "Q26": {
                 "desc": "Chronic Pain Management in Children and Adolescents",
                 "question": "Which psychological approach is commonly used in managing chronic pain in children and adolescents?",
-                "A": "Cognitive-behavioral therapy",
-                "B": "Psychoanalysis",
-                "C": "Hypnosis",
-                "D": "Electroconvulsive therapy"
+                "options": {
+                    "A": "Cognitive-behavioral therapy",
+                    "B": "Psychoanalysis",
+                    "C": "Hypnosis",
+                    "D": "Electroconvulsive therapy"
+                }
             },
             "Q27": {
                 "desc": "Sickle Cell Disease",
                 "question": "What type of pain is most commonly associated with sickle cell disease?",
-                "A": "Neuropathic pain",
-                "B": "Inflammatory pain",
-                "C": "Acute pain crisis",
-                "D": "Phantom limb pain"
+                "options": {
+                    "A": "Neuropathic pain",
+                    "B": "Inflammatory pain",
+                    "C": "Acute pain crisis",
+                    "D": "Phantom limb pain"
+                }
             },
             "Q28": {
                 "desc": "Pain Management During Pregnancy and Lactation",
                 "question": "Which pain medication is generally considered safe during pregnancy?",
-                "A": "Ibuprofen",
-                "B": "Aspirin",
-                "C": "Acetaminophen",
-                "D": "Naproxen"
+                "options": {
+                    "A": "Ibuprofen",
+                    "B": "Aspirin",
+                    "C": "Acetaminophen",
+                    "D": "Naproxen"
+                }
             },
             "Q29": {
                 "desc": "Pain Control in the Critically Ill Patient",
                 "question": "What is a key consideration when managing pain in critically ill patients?",
-                "A": "Avoiding all medications",
-                "B": "Minimizing sedation",
-                "C": "Prioritizing non-pharmacological treatments",
-                "D": "Using high-dose opioids exclusively"
+                "options": {
+                    "A": "Avoiding all medications",
+                    "B": "Minimizing sedation",
+                    "C": "Prioritizing non-pharmacological treatments",
+                    "D": "Using high-dose opioids exclusively"
+                }
             },
             "Q30": {
                 "desc": "Geriatric Pain",
                 "question": "Which is a common challenge in managing pain in geriatric patients?",
-                "A": "High pain tolerance",
-                "B": "Poor medication absorption",
-                "C": "Polypharmacy",
-                "D": "Fast metabolism of drugs"
+                "options": {
+                    "A": "High pain tolerance",
+                    "B": "Poor medication absorption",
+                    "C": "Polypharmacy",
+                    "D": "Fast metabolism of drugs"
+                }
             }
         }
     ]

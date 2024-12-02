@@ -5,50 +5,62 @@
             "Q4": {
                 "desc": "Physical Examination of the Patient with Pain",
                 "question": "During a physical examination, which method is commonly used to assess a patient's pain level?",
-                "A": "Blood pressure measurement",
-                "B": "Pain scale rating",
-                "C": "Reflex testing",
-                "D": "Blood glucose testing"
+                "options": {
+                    "A": "Blood pressure measurement",
+                    "B": "Pain scale rating",
+                    "C": "Reflex testing",
+                    "D": "Blood glucose testing"
+                }
             },
             "Q5": {
                 "desc": "Psychological Evaluation and Testing",
                 "question": "Which tool is commonly used for psychological evaluation of pain?",
-                "A": "Beck Depression Inventory",
-                "B": "Glucose tolerance test",
-                "C": "MRI scan",
-                "D": "Pulmonary function test"
+                "options": {
+                    "A": "Beck Depression Inventory",
+                    "B": "Glucose tolerance test",
+                    "C": "MRI scan",
+                    "D": "Pulmonary function test"
+                }
             },
             "Q6": {
                 "desc": "Mental Disorders and Pain Management Diagnostic and Statistical Manual of Mental Disorders",
                 "question": "Which edition of the DSM is currently used for diagnosing mental disorders related to pain?",
-                "A": "DSM-III",
-                "B": "DSM-IV",
-                "C": "DSM-V",
-                "D": "DSM-VI"
+                "options": {
+                    "A": "DSM-III",
+                    "B": "DSM-IV",
+                    "C": "DSM-V",
+                    "D": "DSM-VI"
+                }
             },
             "Q7": {
                 "desc": "Neurophysiologic Testing for Pain",
                 "question": "Which test measures the electrical activity in muscles and nerves?",
-                "A": "Electromyography (EMG)",
-                "B": "MRI",
-                "C": "CT scan",
-                "D": "X-ray"
+                "options": {
+                    "A": "Electromyography (EMG)",
+                    "B": "MRI",
+                    "C": "CT scan",
+                    "D": "X-ray"
+                }
             },
             "Q8": {
                 "desc": "Anatomy, Imaging, and Common Pain-Generating Degenerative Pathologies of the Spine",
                 "question": "Which imaging technique is most commonly used to diagnose degenerative spine conditions?",
-                "A": "X-ray",
-                "B": "MRI",
-                "C": "Ultrasound",
-                "D": "PET scan"
+                "options": {
+                    "A": "X-ray",
+                    "B": "MRI",
+                    "C": "Ultrasound",
+                    "D": "PET scan"
+                }
             },
             "Q9": {
                 "desc": "Determination of Disability",
                 "question": "Which scale is commonly used to assess disability related to pain?",
-                "A": "Visual Analog Scale (VAS)",
-                "B": "Oswestry Disability Index (ODI)",
-                "C": "Hamilton Anxiety Scale",
-                "D": "Montreal Cognitive Assessment (MoCA)"
+                "options": {
+                    "A": "Visual Analog Scale (VAS)",
+                    "B": "Oswestry Disability Index (ODI)",
+                    "C": "Hamilton Anxiety Scale",
+                    "D": "Montreal Cognitive Assessment (MoCA)"
+                }
             }
         }
     ]

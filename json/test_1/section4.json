@@ -5,42 +5,52 @@
             "Q18": {
                 "desc": "Migraine Headache and the Trigeminal Autonomic Cephalalgias",
                 "question": "Which symptom is commonly associated with migraines?",
-                "A": "Runny nose",
-                "B": "Throbbing head pain",
-                "C": "Coughing",
-                "D": "Sore throat"
+                "options": {
+                    "A": "Runny nose",
+                    "B": "Throbbing head pain",
+                    "C": "Coughing",
+                    "D": "Sore throat"
+                }
             },
             "Q19": {
                 "desc": "Tension-Type Headache, Chronic Tension-Type Headache, and Other Chronic Headache Types",
                 "question": "Which type of headache is characterized by a band-like pressure around the head?",
-                "A": "Migraine",
-                "B": "Cluster headache",
-                "C": "Tension-type headache",
-                "D": "Sinus headache"
+                "options": {
+                    "A": "Migraine",
+                    "B": "Cluster headache",
+                    "C": "Tension-type headache",
+                    "D": "Sinus headache"
+                }
             },
             "Q20": {
                 "desc": "Postmeningeal Puncture Headache and Spontaneous Intracranial Hypotension",
                 "question": "Which activity can alleviate symptoms of postmeningeal puncture headache?",
-                "A": "Standing up quickly",
-                "B": "Lying flat",
-                "C": "Heavy exercise",
-                "D": "Bending forward"
+                "options": {
+                    "A": "Standing up quickly",
+                    "B": "Lying flat",
+                    "C": "Heavy exercise",
+                    "D": "Bending forward"
+                }
             },
             "Q21": {
                 "desc": "Cervicogenic Headache ",
                 "question": "Cervicogenic headaches are primarily caused by issues in which part of the body?",
-                "A": "Cervical spine",
-                "B": "Thoracic spine",
-                "C": "Lumbar spine",
-                "D": "Sacral spine"
+                "options": {
+                    "A": "Cervical spine",
+                    "B": "Thoracic spine",
+                    "C": "Lumbar spine",
+                    "D": "Sacral spine"
+                }
             },
             "Q22": {
                 "desc": "Orofacial Pain ",
                 "question": "Which condition is characterized by chronic pain in the face and mouth region?",
-                "A": "Tension-type headache",
-                "B": "Migraine",
-                "C": "Orofacial pain",
-                "D": "Cluster headache"
+                "options": {
+                    "A": "Tension-type headache",
+                    "B": "Migraine",
+                    "C": "Orofacial pain",
+                    "D": "Cluster headache"
+                }
             }
         }
     ]

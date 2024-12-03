@@ -39,16 +39,34 @@ const sec9_MC = document.getElementById("sec9");
 const seca_MC = document.getElementById("seca");
 
 const backTitle = document.getElementById("pm-question-titleBTN");
-
 const myform = document.querySelector("form");
+
+var qtNum = [];
+
+function getRadioValue(name) {
+    var radios = document.getElementById(name);
+    console.log(radios);
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            return radios[i].value;
+        }
+    }
+    return ''; // Return empty string if no radio button is selected
+}
 
 myform.addEventListener(
     "submit",
     (event) => {
         const data = new FormData(myform);
-        for(let [key, value] of data.entries()) {
-            console.log(key+ ', '+ value);
-        }
+        for(let [key, value] of data.entries()) {console.log(key+ ', '+ value);}
+        // Example usage
+        let selectedRadio = document.querySelector('input[name="'+qtNum[0]+'"]:checked');
+        let selectedValue = selectedRadio ? selectedRadio.value : null;
+
+        console.log(qtNum[0]+selectedValue);
+        //var selectedValue = getRadioValue('pm-question-form');
+        //console.log(selectedValue); // Logs the value or an empty string if none selected
+
         event.preventDefault();
     }
 );
@@ -83,6 +101,7 @@ function createOPT(op, opName){
     return opt
 }
 
+
 function loadQuestion(e, myTitle){
     $.getJSON(e)
         .done(function(data) {
@@ -94,7 +113,10 @@ function loadQuestion(e, myTitle){
             let mainBlock = document.getElementById("pm-question-form");
             for(let k in myQT){
                 //console.log(k+ ', '+ myQT[k])
-                let q = myQT[k]
+                if(qtNum.indexOf(k)==-1){
+                    qtNum.push(k);
+                }
+                let q = myQT[k];
                 //for(let k_ in q){console.log(k_+ ', '+ q[k_])}
                 let qtBlock = document.createElement("div");
                 qtBlock.setAttribute("class", "pm-question-block");
@@ -112,6 +134,7 @@ function loadQuestion(e, myTitle){
             ansConfirm.setAttribute("type", "submit");
             let ansText = document.createTextNode("確認答案");
             mainBlock.appendChild(formBtn).appendChild(ansConfirm).appendChild(ansText);
+            console.log(qtNum);
     });
 }
 
@@ -201,6 +224,7 @@ backTitle.addEventListener(
     function(){
         removeFormData();
         removeSectionTitle();
+        qtNum = [];
         myform.reset();
     }
 );

@@ -59,7 +59,7 @@
             </nav>
         </div>
         <div class="main-content">
-            <div class="pm-section-content">
+            <div class="pm-section-content" id="pm-section-content">
                 <nav class="">
                     <div class="pm-section-chapter">選擇章節</div>
                     <ul class="pm-sidebar-nav">
@@ -125,15 +125,25 @@
                     </ul>
                 </nav>
             </div>
-            <div class="pm-content">
-                <div class="pm-queston">
-                    q1
+            <div class="pm-content" id="pm-content">
+                <div class="pm-question">
+                    <div class="pm-question-title">
+                        <div class="pm-question-title-section" id="pm-question-title-section"></div>
+                        <nav class="pm-question-titleBTN">
+                            <button type="button" id="pm-question-titleBTN">
+                                返回目錄
+                            </button>
+                        </nav>
+                    </div>
+                    <div class="pm-question-content" id="pm-question-content">
+                        <form id="pm-question-form"></form>
+                    </div>
                 </div>
             </div>
         </div>
         
         <!-- JS -->
         <script src="js/main.js"></script>
-        <script src="js/matchingItem.js"></script>
+        <script type="module" src="js/matchingItem.js"></script>
     </body>
 </html>

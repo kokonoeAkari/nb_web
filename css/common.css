@@ -96,7 +96,6 @@ a{
     border-width: 0;
 }
 .pm-navbar-nav-dropdown-item-dropdown{
-    background-color: #d8d0c6;
     padding-left: 15px;
 }
 .pm-navbar-nav-dropdown-item a{
@@ -214,7 +213,10 @@ a{
     margin: 3px;
 }
 .pm-question-block{
-    margin-top: 5px;
+    margin-top: 7px;
+    padding: 6px;
+    background-color: rgb(218, 232, 245);
+    border-radius: 12px;
 }
 .pm-question-desc{
     background-color:rgb(240, 224, 81);
@@ -225,11 +227,11 @@ a{
 }
 .pm-question-ques{
     font-size: 15pt;
-    padding: 0 7px;
+    padding: 0 10px;
 }
 .pm-question-options{
     font-size: 14pt;
-    padding: 0 10px;
+    padding: 0 14px;
 }
 .formBTN{
     display: flex;

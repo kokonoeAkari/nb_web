@@ -4,33 +4,39 @@
         {
             "Q1": {
                 "desc": "Anatomy and Physiology of the Pain Signaling Process",
-                "question": "Match the anatomical structure with its function in pain signaling",
+                "question": "Match the anatomical structure with its function in pain signaling.",
                 "label": ["Structure", "Function"],
                 "option": ["Dorsal root ganglion", "Nociceptor", "Spinal cord", "Thalamus"],
-                "A": "Releases neurotransmitters for pain",
-                "B": "Transmits pain signals to the brain",
-                "C": "Detects noxious stimuli",
-                "D": "Integrates and processes pain signals"
+                "options": {
+                    "A": "Releases neurotransmitters for pain",
+                    "B": "Transmits pain signals to the brain",
+                    "C": "Detects noxious stimuli",
+                    "D": "Integrates and processes pain signals"
+                }
             },
             "Q2": {
                 "desc": "Neurochemistry of Somatosensory and Pain Processing",
-                "question": "Match the neurotransmitter with its role in pain processing",
+                "question": "Match the neurotransmitter with its role in pain processing.",
                 "label": ["Neurotransmitter", "Role"],
                 "option": ["Glutamate", "Substance P", "GABA", "Endorphins"],
-                "A": "Inhibitory neurotransmitter",
-                "B": "Excitatory neurotransmitter",
-                "C": "Pain signal modulation",
-                "D": "Natural pain relief"
+                "options": {
+                    "A": "Inhibitory neurotransmitter",
+                    "B": "Excitatory neurotransmitter",
+                    "C": "Pain signal modulation",
+                    "D": "Natural pain relief"
+                }
             },
             "Q3": {
                 "desc": "Taxonomy: Definition of Pain Terms and Chronic Pain Syndromes",
-                "question": "Match the pain term with its correct definition",
+                "question": "Match the pain term with its correct definition.",
                 "label": ["Pain Term", "Definition"],
                 "option": ["Acute pain", "Chronic pain", "Neuropathic pain", "Nociceptive pain"],
-                "A": "Pain persisting longer than three months",
-                "B": "Pain that occurs due to nerve damage",
-                "C": "Pain lasting less than three months",
-                "D": "Pain from tissue damage or inflammation"
+                "options": {
+                    "A": "Pain persisting longer than three months",
+                    "B": "Pain that occurs due to nerve damage",
+                    "C": "Pain lasting less than three months",
+                    "D": "Pain from tissue damage or inflammation"
+                }
             }
         }
     ]

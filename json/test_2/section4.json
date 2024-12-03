@@ -4,53 +4,63 @@
         {
             "Q18": {
                 "desc": "Migraine Headache and the Trigeminal Autonomic Cephalalgias",
-                "question": "Match the symptom with its associated headache type",
+                "question": "Match the symptom with its associated headache type.",
                 "label": ["Symptom", "Headache Type"],
                 "option": ["Throbbing head pain", "Severe unilateral pain", "Band-like pressure", "Facial pain and redness"],
-                "A": "Migraine",
-                "B": "Cluster headache",
-                "C": "Tension-type headache",
-                "D": "Trigeminal neuralgia"
+                "options": {
+                    "A": "Migraine",
+                    "B": "Cluster headache",
+                    "C": "Tension-type headache",
+                    "D": "Trigeminal neuralgia"
+                }
             },
             "Q19": {
                 "desc": "Tension-Type Headache, Chronic Tension-Type Headache, and Other Chronic Headache Types",
-                "question": "Match the headache type with its primary characteristic",
+                "question": "Match the headache type with its primary characteristic.",
                 "label": ["Headache Type", "Primary Characteristic"],
                 "option": ["Tension-type headache", "Chronic migraine", "Cluster headache", "Cervicogenic headache"],
-                "A": "Bilateral, mild to moderate pain",
-                "B": "Frequent, severe headaches",
-                "C": "Brief, intense pain near one eye",
-                "D": "Pain originating from the neck"
+                "options": {
+                    "A": "Bilateral, mild to moderate pain",
+                    "B": "Frequent, severe headaches",
+                    "C": "Brief, intense pain near one eye",
+                    "D": "Pain originating from the neck"
+                }
             },
             "Q20": {
                 "desc": "Postmeningeal Puncture Headache and Spontaneous Intracranial Hypotension",
-                "question": "Match the condition with its typical symptom",
+                "question": "Match the condition with its typical symptom.",
                 "label": ["Condition", "Typical Symptom"],
                 "option": ["Postmeningeal puncture headache", "Spontaneous intracranial hypotension", "Migraine", "Tension-type headache"],
-                "A": "Positional headache",
-                "B": "Sudden onset of severe headache",
-                "C": "Aura followed by headache",
-                "D": "Dull, aching head pain"
+                "options": {
+                    "A": "Positional headache",
+                    "B": "Sudden onset of severe headache",
+                    "C": "Aura followed by headache",
+                    "D": "Dull, aching head pain"
+                }
             },
             "Q21": {
                 "desc": " Cervicogenic Headache",
-                "question": "Match the diagnostic technique with its use in cervicogenic headache",
+                "question": "Match the diagnostic technique with its use in cervicogenic headache.",
                 "label": ["Diagnostic Technique", "Use"],
                 "option": ["MRI", "X-ray", "Physical examination", "Nerve block"],
-                "A": "Visualizing soft tissues",
-                "B": "Assessing bone structures",
-                "C": "Identifying trigger points",
-                "D": "Confirming source of pain"
+                "options": {
+                    "A": "Visualizing soft tissues",
+                    "B": "Assessing bone structures",
+                    "C": "Identifying trigger points",
+                    "D": "Confirming source of pain"
+                }
             },
             "Q22": {
                 "desc": "Orofacial Pain",
-                "question": "Match the orofacial pain condition with its description",
+                "question": "Match the orofacial pain condition with its description.",
                 "label": ["Condition", "Description"],
                 "option": ["Trigeminal neuralgia", "Temporomandibular disorder", "Burning mouth syndrome", "Glossopharyngeal neuralgia"],
-                "A": "Sudden, severe facial pain",
-                "B": "Jaw pain and dysfunction",
-                "C": "Chronic burning sensation in the mouth",
-                "D": "Pain in the throat and tongue"
+                "options": {
+                    "A": "Sudden, severe facial pain",
+                    "B": "Jaw pain and dysfunction",
+                    "C": "Chronic burning sensation in the mouth",
+                    "D": "Pain in the throat and tongue"
+                }
             }
         }
     ]

@@ -1,4 +1,5 @@
 // Matching item
+import {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData} from './common.js';
 
 const section_data = [
     '../json/test_2/section_all.json',
@@ -37,32 +38,116 @@ const sec8_MI = document.getElementById("sec8");
 const sec9_MI = document.getElementById("sec9");
 const seca_MI = document.getElementById("seca");
 
+const backTitle = document.getElementById("pm-question-titleBTN");
+
+const myform = document.querySelector("form");
+
+myform.addEventListener(
+    "submit",
+    (event) => {
+        const data = new FormData(myform);
+        for(let [key, value] of data.entries()) {
+            console.log(key+ ', '+ value);
+        }
+        event.preventDefault();
+    }
+);
+
 function loadQuestion(e, myTitle){
     $.getJSON(e)
         .done(function(data) {
             //console.log(data);
             let jsondata = JSON.parse(JSON.stringify(data));
             console.log(jsondata[myTitle][0]);
-            console.log(typeof jsondata);
-            console.log(Object.keys(jsondata));
-            
     });
 }
 
 sec1_MI.addEventListener(
     "click",
     function(){
+        setSectionTitle("Section I");
+        switchSectionTitle();
         loadQuestion(section_data[1], "Section I");
     }
 );
+sec2_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section II");
+        switchSectionTitle();
+        loadQuestion(section_data[2], "Section II");
+    }
+);
+sec3_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section III");
+        switchSectionTitle();
+        loadQuestion(section_data[3], "Section III");
+    }
+);
+sec4_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section IV");
+        switchSectionTitle();
+        loadQuestion(section_data[4], "Section IV");
+    }
+);
+sec5_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section V");
+        switchSectionTitle();
+        loadQuestion(section_data[5], "Section V");
+    }
+);
+sec6_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section VI");
+        switchSectionTitle();
+        loadQuestion(section_data[6], "Section VI");
+    }
+);
+sec7_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section VII");
+        switchSectionTitle();
+        loadQuestion(section_data[7], "Section VII");
+    }
+);
+sec8_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section VIII");
+        switchSectionTitle();
+        loadQuestion(section_data[8], "Section VIII");
+    }
+);
+sec9_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("Section IX");
+        switchSectionTitle();
+        loadQuestion(section_data[9], "Section IX");
+    }
+);
+seca_MI.addEventListener(
+    "click",
+    function(){
+        setSectionTitle("綜合測驗");
+        switchSectionTitle();
+        loadQuestion(section_data[0], "Section ALL");
+    }
+);
 
-loadQuestion(section_data[0], "Section ALL");
-
-loadQuestion(section_data[2], "Section II");
-loadQuestion(section_data[3], "Section III");
-loadQuestion(section_data[4], "Section IV");
-loadQuestion(section_data[5], "Section V");
-loadQuestion(section_data[6], "Section VI");
-loadQuestion(section_data[7], "Section VII");
-loadQuestion(section_data[8], "Section VIII");
-loadQuestion(section_data[9], "Section IX");
+backTitle.addEventListener(
+    "click",
+    function(){
+        removeFormData();
+        removeSectionTitle();
+        myform.reset();
+    }
+);

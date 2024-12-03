@@ -1,16 +1,102 @@
 {
     "Section IX": [
-        "",
+        "Other Nerve Blocks in Pain Medicine",
         {
-            "Q": {
-                "desc": "",
-                "question": "",
-                "label": ["", ""],
-                "option": ["", "", "", ""],
-                "A": "",
-                "B": "",
-                "C": "",
-                "D": ""
+            "Q55": {
+                "desc": "Ultrasound-Guided Procedures for Pain Management: Spine Injections and Relevant Peripheral Nerve Blocks",
+                "question": "Match the ultrasound feature with its benefit in pain management.",
+                "label": ["Ultrasound Feature", "Benefit"],
+                "option": ["Real-time imaging", "No radiation exposure", "Dynamic assessment", "Cost-effectiveness"],
+                "options": {
+                    "A": "Enhanced accuracy",
+                    "B": "Increased safety",
+                    "C": "Evaluating movement",
+                    "D": "Lower procedure costs"
+                }
+            },
+            "Q56": {
+                "desc": "Deep Muscle Injections: Piriformis, Scalene Muscle, Iliopsoas Injection Techniques",
+                "question": "Match the deep muscle injection with its target muscle.",
+                "label": ["Injection", "Target Muscle"],
+                "option": ["Piriformis injection", "Scalene muscle injection", "Iliopsoas injection", "Quadratus lumborum injection"],
+                "options": {
+                    "A": "Piriformis muscle",
+                    "B": "Scalene muscle",
+                    "C": "Iliopsoas muscle",
+                    "D": "Quadratus lumborum muscle"
+                }
+            },
+            "Q57": {
+                "desc": "Ultrasound-Guided Musculoskeletal Injections—Shoulder, Hip, Knee",
+                "question": "Match the injection site with the condition it commonly treats.",
+                "label": ["Injection Site", "Condition"],
+                "option": ["Shoulder", "Hip", "Knee", "Elbow"],
+                "options": {
+                    "A": "Rotator cuff tear",
+                    "B": "Hip bursitis",
+                    "C": "Osteoarthritis",
+                    "D": "Tennis elbow"
+                }
+            },
+            "Q58": {
+                "desc": "Head and Neck Blocks",
+                "question": "Match the nerve block with its target area in head and neck pain.",
+                "label": ["Nerve Block", "Target Area"],
+                "option": ["Occipital nerve block", "Trigeminal nerve block", "Stellate ganglion block", "Sphenopalatine ganglion block"],
+                "options": {
+                    "A": "Posterior head pain",
+                    "B": "Facial pain",
+                    "C": "Sympathetic pain in the neck",
+                    "D": "Cluster headaches"
+                }
+            },
+            "Q59": {
+                "desc": "Truncal Blocks: Paravertebral, Intercostal, Pectoral Nerve, Suprascapular, Ilioinguinal, Iliohypogastric Nerve, and Transversus Abdominis Plane Blocks",
+                "question": "Match the truncal block with its common use.",
+                "label": ["Truncal Block", "Common Use"],
+                "option": ["Paravertebral block", "Intercostal block", "Pectoral nerve block", "Transversus abdominis plane block"],
+                "options": {
+                    "A": "Thoracic surgery analgesia",
+                    "B": "Rib fracture pain",
+                    "C": "Breast surgery analgesia",
+                    "D": "Abdominal surgery analgesia"
+                }
+            },
+            "Q60": {
+                "desc": "Fluoroscopy and Ultrasound-Guided Sympathetic Blocks: Stellate Ganglion, Lumbar Sympathetic Blocks, and Visceral Sympathetic Blocks",
+                "question": "Match the sympathetic block with its primary indication.",
+                "label": ["Sympathetic Block", "Primary Indication"],
+                "option": ["Stellate ganglion block", "Lumbar sympathetic block", "Celiac plexus block", "Superior hypogastric plexus block"],
+                "options": {
+                    "A": "Complex regional pain syndrome of the upper extremity",
+                    "B": "Lower extremity pain",
+                    "C": "Abdominal visceral pain",
+                    "D": "Pelvic pain"
+                }
+            },
+            "Q61": {
+                "desc": "Interventional Pain Procedures in Patients on Anticoagulants",
+                "question": "Match the anticoagulant with its consideration during interventional procedures.",
+                "label": ["Anticoagulant", "Consideration"],
+                "option": ["Warfarin", "Heparin", "Aspirin", "Clopidogrel"],
+                "options": {
+                    "A": "Requires INR monitoring",
+                    "B": "Short half-life, easily reversible",
+                    "C": "Discontinue 7-10 days before procedure",
+                    "D": "Discontinue 5-7 days before procedure"
+                }
+            },
+            "Q62": {
+                "desc": "Interventional Pain Procedures and the Risk of Infection",
+                "question": "Match the infection control measure with its purpose.",
+                "label": ["Infection Control Measure", "Purpose"],
+                "option": ["Sterile technique", "Antiseptic skin preparation", "Prophylactic antibiotics", "Hand hygiene"],
+                "options": {
+                    "A": "Preventing contamination",
+                    "B": "Reducing skin bacteria",
+                    "C": "Preventing infection",
+                    "D": "Reducing pathogen transmission"
+                }
             }
         }
     ]

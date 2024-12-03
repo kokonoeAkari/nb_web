@@ -4,53 +4,63 @@
         {
             "Q40": {
                 "desc": "Ablative Neurosurgical Procedures for Treatment of Chronic Pain",
-                "question": "Match the neurosurgical procedure with its description",
+                "question": "Match the neurosurgical procedure with its description.",
                 "label": ["Procedure", "Description"],
                 "option": ["Cordotomy", "Rhizotomy", "Thalamotomy", "Myelotomy"],
-                "A": "Cutting nerve fibers to relieve pain",
-                "B": "Destroying nerve roots",
-                "C": "Lesioning part of the thalamus",
-                "D": "Severing spinal cord tracts"
+                "options": {
+                    "A": "Cutting nerve fibers to relieve pain",
+                    "B": "Destroying nerve roots",
+                    "C": "Lesioning part of the thalamus",
+                    "D": "Severing spinal cord tracts"
+                }
             },
             "Q41": {
                 "desc": "Physical Medicine and Rehabilitation Approaches to Pain Management",
-                "question": "Match the rehabilitation technique with its goal",
+                "question": "Match the rehabilitation technique with its goal.",
                 "label": ["Rehabilitation Technique", "Goal"],
                 "option": ["Physical therapy", "Occupational therapy", "Aquatic therapy", "Chiropractic care"],
-                "A": "Improving mobility",
-                "B": "Enhancing daily living activities",
-                "C": "Reducing pain and increasing range of motion",
-                "D": "Aligning the spine"
+                "options": {
+                    "A": "Improving mobility",
+                    "B": "Enhancing daily living activities",
+                    "C": "Reducing pain and increasing range of motion",
+                    "D": "Aligning the spine"
+                }
             },
             "Q42": {
                 "desc": "Psychologic Interventions for Chronic Pain",
-                "question": "Match the psychological intervention with its technique",
+                "question": "Match the psychological intervention with its technique.",
                 "label": ["Psychological Intervention", "Technique"],
                 "option": ["Cognitive-behavioral therapy", "Biofeedback", "Hypnosis", "Mindfulness meditation"],
-                "A": "Changing negative thought patterns",
-                "B": "Controlling physiological functions",
-                "C": "Altering perception through suggestion",
-                "D": "Focusing on the present moment"
+                "options": {
+                    "A": "Changing negative thought patterns",
+                    "B": "Controlling physiological functions",
+                    "C": "Altering perception through suggestion",
+                    "D": "Focusing on the present moment"
+                }
             },
             "Q43": {
                 "desc": "Acupuncture",
-                "question": "Match the acupuncture point with its common treatment area",
+                "question": "Match the acupuncture point with its common treatment area.",
                 "label": ["Acupuncture Point", "Treatment Area"],
                 "option": ["LI4 (Hegu)", "ST36 (Zusanli)", "SP6 (Sanyinjiao)", "GB20 (Fengchi)"],
-                "A": "Headaches",
-                "B": "Digestive issues",
-                "C": "Gynecological problems",
-                "D": "Neck pain"
+                "options": {
+                    "A": "Headaches",
+                    "B": "Digestive issues",
+                    "C": "Gynecological problems",
+                    "D": "Neck pain"
+                }
             },
             "Q44": {
                 "desc": "Tai Chi and Chronic Pain",
-                "question": "Match the benefit of Tai Chi with its impact on chronic pain",
+                "question": "Match the benefit of Tai Chi with its impact on chronic pain.",
                 "label": ["Benefit", "Impact on Chronic Pain"],
                 "option": ["Improved balance", "Increased flexibility", "Stress reduction", "Muscle strengthening"],
-                "A": "Reducing fall risk",
-                "B": "Enhancing range of motion",
-                "C": "Lowering pain perception",
-                "D": "Supporting joint stability"
+                "options": {
+                    "A": "Reducing fall risk",
+                    "B": "Enhancing range of motion",
+                    "C": "Lowering pain perception",
+                    "D": "Supporting joint stability"
+                }
             }
         }
     ]

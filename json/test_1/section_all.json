@@ -1,0 +1,627 @@
+{
+    "Section ALL": [
+        "",
+        {
+            "Q1": {
+                "desc": "Anatomy and Physiology of the Pain Signaling Process",
+                "question": "Which part of the nervous system is primarily responsible for transmitting pain signals from the site of injury to the brain?",
+                "options": {
+                    "A": "Central nervous system",
+                    "B": "Peripheral nervous system",
+                    "C": "Autonomic nervous system",
+                    "D": "Enteric nervous system"
+                }
+            },
+            "Q2": {
+                "desc": "Neurochemistry of Somatosensory and Pain Processing",
+                "question": "Which neurotransmitter is most commonly associated with the sensation of pain?",
+                "options": {
+                    "A": "Dopamine",
+                    "B": "Serotonin",
+                    "C": "Glutamate",
+                    "D": "Acetylcholine"
+                }
+            },
+            "Q3": {
+                "desc": "Taxonomy: Definition of Pain Terms and Chronic Pain Syndromes",
+                "question": "Which term is used to describe pain that persists for longer than three months?",
+                "options": {
+                    "A": "Acute pain",
+                    "B": "Chronic pain",
+                    "C": "Subacute pain",
+                    "D": "Recurrent pain"
+                }
+            },
+            "Q4": {
+                "desc": "Physical Examination of the Patient with Pain",
+                "question": "During a physical examination, which method is commonly used to assess a patient's pain level?",
+                "options": {
+                    "A": "Blood pressure measurement",
+                    "B": "Pain scale rating",
+                    "C": "Reflex testing",
+                    "D": "Blood glucose testing"
+                }
+            },
+            "Q5": {
+                "desc": "Psychological Evaluation and Testing",
+                "question": "Which tool is commonly used for psychological evaluation of pain?",
+                "options": {
+                    "A": "Beck Depression Inventory",
+                    "B": "Glucose tolerance test",
+                    "C": "MRI scan",
+                    "D": "Pulmonary function test"
+                }
+            },
+            "Q6": {
+                "desc": "Mental Disorders and Pain Management Diagnostic and Statistical Manual of Mental Disorders",
+                "question": "Which edition of the DSM is currently used for diagnosing mental disorders related to pain?",
+                "options": {
+                    "A": "DSM-III",
+                    "B": "DSM-IV",
+                    "C": "DSM-V",
+                    "D": "DSM-VI"
+                }
+            },
+            "Q7": {
+                "desc": "Neurophysiologic Testing for Pain",
+                "question": "Which test measures the electrical activity in muscles and nerves?",
+                "options": {
+                    "A": "Electromyography (EMG)",
+                    "B": "MRI",
+                    "C": "CT scan",
+                    "D": "X-ray"
+                }
+            },
+            "Q8": {
+                "desc": "Anatomy, Imaging, and Common Pain-Generating Degenerative Pathologies of the Spine",
+                "question": "Which imaging technique is most commonly used to diagnose degenerative spine conditions?",
+                "options": {
+                    "A": "X-ray",
+                    "B": "MRI",
+                    "C": "Ultrasound",
+                    "D": "PET scan"
+                }
+            },
+            "Q9": {
+                "desc": "Determination of Disability",
+                "question": "Which scale is commonly used to assess disability related to pain?",
+                "options": {
+                    "A": "Visual Analog Scale (VAS)",
+                    "B": "Oswestry Disability Index (ODI)",
+                    "C": "Hamilton Anxiety Scale",
+                    "D": "Montreal Cognitive Assessment (MoCA)"
+                }
+            },
+            "Q10": {
+                "desc": "Preventive Analgesia",
+                "question": "Which approach aims to reduce postoperative pain by administering analgesics before surgery?",
+                "options": {
+                    "A": "Reactive analgesia",
+                    "B": "Preventive analgesia",
+                    "C": "Delayed analgesia",
+                    "D": "Rescue analgesia"
+                }
+            },
+            "Q11": {
+                "desc": "Perioperative Nonopioid Infusions for Postoperative Pain Management ",
+                "question": "Which nonopioid medication is commonly used in perioperative infusions for pain management?",
+                "options": {
+                    "A": "Fentanyl",
+                    "B": "Ketamine",
+                    "C": "Morphine",
+                    "D": "Tramadol"
+                }
+            },
+            "Q12": {
+                "desc": "Patient-Controlled Analgesia",
+                "question": "Patient-Controlled Analgesia (PCA) allows patients to:",
+                "options": {
+                    "A": "Set their own pain medication dosage limits",
+                    "B": "Administer their own pain medication within preset limits",
+                    "C": "Prescribe their own medication",
+                    "D": "Refill their own medication"
+                }
+            },
+            "Q13": {
+                "desc": "Intrathecal Opioids for Postoperative Pain",
+                "question": "Which space in the spine is targeted for intrathecal opioid administration?",
+                "options": {
+                    "A": "Epidural space",
+                    "B": "Subarachnoid space",
+                    "C": "Intervertebral space",
+                    "D": "Paravertebral space"
+                }
+            },
+            "Q14": {
+                "desc": "Epidural Opioids for Postoperative Pain",
+                "question": "Epidural opioids are administered into which part of the spine?",
+                "options": {
+                    "A": "Subarachnoid space",
+                    "B": "Epidural space",
+                    "C": "Intervertebral disc",
+                    "D": "Lumbar vertebrae"
+                }
+            },
+            "Q15": {
+                "desc": "Continuous Peripheral Nerve Blocks",
+                "question": "Continuous peripheral nerve blocks are used primarily to:",
+                "options": {
+                    "A": "Treat chronic pain",
+                    "B": "Provide long-term pain relief",
+                    "C": "Provide regional anesthesia",
+                    "D": "Reduce inflammation"
+                }
+            },
+            "Q16": {
+                "desc": "Pediatric Postoperative Pain",
+                "question": "Which medication is most commonly used for managing postoperative pain in children?",
+                "options": {
+                    "A": "Ibuprofen",
+                    "B": "Fentanyl",
+                    "C": "Ketamine",
+                    "D": "Aspirin"
+                }
+            },
+            "Q17": {
+                "desc": "Chronic Pain After Surgery",
+                "question": "What is the term for pain that persists long after surgical healing?",
+                "options": {
+                    "A": "Acute postoperative pain",
+                    "B": "Phantom pain",
+                    "C": "Chronic postoperative pain",
+                    "D": "Reflex sympathetic dystrophy"
+                }
+            },
+            "Q18": {
+                "desc": "Migraine Headache and the Trigeminal Autonomic Cephalalgias",
+                "question": "Which symptom is commonly associated with migraines?",
+                "options": {
+                    "A": "Runny nose",
+                    "B": "Throbbing head pain",
+                    "C": "Coughing",
+                    "D": "Sore throat"
+                }
+            },
+            "Q19": {
+                "desc": "Tension-Type Headache, Chronic Tension-Type Headache, and Other Chronic Headache Types",
+                "question": "Which type of headache is characterized by a band-like pressure around the head?",
+                "options": {
+                    "A": "Migraine",
+                    "B": "Cluster headache",
+                    "C": "Tension-type headache",
+                    "D": "Sinus headache"
+                }
+            },
+            "Q20": {
+                "desc": "Postmeningeal Puncture Headache and Spontaneous Intracranial Hypotension",
+                "question": "Which activity can alleviate symptoms of postmeningeal puncture headache?",
+                "options": {
+                    "A": "Standing up quickly",
+                    "B": "Lying flat",
+                    "C": "Heavy exercise",
+                    "D": "Bending forward"
+                }
+            },
+            "Q21": {
+                "desc": "Cervicogenic Headache ",
+                "question": "Cervicogenic headaches are primarily caused by issues in which part of the body?",
+                "options": {
+                    "A": "Cervical spine",
+                    "B": "Thoracic spine",
+                    "C": "Lumbar spine",
+                    "D": "Sacral spine"
+                }
+            },
+            "Q22": {
+                "desc": "Orofacial Pain ",
+                "question": "Which condition is characterized by chronic pain in the face and mouth region?",
+                "options": {
+                    "A": "Tension-type headache",
+                    "B": "Migraine",
+                    "C": "Orofacial pain",
+                    "D": "Cluster headache"
+                }
+            },
+            "Q23": {
+                "desc": "Approach to the Management of Cancer Pain",
+                "question": "Which medication class is commonly used for managing moderate to severe cancer pain?",
+                "options": {
+                    "A": "Antidepressants",
+                    "B": "NSAIDs",
+                    "C": "Opioids",
+                    "D": "Antihistamines"
+                }
+            },
+            "Q24": {
+                "desc": "Management of Pain at End of Life",
+                "question": "Which approach is often used to manage pain at the end of life?",
+                "options": {
+                    "A": "Aggressive curative treatment",
+                    "B": "Palliative care",
+                    "C": "Preventive analgesia",
+                    "D": "Elective surgery"
+                }
+            },
+            "Q25": {
+                "desc": "Pain Management in the Emergency Department",
+                "question": "Which medication is often first-line for acute severe pain in the emergency department?",
+                "options": {
+                    "A": "Acetaminophen",
+                    "B": "Ibuprofen",
+                    "C": "Morphine",
+                    "D": "Aspirin"
+                }
+            },
+            "Q26": {
+                "desc": "Chronic Pain Management in Children and Adolescents",
+                "question": "Which psychological approach is commonly used in managing chronic pain in children and adolescents?",
+                "options": {
+                    "A": "Cognitive-behavioral therapy",
+                    "B": "Psychoanalysis",
+                    "C": "Hypnosis",
+                    "D": "Electroconvulsive therapy"
+                }
+            },
+            "Q27": {
+                "desc": "Sickle Cell Disease",
+                "question": "What type of pain is most commonly associated with sickle cell disease?",
+                "options": {
+                    "A": "Neuropathic pain",
+                    "B": "Inflammatory pain",
+                    "C": "Acute pain crisis",
+                    "D": "Phantom limb pain"
+                }
+            },
+            "Q28": {
+                "desc": "Pain Management During Pregnancy and Lactation",
+                "question": "Which pain medication is generally considered safe during pregnancy?",
+                "options": {
+                    "A": "Ibuprofen",
+                    "B": "Aspirin",
+                    "C": "Acetaminophen",
+                    "D": "Naproxen"
+                }
+            },
+            "Q29": {
+                "desc": "Pain Control in the Critically Ill Patient",
+                "question": "What is a key consideration when managing pain in critically ill patients?",
+                "options": {
+                    "A": "Avoiding all medications",
+                    "B": "Minimizing sedation",
+                    "C": "Prioritizing non-pharmacological treatments",
+                    "D": "Using high-dose opioids exclusively"
+                }
+            },
+            "Q30": {
+                "desc": "Geriatric Pain",
+                "question": "Which is a common challenge in managing pain in geriatric patients?",
+                "options": {
+                    "A": "High pain tolerance",
+                    "B": "Poor medication absorption",
+                    "C": "Polypharmacy",
+                    "D": "Fast metabolism of drugs"
+                }
+            },
+            "Q31": {
+                "desc": "Major Opioids in Pain Management",
+                "question": "Which opioid is considered a major opioid used in pain management?",
+                "options": {
+                    "A": "Codeine",
+                    "B": "Morphine",
+                    "C": "Tramadol",
+                    "D": "Acetaminophen"
+                }
+            },
+            "Q32": {
+                "desc": "Opioids Used for Mild to Moderate Pain",
+                "question": "Which opioid is commonly prescribed for mild to moderate pain?",
+                "options": {
+                    "A": "Fentanyl",
+                    "B": "Morphine",
+                    "C": "Codeine",
+                    "D": "Oxycodone"
+                }
+            },
+            "Q33": {
+                "desc": "The Prescription Drug Abuse Epidemic and Emerging Prescribing Guidelines",
+                "question": "Which guideline aims to reduce prescription opioid abuse?",
+                "options": {
+                    "A": "CDC Guideline for Prescribing Opioids",
+                    "B": "ADA Pain Management Guideline",
+                    "C": "WHO Antibiotic Prescribing Guideline",
+                    "D": "AHA Hypertension Guideline"
+                }
+            },
+            "Q34": {
+                "desc": "Legal and Regulatory Issues in Pain Management",
+                "question": "Which agency regulates the prescription of controlled substances?",
+                "options": {
+                    "A": "FDA",
+                    "B": "CDC",
+                    "C": "DEA",
+                    "D": "NIH"
+                }
+            },
+            "Q35": {
+                "desc": "Urine Drug Testing in Pain Medicine",
+                "question": "Which purpose does urine drug testing serve in pain management?",
+                "options": {
+                    "A": "Diagnosing infections",
+                    "B": "Monitoring medication adherence",
+                    "C": "Measuring blood sugar levels",
+                    "D": "Checking kidney function"
+                }
+            },
+            "Q36": {
+                "desc": "Substance Use Disorders and Detoxification",
+                "question": "Which treatment is often used for opioid detoxification?",
+                "options": {
+                    "A": "Methadone",
+                    "B": "Ibuprofen",
+                    "C": "Cortisone",
+                    "D": "Acetaminophen"
+                }
+            },
+            "Q37": {
+                "desc": "Psychopharmacology for Pain Medicine",
+                "question": "Which class of medication is often used to treat both depression and chronic pain?",
+                "options": {
+                    "A": "Antibiotics",
+                    "B": "Antidepressants",
+                    "C": "Antihistamines",
+                    "D": "Antivirals"
+                }
+            },
+            "Q38": {
+                "desc": "Membrane Stabilizers",
+                "question": "Which medication is considered a membrane stabilizer used for neuropathic pain?",
+                "options": {
+                    "A": "Gabapentin",
+                    "B": "Ibuprofen",
+                    "C": "Acetaminophen",
+                    "D": "Morphine"
+                }
+            },
+            "Q39": {
+                "desc": "Recommendations for Pharmacologic Therapy of Neuropathic Pain",
+                "question": "Which class of drugs is recommended as first-line therapy for neuropathic pain?",
+                "options": {
+                    "A": "NSAIDs",
+                    "B": "Anticonvulsants",
+                    "C": "Beta-blockers",
+                    "D": "Antibiotics"
+                }
+            },
+            "Q40": {
+                "desc": "Ablative Neurosurgical Procedures for Treatment of Chronic Pain",
+                "question": "Which procedure involves the destruction of nerve tissue to relieve pain?",
+                "options": {
+                    "A": "Nerve block",
+                    "B": "Neurolysis",
+                    "C": "Ablative neurosurgery",
+                    "D": "Radiofrequency ablation"
+                }
+            },
+            "Q41": {
+                "desc": "Physical Medicine and Rehabilitation Approaches to Pain Management",
+                "question": "Which therapy is commonly included in physical medicine for pain management?",
+                "options": {
+                    "A": "Electroconvulsive therapy",
+                    "B": "Physical therapy",
+                    "C": "Chemotherapy",
+                    "D": "Dialysis"
+                }
+            },
+            "Q42": {
+                "desc": "Psychologic Interventions for Chronic Pain",
+                "question": "Which psychological intervention is frequently used for managing chronic pain?",
+                "options": {
+                    "A": "Cognitive-behavioral therapy (CBT)",
+                    "B": "Psychoanalysis",
+                    "C": "Hypnosis",
+                    "D": "Dialectical behavior therapy (DBT)"
+                }
+            },
+            "Q43": {
+                "desc": "Acupuncture",
+                "question": "Which principle underlies the practice of acupuncture for pain relief?",
+                "options": {
+                    "A": "Blocking nerve signals",
+                    "B": "Balancing energy flow",
+                    "C": "Reducing inflammation",
+                    "D": "Increasing blood pressure"
+                }
+            },
+            "Q44": {
+                "desc": "Tai Chi and Chronic Pain",
+                "question": "Tai Chi is primarily used to manage chronic pain by improving:",
+                "options": {
+                    "A": "Cardiovascular fitness",
+                    "B": "Mental health",
+                    "C": "Flexibility and balance",
+                    "D": "Bone density"
+                }
+            },
+            "Q45": {
+                "desc": "Interlaminar Epidural Steroid Injections",
+                "question": "Interlaminar epidural steroid injections are most commonly used to treat:",
+                "options": {
+                    "A": "Headaches",
+                    "B": "Lower back pain",
+                    "C": "Abdominal pain",
+                    "D": "Joint pain"
+                }
+            },
+            "Q46": {
+                "desc": "Transforaminal Epidural Steroid Injections and Selective Nerve Root Blocks",
+                "question": "What is the main difference between transforaminal and interlaminar epidural steroid injections?",
+                "options": {
+                    "A": "The type of medication used",
+                    "B": "The target location of the injection",
+                    "C": "The duration of pain relief",
+                    "D": "The level of pain treated"
+                }
+            },
+            "Q47": {
+                "desc": "Antitumor Necrosis Factor-α Therapy",
+                "question": "Which condition is primarily treated with antitumor necrosis factor-α therapy?",
+                "options": {
+                    "A": "Osteoarthritis",
+                    "B": "Rheumatoid arthritis",
+                    "C": "Migraine",
+                    "D": "Tension-type headache"
+                }
+            },
+            "Q48": {
+                "desc": "Disease-Modifying Antirheumatic Drugs for Low Back Pain",
+                "question": "Which medication is considered a disease-modifying antirheumatic drug (DMARD) for low back pain?",
+                "options": {
+                    "A": "Methotrexate",
+                    "B": "Acetaminophen",
+                    "C": "Ibuprofen",
+                    "D": "Aspirin"
+                }
+            },
+            "Q49": {
+                "desc": "Sacroiliac Joint Pain",
+                "question": "Which type of injection is commonly used to diagnose and treat sacroiliac joint pain?",
+                "options": {
+                    "A": "Epidural injection",
+                    "B": "Facet joint injection",
+                    "C": "Sacroiliac joint injection",
+                    "D": "Trigger point injection"
+                }
+            },
+            "Q50": {
+                "desc": "Piriformis Syndrome",
+                "question": "Piriformis syndrome primarily affects which part of the body?",
+                "options": {
+                    "A": "Neck",
+                    "B": "Lower back",
+                    "C": "Buttocks",
+                    "D": "Shoulders"
+                }
+            },
+            "Q51": {
+                "desc": "Pulsed Radiofrequency, Water-Cooled Radiofrequency, and Cryoneurolysis",
+                "question": "Which technique uses low temperature to disrupt nerve function and relieve pain?",
+                "options": {
+                    "A": "Pulsed radiofrequency",
+                    "B": "Water-cooled radiofrequency",
+                    "C": "Cryoneurolysis",
+                    "D": "Neurostimulation"
+                }
+            },
+            "Q52": {
+                "desc": "Discography",
+                "question": "Discography is primarily used to diagnose pain originating from:",
+                "options": {
+                    "A": "Muscles",
+                    "B": "Bones",
+                    "C": "Intervertebral discs",
+                    "D": "Ligaments"
+                }
+            },
+            "Q53": {
+                "desc": "Vertebroplasty and Kyphoplasty",
+                "question": "Vertebroplasty and kyphoplasty are procedures designed to treat:",
+                "options": {
+                    "A": "Spinal fractures",
+                    "B": "Herniated discs",
+                    "C": "Scoliosis",
+                    "D": "Muscle spasms"
+                }
+            },
+            "Q54": {
+                "desc": "Neurolytic Sympathetic Blocks",
+                "question": "Neurolytic sympathetic blocks are primarily used for managing:",
+                "options": {
+                    "A": "Headaches",
+                    "B": "Neuropathic pain",
+                    "C": "Visceral pain",
+                    "D": "Joint pain"
+                }
+            },
+            "Q55": {
+                "desc": "Ultrasound-Guided Procedures for Pain Management: Spine Injections and Relevant Peripheral Nerve Blocks",
+                "question": "What is the primary advantage of using ultrasound guidance for nerve blocks?",
+                "options": {
+                    "A": "Reduced pain during injection",
+                    "B": "Increased accuracy of injection",
+                    "C": "Faster procedure time",
+                    "D": "Lower cost"
+                }
+            },
+            "Q56": {
+                "desc": "Deep Muscle Injections: Piriformis, Scalene Muscle, Iliopsoas Injection Techniques",
+                "question": "Deep muscle injections are commonly used to treat:",
+                "options": {
+                    "A": "Joint pain",
+                    "B": "Muscle spasms",
+                    "C": "Bone fractures",
+                    "D": "Skin infections"
+                }
+            },
+            "Q57": {
+                "desc": "Ultrasound-Guided Musculoskeletal Injections—Shoulder, Hip, Knee",
+                "question": "Ultrasound-guided musculoskeletal injections are often used to treat pain in which areas?",
+                "options": {
+                    "A": "Shoulder, hip, knee",
+                    "B": "Head, neck, back",
+                    "C": "Hand, wrist, ankle",
+                    "D": "Abdomen, chest, pelvis"
+                }
+            },
+            "Q58": {
+                "desc": "Head and Neck Blocks",
+                "question": "Which condition is commonly treated with head and neck nerve blocks?",
+                "options": {
+                    "A": "Migraine",
+                    "B": "Hypertension",
+                    "C": "Diabetes",
+                    "D": "Asthma"
+                }
+            },
+            "Q59": {
+                "desc": "Truncal Blocks: Paravertebral, Intercostal, Pectoral Nerve, Suprascapular, Ilioinguinal, Iliohypogastric Nerve, and Transversus Abdominis Plane Blocks",
+                "question": "Truncal blocks are primarily used to manage pain in which part of the body?",
+                "options": {
+                    "A": "Arms",
+                    "B": "Legs",
+                    "C": "Trunk",
+                    "D": "Head"
+                }
+            },
+            "Q60": {
+                "desc": "Fluoroscopy and Ultrasound-Guided Sympathetic Blocks: Stellate Ganglion, Lumbar Sympathetic Blocks, and Visceral Sympathetic Blocks",
+                "question": "Fluoroscopy and ultrasound are used in sympathetic blocks to:",
+                "options": {
+                    "A": "Visualize the target area",
+                    "B": "Reduce the need for anesthesia",
+                    "C": "Shorten recovery time",
+                    "D": "Increase the duration of pain relief"
+                }
+            },
+            "Q61": {
+                "desc": "Interventional Pain Procedures in Patients on Anticoagulants",
+                "question": "When performing interventional pain procedures on patients taking anticoagulants, it is important to:",
+                "options": {
+                    "A": "Stop all anticoagulants immediately",
+                    "B": "Monitor for bleeding complications",
+                    "C": "Increase the dose of anticoagulants",
+                    "D": "Avoid using imaging guidance"
+                }
+            },
+            "Q62": {
+                "desc": "Interventional Pain Procedures and the Risk of Infection",
+                "question": "Which measure is essential to minimize the risk of infection during interventional pain procedures?",
+                "options": {
+                    "A": "Using sterile techniques",
+                    "B": "Administering antibiotics post-procedure",
+                    "C": "Increasing procedure time",
+                    "D": "Avoiding local anesthesia"
+                }
+            }
+        }
+    ]
+}

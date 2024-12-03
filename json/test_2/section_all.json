@@ -1,0 +1,751 @@
+{
+    "Section ALL": [
+        "",
+        {
+            "Q1": {
+                "desc": "Anatomy and Physiology of the Pain Signaling Process",
+                "question": "Match the anatomical structure with its function in pain signaling.",
+                "label": ["Structure", "Function"],
+                "option": ["Dorsal root ganglion", "Nociceptor", "Spinal cord", "Thalamus"],
+                "options": {
+                    "A": "Releases neurotransmitters for pain",
+                    "B": "Transmits pain signals to the brain",
+                    "C": "Detects noxious stimuli",
+                    "D": "Integrates and processes pain signals"
+                }
+            },
+            "Q2": {
+                "desc": "Neurochemistry of Somatosensory and Pain Processing",
+                "question": "Match the neurotransmitter with its role in pain processing.",
+                "label": ["Neurotransmitter", "Role"],
+                "option": ["Glutamate", "Substance P", "GABA", "Endorphins"],
+                "options": {
+                    "A": "Inhibitory neurotransmitter",
+                    "B": "Excitatory neurotransmitter",
+                    "C": "Pain signal modulation",
+                    "D": "Natural pain relief"
+                }
+            },
+            "Q3": {
+                "desc": "Taxonomy: Definition of Pain Terms and Chronic Pain Syndromes",
+                "question": "Match the pain term with its correct definition.",
+                "label": ["Pain Term", "Definition"],
+                "option": ["Acute pain", "Chronic pain", "Neuropathic pain", "Nociceptive pain"],
+                "options": {
+                    "A": "Pain persisting longer than three months",
+                    "B": "Pain that occurs due to nerve damage",
+                    "C": "Pain lasting less than three months",
+                    "D": "Pain from tissue damage or inflammation"
+                }
+            },
+            "Q4": {
+                "desc": "Physical Examination of the Patient with Pain",
+                "question": "Match the examination technique with its purpose.",
+                "label": ["Examination Technique", "Purpose"],
+                "option": ["Palpation", "Visual inspection", "Gait analysis", "Range of motion testing"],
+                "options": {
+                    "A": "Assessing range of motion",
+                    "B": "Identifying areas of tenderness",
+                    "C": "Observing physical abnormalities",
+                    "D": "Analyzing walking patterns"
+                }
+            },
+            "Q5": {
+                "desc": "Psychological Evaluation and Testing",
+                "question": "Match the psychological test with its application in pain evaluation.",
+                "label": ["Psychological Test", "Application"],
+                "option": ["Beck Depression Inventory", "McGill Pain Questionnaire", "State-Trait Anxiety Inventory", "Pain Catastrophizing Scale"],
+                "options": {
+                    "A": "Evaluating anxiety levels",
+                    "B": "Assessing pain perception and intensity",
+                    "C": "Measuring depression severity",
+                    "D": "Determining negative pain-related thoughts"
+                }
+            },
+            "Q6": {
+                "desc": "Mental Disorders and Pain Management Diagnostic and Statistical Manual of Mental Disorders.",
+                "question": "Match the mental disorder with its typical pain-related symptom",
+                "label": ["Mental Disorder", "Pain-Related Symptom"],
+                "option": ["Depression", "Anxiety", "Somatic symptom disorder", "PTSD"],
+                "options": {
+                    "A": "Increased pain sensitivity",
+                    "B": "Muscle tension",
+                    "C": "Unexplained physical pain",
+                    "D": "Chronic headaches"
+                }
+            },
+            "Q7": {
+                "desc": "Neurophysiologic Testing for Pain",
+                "question": "Match the neurophysiologic test with what it measures.",
+                "label": ["Neurophysiologic Test", "Measurement"],
+                "option": ["Electromyography (EMG)", "Nerve conduction study", "Electroencephalography (EEG)", "Somatosensory evoked potentials (SSEPs)"],
+                "options": {
+                    "A": "Brain activity",
+                    "B": "Muscle electrical activity",
+                    "C": "Nerve signal transmission",
+                    "D": "Sensory pathway function"
+                }
+            },
+            "Q8": {
+                "desc": "Anatomy, Imaging, and Common Pain-Generating Degenerative Pathologies of the Spine",
+                "question": "Match the imaging technique with its primary use in diagnosing spine conditions.",
+                "label": ["Imaging Technique", "Primary Use"],
+                "option": ["X-ray", "MRI", "CT scan", "Ultrasound"],
+                "options": {
+                    "A": "Soft tissue evaluation",
+                    "B": "Bone structure visualization",
+                    "C": "Detailed cross-sectional images",
+                    "D": "Real-time imaging of moving structures"
+                }
+            },
+            "Q9": {
+                "desc": "Determination of Disability",
+                "question": "Match the disability assessment tool with its focus area.",
+                "label": ["Assessment Tool", "Focus Area"],
+                "option": ["Oswestry Disability Index", "Visual Analog Scale (VAS)", "SF-36 Health Survey", "Roland-Morris Disability Questionnaire"],
+                "options": {
+                    "A": "Functional limitations",
+                    "B": "Pain intensity",
+                    "C": "General health and well-being",
+                    "D": "Back pain-specific disability"
+                }
+            },
+            "Q10": {
+                "desc": "Preventive Analgesia",
+                "question": "Match the analgesic approach with its description.",
+                "label": ["Analgesic Approach", "Description"],
+                "option": ["Preemptive analgesia", "Preventive analgesia", "Multimodal analgesia", "Rescue analgesia"],
+                "options": {
+                    "A": "Administered after surgery to control pain",
+                    "B": "Given before surgery to prevent pain",
+                    "C": "Using multiple drugs to manage pain",
+                    "D": "Used to alleviate breakthrough pain"
+                }
+            },
+            "Q11": {
+                "desc": "Perioperative Nonopioid Infusions for Postoperative Pain Management",
+                "question": "Match the nonopioid medication with its mechanism of action.",
+                "label": ["Nonopioid Medication", "Mechanism of Action"],
+                "option": ["Ketamine", "Lidocaine", "Acetaminophen", "Dexmedetomidine"],
+                "options": {
+                    "A": "NMDA receptor antagonist",
+                    "B": "Sodium channel blocker",
+                    "C": "COX inhibitor",
+                    "D": "Alpha-2 adrenergic agonist"
+                }
+            },
+            "Q12": {
+                "desc": "Patient-Controlled Analgesia",
+                "question": "Match the component of the PCA device with its function.",
+                "label": ["PCA Component", "Function"],
+                "option": ["Pump", "Button", "Reservoir", "Display"],
+                "options": {
+                    "A": "Stores the analgesic solution",
+                    "B": "Delivers the set dose of medication",
+                    "C": "Allows the patient to control dosing",
+                    "D": "Shows the remaining doses"
+                }
+            },
+            "Q13": {
+                "desc": "Intrathecal Opioids for Postoperative Pain",
+                "question": "Match the opioid with its common intrathecal use.",
+                "label": ["Opioid", "Intrathecal Use"],
+                "option": ["Morphine", "Fentanyl", "Hydromorphone", "Sufentanil"],
+                "options": {
+                    "A": "Short-term pain relief",
+                    "B": "Long-term pain control",
+                    "C": "Moderate to severe pain management",
+                    "D": "Highly potent analgesic"
+                }
+            },
+            "Q14": {
+                "desc": "Epidural Opioids for Postoperative Pain",
+                "question": "Match the benefit of epidural opioids with the corresponding outcome.",
+                "label": ["Benefit", "Outcome"],
+                "option": ["Lower systemic side effects", "Better pain control", "Reduced need for systemic opioids", "Improved mobility"],
+                "options": {
+                    "A": "Faster recovery",
+                    "B": "Less respiratory depression",
+                    "C": "Enhanced patient comfort",
+                    "D": "Lower pain scores"
+                }
+            },
+            "Q15": {
+                "desc": "Continuous Peripheral Nerve Blocks",
+                "question": "Match the nerve block with its target area.",
+                "label": ["Nerve Block", "Target Area"],
+                "option": ["Femoral nerve block", "Sciatic nerve block", "Brachial plexus block", "Popliteal nerve block"],
+                "options": {
+                    "A": "Shoulder and upper arm",
+                    "B": "Lower leg and foot",
+                    "C": "Hip and knee",
+                    "D": "Ankle and foot"
+                }
+            },
+            "Q16": {
+                "desc": "Pediatric Postoperative Pain",
+                "question": "Match the pain management strategy with its pediatric use.",
+                "label": ["Pain Management Strategy", "Pediatric Use"],
+                "option": ["Ibuprofen", "Fentanyl", "Acetaminophen", "Regional anesthesia"],
+                "options": {
+                    "A": "Mild to moderate pain",
+                    "B": "Severe pain",
+                    "C": "Fever and mild pain",
+                    "D": "Localized pain control"
+                }
+            },
+            "Q17": {
+                "desc": "Chronic Pain After Surgery",
+                "question": "Match the type of chronic pain with its common cause.",
+                "label": ["Type of Chronic Pain", "Common Cause"],
+                "option": ["Neuropathic pain", "Phantom limb pain", "Myofascial pain", "Complex regional pain syndrome"],
+                "options": {
+                    "A": "Nerve injury during surgery",
+                    "B": "Limb amputation",
+                    "C": "Muscle overuse or strain",
+                    "D": "Injury or surgery affecting a limb"
+                }
+            },
+            "Q18": {
+                "desc": "Migraine Headache and the Trigeminal Autonomic Cephalalgias",
+                "question": "Match the symptom with its associated headache type.",
+                "label": ["Symptom", "Headache Type"],
+                "option": ["Throbbing head pain", "Severe unilateral pain", "Band-like pressure", "Facial pain and redness"],
+                "options": {
+                    "A": "Migraine",
+                    "B": "Cluster headache",
+                    "C": "Tension-type headache",
+                    "D": "Trigeminal neuralgia"
+                }
+            },
+            "Q19": {
+                "desc": "Tension-Type Headache, Chronic Tension-Type Headache, and Other Chronic Headache Types",
+                "question": "Match the headache type with its primary characteristic.",
+                "label": ["Headache Type", "Primary Characteristic"],
+                "option": ["Tension-type headache", "Chronic migraine", "Cluster headache", "Cervicogenic headache"],
+                "options": {
+                    "A": "Bilateral, mild to moderate pain",
+                    "B": "Frequent, severe headaches",
+                    "C": "Brief, intense pain near one eye",
+                    "D": "Pain originating from the neck"
+                }
+            },
+            "Q20": {
+                "desc": "Postmeningeal Puncture Headache and Spontaneous Intracranial Hypotension",
+                "question": "Match the condition with its typical symptom.",
+                "label": ["Condition", "Typical Symptom"],
+                "option": ["Postmeningeal puncture headache", "Spontaneous intracranial hypotension", "Migraine", "Tension-type headache"],
+                "options": {
+                    "A": "Positional headache",
+                    "B": "Sudden onset of severe headache",
+                    "C": "Aura followed by headache",
+                    "D": "Dull, aching head pain"
+                }
+            },
+            "Q21": {
+                "desc": " Cervicogenic Headache",
+                "question": "Match the diagnostic technique with its use in cervicogenic headache.",
+                "label": ["Diagnostic Technique", "Use"],
+                "option": ["MRI", "X-ray", "Physical examination", "Nerve block"],
+                "options": {
+                    "A": "Visualizing soft tissues",
+                    "B": "Assessing bone structures",
+                    "C": "Identifying trigger points",
+                    "D": "Confirming source of pain"
+                }
+            },
+            "Q22": {
+                "desc": "Orofacial Pain",
+                "question": "Match the orofacial pain condition with its description.",
+                "label": ["Condition", "Description"],
+                "option": ["Trigeminal neuralgia", "Temporomandibular disorder", "Burning mouth syndrome", "Glossopharyngeal neuralgia"],
+                "options": {
+                    "A": "Sudden, severe facial pain",
+                    "B": "Jaw pain and dysfunction",
+                    "C": "Chronic burning sensation in the mouth",
+                    "D": "Pain in the throat and tongue"
+                }
+            },
+            "Q23": {
+                "desc": "Approach to the Management of Cancer Pain",
+                "question": "Match the cancer pain treatment with its mechanism.",
+                "label": ["Treatment", "Mechanism"],
+                "option": ["Opioids", "NSAIDs", "Corticosteroids", "Antidepressants"],
+                "options": {
+                    "A": "Inhibit pain signals",
+                    "B": "Reduce inflammation",
+                    "C": "Decrease swelling and pain",
+                    "D": "Modulate pain perception"
+                }
+            },
+            "Q24": {
+                "desc": "Management of Pain at End of Life",
+                "question": "Match the pain management approach with its primary goal.",
+                "label": ["Approach", "Primary Goal"],
+                "option": ["Palliative care", "Curative treatment", "Preventive analgesia", "Symptom management"],
+                "options": {
+                    "A": "Enhance quality of life",
+                    "B": "Eliminate the disease",
+                    "C": "Prevent onset of pain",
+                    "D": "Alleviate specific symptoms"
+                }
+            },
+            "Q25": {
+                "desc": "Pain Management in the Emergency Department ",
+                "question": "Match the medication with its typical use in emergency pain management.",
+                "label": ["Medication", "Typical Use"],
+                "option": ["Morphine", "Acetaminophen", "Ketorolac", "Lidocaine"],
+                "options": {
+                    "A": "Severe pain",
+                    "B": "Mild to moderate pain",
+                    "C": "Short-term moderate to severe pain",
+                    "D": "Local anesthesia"
+                }
+            },
+            "Q26": {
+                "desc": "Chronic Pain Management in Children and Adolescents",
+                "question": "Match the intervention with its role in pediatric pain management.",
+                "label": ["Intervention", "Role"],
+                "option": ["Cognitive-behavioral therapy", "Physical therapy", "Medications", "Family therapy"],
+                "options": {
+                    "A": "Addressing negative thought patterns",
+                    "B": "Improving physical function",
+                    "C": "Reducing pain intensity",
+                    "D": "Supporting family involvement"
+                }
+            },
+            "Q27": {
+                "desc": "Sickle Cell Disease",
+                "question": "Match the type of pain with its associated condition in sickle cell disease.",
+                "label": ["Type of Pain", "Associated Condition"],
+                "option": ["Acute pain crisis", "Chronic pain", "Neuropathic pain", "Myofascial pain"],
+                "options": {
+                    "A": "Vaso-occlusive crisis",
+                    "B": "Organ damage",
+                    "C": "Nerve injury",
+                    "D": "Muscle overuse"
+                }
+            },
+            "Q28": {
+                "desc": "Pain Management During Pregnancy and Lactation",
+                "question": "Match the pain management strategy with its safety during pregnancy.",
+                "label": ["Strategy", "Safety"],
+                "option": ["Acetaminophen", "NSAIDs", "Opioids", "Aspirin"],
+                "options": {
+                    "A": "Generally safe",
+                    "B": "Generally not recommended",
+                    "C": "Use with caution",
+                    "D": "Avoid during third trimester"
+                }
+            },
+            "Q29": {
+                "desc": "Pain Control in the Critically Ill Patient",
+                "question": "Match the pain management consideration with its corresponding patient outcome.",
+                "label": ["Consideration", "Patient Outcome"],
+                "option": ["Minimizing sedation", "Using multimodal analgesia", "Monitoring for side effects", "Individualizing treatment"],
+                "options": {
+                    "A": "Maintaining alertness",
+                    "B": "Reducing opioid requirements",
+                    "C": "Preventing complications",
+                    "D": "Tailoring to patient needs"
+                }
+            },
+            "Q30": {
+                "desc": "Geriatric Pain",
+                "question": "Match the challenge in geriatric pain management with its explanation.",
+                "label": ["Challenge", "Explanation"],
+                "option": ["Polypharmacy", "Poor medication absorption", "Increased sensitivity to medications", "Cognitive impairment"],
+                "options": {
+                    "A": "Multiple medications leading to interactions",
+                    "B": "Reduced gastrointestinal function",
+                    "C": "Altered pharmacodynamics",
+                    "D": "Difficulty in pain assessment"
+                }
+            },
+            "Q31": {
+                "desc": "Major Opioids in Pain Management",
+                "question": "Match the opioid with its typical use.",
+                "label": ["Opioid", "Typical Use"],
+                "option": ["Morphine", "Fentanyl", "Oxycodone", "Hydrocodone"],
+                "options": {
+                    "A": "Severe pain",
+                    "B": "Chronic pain",
+                    "C": "Postoperative pain",
+                    "D": "Moderate to severe pain"
+                }
+            },
+            "Q32": {
+                "desc": "Opioids Used for Mild to Moderate Pain",
+                "question": "Match the opioid with its common indication.",
+                "label": ["Opioid", "Common Indication"],
+                "option": ["Codeine", "Tramadol", "Hydrocodone", "Buprenorphine"],
+                "options": {
+                    "A": "Mild to moderate pain",
+                    "B": "Moderate pain",
+                    "C": "Moderate to severe pain",
+                    "D": "Pain management and addiction treatment"
+                }
+            },
+            "Q33": {
+                "desc": "The Prescription Drug Abuse Epidemic and Emerging Prescribing Guidelines",
+                "question": "Match the guideline with its purpose in reducing opioid abuse.",
+                "label": ["Guideline", "Purpose"],
+                "option": ["CDC Guideline for Prescribing Opioids", "FDA REMS", "State PDMPs", "Opioid contracts"],
+                "options": {
+                    "A": "Providing safer prescribing practices",
+                    "B": "Monitoring medication risks",
+                    "C": "Tracking prescription data",
+                    "D": "Establishing patient-provider agreements"
+                }
+            },
+            "Q34": {
+                "desc": "Legal and Regulatory Issues in Pain Management",
+                "question": "Match the regulatory body with its role in pain management.",
+                "label": ["Regulatory Body", "Role"],
+                "option": ["DEA", "FDA", "CMS", "State medical boards"],
+                "options": {
+                    "A": "Enforcing controlled substance laws",
+                    "B": "Regulating medications",
+                    "C": "Overseeing Medicare and Medicaid",
+                    "D": "Licensing and regulating physicians"
+                }
+            },
+            "Q35": {
+                "desc": "Urine Drug Testing in Pain Medicine",
+                "question": "Match the urine drug test result with its interpretation.",
+                "label": ["Test Result", "Interpretation"],
+                "option": ["Positive for prescribed opioid", "Positive for non-prescribed drug", "Negative for prescribed opioid", "Positive for metabolites"],
+                "options": {
+                    "A": "Patient is adherent to treatment",
+                    "B": "Possible substance abuse",
+                    "C": "Possible non-adherence",
+                    "D": "Confirming medication metabolism"
+                }
+            },
+            "Q36": {
+                "desc": "Substance Use Disorders and Detoxification",
+                "question": "Match the detoxification method with its substance use disorder.",
+                "label": ["Detoxification Method", "Substance Use Disorder"],
+                "option": ["Methadone", "Buprenorphine", "Benzodiazepines", "Nicotine replacement therapy"],
+                "options": {
+                    "A": "Opioid dependence",
+                    "B": "Opioid dependence",
+                    "C": "Alcohol dependence",
+                    "D": "Tobacco dependence"
+                }
+            },
+            "Q37": {
+                "desc": "Psychopharmacology for Pain Medicine",
+                "question": "Match the psychotropic medication with its pain management use.",
+                "label": ["Medication", "Pain Management Use"],
+                "option": ["Antidepressants", "Anticonvulsants", "Anxiolytics", "Antipsychotics"],
+                "options": {
+                    "A": "Neuropathic pain",
+                    "B": "Chronic pain",
+                    "C": "Anxiety-related pain",
+                    "D": "Severe pain with psychosis"
+                }
+            },
+            "Q38": {
+                "desc": "Membrane Stabilizers",
+                "question": "Match the membrane stabilizer with its primary effect on pain.",
+                "label": ["Membrane Stabilizer", "Primary Effect"],
+                "option": ["Gabapentin", "Pregabalin", "Carbamazepine", "Lidocaine"],
+                "options": {
+                    "A": "Reducing neuropathic pain",
+                    "B": "Decreasing nerve excitability",
+                    "C": "Treating trigeminal neuralgia",
+                    "D": "Providing local anesthesia"
+                }
+            },
+            "Q39": {
+                "desc": "Recommendations for Pharmacologic Therapy of Neuropathic Pain",
+                "question": "Match the recommended drug class with its example for neuropathic pain.",
+                "label": ["Drug Class", "Example"],
+                "option": ["Anticonvulsants", "Antidepressants", "Opioids", "Topical agents"],
+                "options": {
+                    "A": "Gabapentin",
+                    "B": "Amitriptyline",
+                    "C": "Morphine",
+                    "D": "Capsaicin"
+                }
+            },
+            "Q40": {
+                "desc": "Ablative Neurosurgical Procedures for Treatment of Chronic Pain",
+                "question": "Match the neurosurgical procedure with its description.",
+                "label": ["Procedure", "Description"],
+                "option": ["Cordotomy", "Rhizotomy", "Thalamotomy", "Myelotomy"],
+                "options": {
+                    "A": "Cutting nerve fibers to relieve pain",
+                    "B": "Destroying nerve roots",
+                    "C": "Lesioning part of the thalamus",
+                    "D": "Severing spinal cord tracts"
+                }
+            },
+            "Q41": {
+                "desc": "Physical Medicine and Rehabilitation Approaches to Pain Management",
+                "question": "Match the rehabilitation technique with its goal.",
+                "label": ["Rehabilitation Technique", "Goal"],
+                "option": ["Physical therapy", "Occupational therapy", "Aquatic therapy", "Chiropractic care"],
+                "options": {
+                    "A": "Improving mobility",
+                    "B": "Enhancing daily living activities",
+                    "C": "Reducing pain and increasing range of motion",
+                    "D": "Aligning the spine"
+                }
+            },
+            "Q42": {
+                "desc": "Psychologic Interventions for Chronic Pain",
+                "question": "Match the psychological intervention with its technique.",
+                "label": ["Psychological Intervention", "Technique"],
+                "option": ["Cognitive-behavioral therapy", "Biofeedback", "Hypnosis", "Mindfulness meditation"],
+                "options": {
+                    "A": "Changing negative thought patterns",
+                    "B": "Controlling physiological functions",
+                    "C": "Altering perception through suggestion",
+                    "D": "Focusing on the present moment"
+                }
+            },
+            "Q43": {
+                "desc": "Acupuncture",
+                "question": "Match the acupuncture point with its common treatment area.",
+                "label": ["Acupuncture Point", "Treatment Area"],
+                "option": ["LI4 (Hegu)", "ST36 (Zusanli)", "SP6 (Sanyinjiao)", "GB20 (Fengchi)"],
+                "options": {
+                    "A": "Headaches",
+                    "B": "Digestive issues",
+                    "C": "Gynecological problems",
+                    "D": "Neck pain"
+                }
+            },
+            "Q44": {
+                "desc": "Tai Chi and Chronic Pain",
+                "question": "Match the benefit of Tai Chi with its impact on chronic pain.",
+                "label": ["Benefit", "Impact on Chronic Pain"],
+                "option": ["Improved balance", "Increased flexibility", "Stress reduction", "Muscle strengthening"],
+                "options": {
+                    "A": "Reducing fall risk",
+                    "B": "Enhancing range of motion",
+                    "C": "Lowering pain perception",
+                    "D": "Supporting joint stability"
+                }
+            },
+            "Q45": {
+                "desc": "Interlaminar Epidural Steroid Injections",
+                "question": "Match the component of the injection with its purpose.",
+                "label": ["Component", "Purpose"],
+                "option": ["Steroid", "Local anesthetic", "Saline solution", "Contrast dye"],
+                "options": {
+                    "A": "Reducing inflammation",
+                    "B": "Providing immediate pain relief",
+                    "C": "Flushing the epidural space",
+                    "D": "Enhancing imaging accuracy"
+                }
+            },
+            "Q46": {
+                "desc": "Transforaminal Epidural Steroid Injections and Selective Nerve Root Blocks",
+                "question": "Match the condition with the preferred injection approach.",
+                "label": ["Condition", "Preferred Injection Approach"],
+                "option": ["Herniated disc", "Spinal stenosis", "Radiculopathy", "Degenerative disc disease"],
+                "options": {
+                    "A": "Transforaminal injection",
+                    "B": "Interlaminar injection",
+                    "C": "Selective nerve root block",
+                    "D": "Facet joint injection"
+                }
+            },
+            "Q47": {
+                "desc": "Antitumor Necrosis Factor-α Therapy",
+                "question": "Match the TNF-α inhibitor with its common use.",
+                "label": ["TNF-α Inhibitor", "Common Use"],
+                "option": ["Infliximab", "Adalimumab", "Etanercept", "Certolizumab"],
+                "options": {
+                    "A": "Rheumatoid arthritis",
+                    "B": "Ankylosing spondylitis",
+                    "C": "Psoriatic arthritis",
+                    "D": "Crohn's disease"
+                }
+            },
+            "Q48": {
+                "desc": "Disease-Modifying Antirheumatic Drugs for Low Back Pain",
+                "question": "Match the DMARD with its primary target condition.",
+                "label": ["DMARD", "Primary Target Condition"],
+                "option": ["Methotrexate", "Sulfasalazine", "Hydroxychloroquine", "Leflunomide"],
+                "options": {
+                    "A": " Rheumatoid arthritis",
+                    "B": "Ankylosing spondylitis",
+                    "C": "Lupus",
+                    "D": "Psoriatic arthritis"
+                }
+            },
+            "Q49": {
+                "desc": "Sacroiliac Joint Pain",
+                "question": "Match the diagnostic method with its purpose in sacroiliac joint pain.",
+                "label": ["Diagnostic Method", "Purpose"],
+                "option": ["MRI", "X-ray", "Fluoroscopy", "Provocative tests"],
+                "options": {
+                    "A": "Visualizing soft tissues",
+                    "B": "Assessing bone structure",
+                    "C": "Guiding injection procedures",
+                    "D": " Identifying pain sources"
+                }
+            },
+            "Q50": {
+                "desc": "Piriformis Syndrome",
+                "question": "Match the symptom with its typical presentation in piriformis syndrome.",
+                "label": ["Symptom", "Typical Presentation"],
+                "option": ["Buttock pain", "Numbness", "Tingling", "Muscle spasm"],
+                "options": {
+                    "A": "Radiates down the leg",
+                    "B": "In the gluteal region",
+                    "C": "Along the sciatic nerve path",
+                    "D": "In the piriformis muscle"
+                }
+            },
+            "Q51": {
+                "desc": "Pulsed Radiofrequency, Water-Cooled Radiofrequency, and Cryoneurolysis",
+                "question": "Match the procedure with its mechanism of action.",
+                "label": ["Procedure", "Mechanism of Action"],
+                "option": ["Pulsed radiofrequency", "Water-cooled radiofrequency", "Cryoneurolysis", "Thermal radiofrequency"],
+                "options": {
+                    "A": "Modulating nerve activity",
+                    "B": "Cooling the nerve to reduce pain",
+                    "C": "Freezing the nerve tissue",
+                    "D": "Heating the nerve to disrupt pain signals"
+                }
+            },
+            "Q52": {
+                "desc": "Discography",
+                "question": "Match the discography outcome with its significance.",
+                "label": ["Outcome", "Significance"],
+                "option": ["Positive discogram", "Negative discogram", "Reproduction of pain", "No pain reproduction"],
+                "options": {
+                    "A": "Disc is a pain source",
+                    "B": "Disc is not a pain source",
+                    "C": "Confirms disc-related pain",
+                    "D": "Suggests pain from other sources"
+                }
+            },
+            "Q53": {
+                "desc": " Vertebroplasty and Kyphoplasty",
+                "question": "Match the procedure with its specific technique.",
+                "label": ["Procedure", "Specific Technique"],
+                "option": ["Vertebroplasty", "Kyphoplasty", "Spinal fusion", "Laminectomy"],
+                "options": {
+                    "A": "Injecting bone cement into a fractured vertebra",
+                    "B": "Using a balloon to restore vertebral height before cement injection",
+                    "C": "Fusing two or more vertebrae together",
+                    "D": "Removing part of a vertebra"
+                }
+            },
+            "Q54": {
+                "desc": "Neurolytic Sympathetic Blocks",
+                "question": "Match the neurolytic agent with its effect.",
+                "label": ["Neurolytic Agent", "Effect"],
+                "option": ["Phenol", "Alcohol", "Radiofrequency", "Cryotherapy"],
+                "options": {
+                    "A": "Chemical neurolysis",
+                    "B": "Destruction of nerve fibers",
+                    "C": "Thermal neurolysis",
+                    "D": "Freezing the nerve tissue"
+                }
+            },
+            "Q55": {
+                "desc": "Ultrasound-Guided Procedures for Pain Management: Spine Injections and Relevant Peripheral Nerve Blocks",
+                "question": "Match the ultrasound feature with its benefit in pain management.",
+                "label": ["Ultrasound Feature", "Benefit"],
+                "option": ["Real-time imaging", "No radiation exposure", "Dynamic assessment", "Cost-effectiveness"],
+                "options": {
+                    "A": "Enhanced accuracy",
+                    "B": "Increased safety",
+                    "C": "Evaluating movement",
+                    "D": "Lower procedure costs"
+                }
+            },
+            "Q56": {
+                "desc": "Deep Muscle Injections: Piriformis, Scalene Muscle, Iliopsoas Injection Techniques",
+                "question": "Match the deep muscle injection with its target muscle.",
+                "label": ["Injection", "Target Muscle"],
+                "option": ["Piriformis injection", "Scalene muscle injection", "Iliopsoas injection", "Quadratus lumborum injection"],
+                "options": {
+                    "A": "Piriformis muscle",
+                    "B": "Scalene muscle",
+                    "C": "Iliopsoas muscle",
+                    "D": "Quadratus lumborum muscle"
+                }
+            },
+            "Q57": {
+                "desc": "Ultrasound-Guided Musculoskeletal Injections—Shoulder, Hip, Knee",
+                "question": "Match the injection site with the condition it commonly treats.",
+                "label": ["Injection Site", "Condition"],
+                "option": ["Shoulder", "Hip", "Knee", "Elbow"],
+                "options": {
+                    "A": "Rotator cuff tear",
+                    "B": "Hip bursitis",
+                    "C": "Osteoarthritis",
+                    "D": "Tennis elbow"
+                }
+            },
+            "Q58": {
+                "desc": "Head and Neck Blocks",
+                "question": "Match the nerve block with its target area in head and neck pain.",
+                "label": ["Nerve Block", "Target Area"],
+                "option": ["Occipital nerve block", "Trigeminal nerve block", "Stellate ganglion block", "Sphenopalatine ganglion block"],
+                "options": {
+                    "A": "Posterior head pain",
+                    "B": "Facial pain",
+                    "C": "Sympathetic pain in the neck",
+                    "D": "Cluster headaches"
+                }
+            },
+            "Q59": {
+                "desc": "Truncal Blocks: Paravertebral, Intercostal, Pectoral Nerve, Suprascapular, Ilioinguinal, Iliohypogastric Nerve, and Transversus Abdominis Plane Blocks",
+                "question": "Match the truncal block with its common use.",
+                "label": ["Truncal Block", "Common Use"],
+                "option": ["Paravertebral block", "Intercostal block", "Pectoral nerve block", "Transversus abdominis plane block"],
+                "options": {
+                    "A": "Thoracic surgery analgesia",
+                    "B": "Rib fracture pain",
+                    "C": "Breast surgery analgesia",
+                    "D": "Abdominal surgery analgesia"
+                }
+            },
+            "Q60": {
+                "desc": "Fluoroscopy and Ultrasound-Guided Sympathetic Blocks: Stellate Ganglion, Lumbar Sympathetic Blocks, and Visceral Sympathetic Blocks",
+                "question": "Match the sympathetic block with its primary indication.",
+                "label": ["Sympathetic Block", "Primary Indication"],
+                "option": ["Stellate ganglion block", "Lumbar sympathetic block", "Celiac plexus block", "Superior hypogastric plexus block"],
+                "options": {
+                    "A": "Complex regional pain syndrome of the upper extremity",
+                    "B": "Lower extremity pain",
+                    "C": "Abdominal visceral pain",
+                    "D": "Pelvic pain"
+                }
+            },
+            "Q61": {
+                "desc": "Interventional Pain Procedures in Patients on Anticoagulants",
+                "question": "Match the anticoagulant with its consideration during interventional procedures.",
+                "label": ["Anticoagulant", "Consideration"],
+                "option": ["Warfarin", "Heparin", "Aspirin", "Clopidogrel"],
+                "options": {
+                    "A": "Requires INR monitoring",
+                    "B": "Short half-life, easily reversible",
+                    "C": "Discontinue 7-10 days before procedure",
+                    "D": "Discontinue 5-7 days before procedure"
+                }
+            },
+            "Q62": {
+                "desc": "Interventional Pain Procedures and the Risk of Infection",
+                "question": "Match the infection control measure with its purpose.",
+                "label": ["Infection Control Measure", "Purpose"],
+                "option": ["Sterile technique", "Antiseptic skin preparation", "Prophylactic antibiotics", "Hand hygiene"],
+                "options": {
+                    "A": "Preventing contamination",
+                    "B": "Reducing skin bacteria",
+                    "C": "Preventing infection",
+                    "D": "Reducing pathogen transmission"
+                }
+            }
+        }
+    ]
+}

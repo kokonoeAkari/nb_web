@@ -4,103 +4,123 @@
         {
             "Q45": {
                 "desc": "Interlaminar Epidural Steroid Injections",
-                "question": "Match the component of the injection with its purpose",
+                "question": "Match the component of the injection with its purpose.",
                 "label": ["Component", "Purpose"],
                 "option": ["Steroid", "Local anesthetic", "Saline solution", "Contrast dye"],
-                "A": "Reducing inflammation",
-                "B": "Providing immediate pain relief",
-                "C": "Flushing the epidural space",
-                "D": "Enhancing imaging accuracy"
+                "options": {
+                    "A": "Reducing inflammation",
+                    "B": "Providing immediate pain relief",
+                    "C": "Flushing the epidural space",
+                    "D": "Enhancing imaging accuracy"
+                }
             },
             "Q46": {
                 "desc": "Transforaminal Epidural Steroid Injections and Selective Nerve Root Blocks",
-                "question": "Match the condition with the preferred injection approach",
+                "question": "Match the condition with the preferred injection approach.",
                 "label": ["Condition", "Preferred Injection Approach"],
                 "option": ["Herniated disc", "Spinal stenosis", "Radiculopathy", "Degenerative disc disease"],
-                "A": "Transforaminal injection",
-                "B": "Interlaminar injection",
-                "C": "Selective nerve root block",
-                "D": "Facet joint injection"
+                "options": {
+                    "A": "Transforaminal injection",
+                    "B": "Interlaminar injection",
+                    "C": "Selective nerve root block",
+                    "D": "Facet joint injection"
+                }
             },
             "Q47": {
                 "desc": "Antitumor Necrosis Factor-α Therapy",
-                "question": "Match the TNF-α inhibitor with its common use",
+                "question": "Match the TNF-α inhibitor with its common use.",
                 "label": ["TNF-α Inhibitor", "Common Use"],
                 "option": ["Infliximab", "Adalimumab", "Etanercept", "Certolizumab"],
-                "A": "Rheumatoid arthritis",
-                "B": "Ankylosing spondylitis",
-                "C": "Psoriatic arthritis",
-                "D": "Crohn's disease"
+                "options": {
+                    "A": "Rheumatoid arthritis",
+                    "B": "Ankylosing spondylitis",
+                    "C": "Psoriatic arthritis",
+                    "D": "Crohn's disease"
+                }
             },
             "Q48": {
                 "desc": "Disease-Modifying Antirheumatic Drugs for Low Back Pain",
-                "question": "Match the DMARD with its primary target condition",
+                "question": "Match the DMARD with its primary target condition.",
                 "label": ["DMARD", "Primary Target Condition"],
                 "option": ["Methotrexate", "Sulfasalazine", "Hydroxychloroquine", "Leflunomide"],
-                "A": " Rheumatoid arthritis",
-                "B": "Ankylosing spondylitis",
-                "C": "Lupus",
-                "D": "Psoriatic arthritis"
+                "options": {
+                    "A": " Rheumatoid arthritis",
+                    "B": "Ankylosing spondylitis",
+                    "C": "Lupus",
+                    "D": "Psoriatic arthritis"
+                }
             },
             "Q49": {
                 "desc": "Sacroiliac Joint Pain",
-                "question": "Match the diagnostic method with its purpose in sacroiliac joint pain",
+                "question": "Match the diagnostic method with its purpose in sacroiliac joint pain.",
                 "label": ["Diagnostic Method", "Purpose"],
                 "option": ["MRI", "X-ray", "Fluoroscopy", "Provocative tests"],
-                "A": "Visualizing soft tissues",
-                "B": "Assessing bone structure",
-                "C": "Guiding injection procedures",
-                "D": " Identifying pain sources"
+                "options": {
+                    "A": "Visualizing soft tissues",
+                    "B": "Assessing bone structure",
+                    "C": "Guiding injection procedures",
+                    "D": " Identifying pain sources"
+                }
             },
             "Q50": {
                 "desc": "Piriformis Syndrome",
-                "question": "Match the symptom with its typical presentation in piriformis syndrome",
+                "question": "Match the symptom with its typical presentation in piriformis syndrome.",
                 "label": ["Symptom", "Typical Presentation"],
                 "option": ["Buttock pain", "Numbness", "Tingling", "Muscle spasm"],
-                "A": "Radiates down the leg",
-                "B": "In the gluteal region",
-                "C": "Along the sciatic nerve path",
-                "D": "In the piriformis muscle"
+                "options": {
+                    "A": "Radiates down the leg",
+                    "B": "In the gluteal region",
+                    "C": "Along the sciatic nerve path",
+                    "D": "In the piriformis muscle"
+                }
             },
             "Q51": {
                 "desc": "Pulsed Radiofrequency, Water-Cooled Radiofrequency, and Cryoneurolysis",
-                "question": "Match the procedure with its mechanism of action",
+                "question": "Match the procedure with its mechanism of action.",
                 "label": ["Procedure", "Mechanism of Action"],
                 "option": ["Pulsed radiofrequency", "Water-cooled radiofrequency", "Cryoneurolysis", "Thermal radiofrequency"],
-                "A": "Modulating nerve activity",
-                "B": "Cooling the nerve to reduce pain",
-                "C": "Freezing the nerve tissue",
-                "D": "Heating the nerve to disrupt pain signals"
+                "options": {
+                    "A": "Modulating nerve activity",
+                    "B": "Cooling the nerve to reduce pain",
+                    "C": "Freezing the nerve tissue",
+                    "D": "Heating the nerve to disrupt pain signals"
+                }
             },
             "Q52": {
                 "desc": "Discography",
-                "question": "Match the discography outcome with its significance",
+                "question": "Match the discography outcome with its significance.",
                 "label": ["Outcome", "Significance"],
                 "option": ["Positive discogram", "Negative discogram", "Reproduction of pain", "No pain reproduction"],
-                "A": "Disc is a pain source",
-                "B": "Disc is not a pain source",
-                "C": "Confirms disc-related pain",
-                "D": "Suggests pain from other sources"
+                "options": {
+                    "A": "Disc is a pain source",
+                    "B": "Disc is not a pain source",
+                    "C": "Confirms disc-related pain",
+                    "D": "Suggests pain from other sources"
+                }
             },
             "Q53": {
                 "desc": " Vertebroplasty and Kyphoplasty",
-                "question": "Match the procedure with its specific technique",
+                "question": "Match the procedure with its specific technique.",
                 "label": ["Procedure", "Specific Technique"],
                 "option": ["Vertebroplasty", "Kyphoplasty", "Spinal fusion", "Laminectomy"],
-                "A": "Injecting bone cement into a fractured vertebra",
-                "B": "Using a balloon to restore vertebral height before cement injection",
-                "C": "Fusing two or more vertebrae together",
-                "D": "Removing part of a vertebra"
+                "options": {
+                    "A": "Injecting bone cement into a fractured vertebra",
+                    "B": "Using a balloon to restore vertebral height before cement injection",
+                    "C": "Fusing two or more vertebrae together",
+                    "D": "Removing part of a vertebra"
+                }
             },
             "Q54": {
                 "desc": "Neurolytic Sympathetic Blocks",
-                "question": "Match the neurolytic agent with its effect",
+                "question": "Match the neurolytic agent with its effect.",
                 "label": ["Neurolytic Agent", "Effect"],
                 "option": ["Phenol", "Alcohol", "Radiofrequency", "Cryotherapy"],
-                "A": "Chemical neurolysis",
-                "B": "Destruction of nerve fibers",
-                "C": "Thermal neurolysis",
-                "D": "Freezing the nerve tissue"
+                "options": {
+                    "A": "Chemical neurolysis",
+                    "B": "Destruction of nerve fibers",
+                    "C": "Thermal neurolysis",
+                    "D": "Freezing the nerve tissue"
+                }
             }
         }
     ]

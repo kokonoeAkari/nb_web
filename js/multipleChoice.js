@@ -43,34 +43,6 @@ const myform = document.querySelector("form");
 
 var qtNum = [];
 
-function getRadioValue(name) {
-    var radios = document.getElementById(name);
-    console.log(radios);
-    for (var i = 0; i < radios.length; i++) {
-        if (radios[i].checked) {
-            return radios[i].value;
-        }
-    }
-    return ''; // Return empty string if no radio button is selected
-}
-
-myform.addEventListener(
-    "submit",
-    (event) => {
-        const data = new FormData(myform);
-        for(let [key, value] of data.entries()) {console.log(key+ ', '+ value);}
-        // Example usage
-        let selectedRadio = document.querySelector('input[name="'+qtNum[0]+'"]:checked');
-        let selectedValue = selectedRadio ? selectedRadio.value : null;
-
-        console.log(qtNum[0]+selectedValue);
-        //var selectedValue = getRadioValue('pm-question-form');
-        //console.log(selectedValue); // Logs the value or an empty string if none selected
-
-        event.preventDefault();
-    }
-);
-
 function createQT(className, myText){
     let x = document.createElement("div");
     x.setAttribute("class", className);
@@ -101,7 +73,6 @@ function createOPT(op, opName){
     return opt
 }
 
-
 function loadQuestion(e, myTitle){
     $.getJSON(e)
         .done(function(data) {
@@ -131,11 +102,142 @@ function loadQuestion(e, myTitle){
             let formBtn = document.createElement("div");
             formBtn.setAttribute("class", "formBTN");
             let ansConfirm = document.createElement("button");
+            let ansReset = document.createElement("button");
             ansConfirm.setAttribute("type", "submit");
-            let ansText = document.createTextNode("確認答案");
-            mainBlock.appendChild(formBtn).appendChild(ansConfirm).appendChild(ansText);
-            console.log(qtNum);
-    });
+            ansConfirm.setAttribute("id", "confirmAns");
+            ansReset.setAttribute("type", "reset");
+            ansReset.setAttribute("id", "resetAns");
+            ansReset.disabled = true;
+            let confirmText = document.createTextNode("確認答案");
+            let resetText = document.createTextNode("重置答案");
+            mainBlock.appendChild(formBtn).appendChild(ansConfirm).appendChild(confirmText)
+            formBtn.appendChild(ansReset).appendChild(resetText);
+            //console.log(qtNum);
+        }
+    );
+}
+
+function markAns(myTitle, e, myans){
+    $.getJSON(e)
+        .done(function(data){
+            let trueAns = data[myTitle];
+            let qtb = document.getElementById("pm-question-form").childNodes;
+            let op = document.querySelectorAll(".pm-question-options");
+            let t = 0;
+            let f = 0;
+            let c = 0;
+            //console.log("True ans: ",trueAns);
+            for(let k in trueAns){
+                if(trueAns[k] == myans[k]){
+                    qtb[c].style.backgroundColor = '#38f53859';
+                    c++;
+                    t++;
+                }
+                else{
+                    let w = op[c].childNodes;
+                    switch(trueAns[k]){
+                        case 'A':
+                            w[0].style.backgroundColor = '#38f538';
+                            break;
+                        case 'B':
+                            w[1].style.backgroundColor = '#38f538';
+                            break;
+                        case 'C':
+                            w[2].style.backgroundColor = '#38f538';
+                            break;
+                        case 'D':
+                            w[3].style.backgroundColor = '#38f538';
+                            break;
+                        default:
+                            break;
+                    }
+                    switch(myans[k]){
+                        case 'A':
+                            w[0].style.backgroundColor = '#fd2727';
+                            break;
+                        case 'B':
+                            w[1].style.backgroundColor = '#fd2727';
+                            break;
+                        case 'C':
+                            w[2].style.backgroundColor = '#fd2727';
+                            break;
+                        case 'D':
+                            w[3].style.backgroundColor = '#fd2727';
+                            break;
+                        default:
+                            break;
+                    }
+                    qtb[c].style.backgroundColor = '#ff939359';
+                    c++;
+                    f++;
+                }
+            }
+            if (myTitle == 'Section ALL'){
+                console.log("true: ", t, " false: ",f);
+            }
+            formBtnEvent(true);
+        }
+    );
+}
+
+function getAns(e, ans){
+    //console.log(e);
+    switch(e){
+        case 'Section I':
+            var ansUrl = section_ans[1];
+            break;
+        case 'Section II':
+            var ansUrl = section_ans[2];
+            break;
+        case 'Section III':
+            var ansUrl = section_ans[3];
+            break;
+        case 'Section IV':
+            var ansUrl = section_ans[4];
+            break;
+        case 'Section V':
+            var ansUrl = section_ans[5];
+            break;
+        case 'Section VI':
+            var ansUrl = section_ans[6];
+            break;
+        case 'Section VII':
+            var ansUrl = section_ans[7];
+            break;
+        case 'Section VIII':
+            var ansUrl = section_ans[8];
+            break;
+        case 'Section IX':
+            var ansUrl = section_ans[9];
+            break;
+        case '綜合測驗':
+            var ansUrl = section_ans[0];
+            e = 'Section ALL';
+            break;
+        default:
+            break;
+    }
+    markAns(e, ansUrl, ans);
+}
+
+function formBtnEvent(e){
+    if (e){
+        document.getElementById("confirmAns").disabled = true;
+        document.getElementById("resetAns").disabled = false;
+        let inp = document.querySelectorAll("input");
+        for(let i=0;i<inp.length;++i){
+            inp[i].disabled = true;
+        }
+    }
+    else{
+        document.getElementById("confirmAns").disabled = false;
+        document.getElementById("resetAns").disabled = true;
+        document.querySelectorAll("input").disabled = false;
+        let inp = document.querySelectorAll("input");
+        for(let i=0;i<inp.length;++i){
+            inp[i].disabled = false;
+        }
+    }
 }
 
 sec1_MC.addEventListener(
@@ -225,6 +327,45 @@ backTitle.addEventListener(
         removeFormData();
         removeSectionTitle();
         qtNum = [];
+    }
+);
+
+myform.addEventListener(
+    "submit",
+    (event) => {
+        //const data = new FormData(myform);
+        //for(let [key, value] of data.entries()) {console.log(key+ ', '+ value);}
+        var myans = {};
+        for(let i=0;i<qtNum.length;++i){
+            let selectedRadio = document.querySelector('input[name="'+qtNum[i]+'"]:checked');
+            let selectedValue = selectedRadio ? selectedRadio.value : null;
+            myans[qtNum[i]] = selectedValue;
+        }
+        let section = document.getElementById("sectionTitle").textContent;
+        getAns(section, myans);
+        event.preventDefault();
+    }
+);
+
+myform.addEventListener(
+    "reset",
+    (event) => {
+        formBtnEvent(false);
+        let qtb = document.getElementById("pm-question-form").childNodes;
+        let op = document.querySelectorAll(".pm-question-options");
+        for(let i=0;i<qtb.length;++i){
+            if(qtb[i].hasAttribute('style')){
+                qtb[i].removeAttribute('style');
+            }
+        }
+        for(let i=0;i<op.length;++i){
+            let n = op[i].childNodes;
+            for(let ii=0;ii<n.length;++ii){
+                if(n[ii].hasAttribute('style')){
+                    n[ii].removeAttribute('style');
+                }
+            }
+        }
         myform.reset();
     }
 );

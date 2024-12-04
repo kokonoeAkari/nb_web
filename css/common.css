@@ -43,8 +43,15 @@ a{
     font-size: 1.2em;
     padding: 0.2em 0.5em 0.2em 0.5em;
 }
-.pm-navbar-nav a{
+.pm-nav-item a span{
     display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+.pm-navbar-nav a{
+    display: flex;
+    align-items: center;
     padding: 0.2em 30px;
     line-height: 1.8em;
     border-radius: 10px;
@@ -95,13 +102,24 @@ a{
     border: solid;
     border-width: 0;
 }
+.pm-navbar-nav-dropdown-item a span{
+    position: absolute;
+    right: 12px;
+    height: 21px;
+}
 .pm-navbar-nav-dropdown-item-dropdown{
+    display: none;
     padding-left: 15px;
+    animation-name: dropdown-animation;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
 }
 .pm-navbar-nav-dropdown-item a{
-    display: block;
-    padding: 0.3em 20px;
-    line-height: 1.4em;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    padding: 6px 20px;
+    line-height: 1.5em;
 }
 .pm-navbar-nav-dropdown-item a:hover{
     border-radius: 10px;
@@ -245,15 +263,24 @@ a{
     border-radius: 10px;
     font-size: 14pt;
     padding: 5px 12px;
+    margin: 5px;
 }
 .formBTN button:hover{
     cursor: pointer;
     background-color: azure;
 }
 
+#examBTN:hover span img{
+    transform: rotate(135deg);
+    transition: transform 200ms linear;
+}
+
 /* Display */
 .show{
     display: block;
+}
+.rotat{
+    transform: rotate(135deg);
 }
 
 /* Medium devices (portrait tablets and large phones and phones, 768px and down) */
@@ -274,16 +301,9 @@ a{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .pm-navbar-btn{
-        display: block;
-    }
-    .pm-navbar-btn:hover{
-        cursor: pointer;
-    }
-    .pm-navbar-nav{
+    .pm-nav-item a span{
         display: none;
     }
-    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -296,6 +316,9 @@ a{
     }
     .pm-navbar-nav{
         display: flex;
+    }
+    .pm-nav-item a span{
+        display: block;
     }
 }
 

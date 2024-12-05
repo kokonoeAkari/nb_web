@@ -251,6 +251,9 @@ a{
     font-size: 14pt;
     padding: 0 14px;
 }
+.pm-question-options-selec{
+    display: flex;
+}
 .formBTN{
     display: flex;
     justify-content: center;
@@ -275,9 +278,48 @@ a{
     transition: transform 200ms linear;
 }
 
+.pm-score{
+    display: none;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+    width: 99%;
+    height: 150px;
+}
+.pm-score-block{
+    display: block;
+    width: 300px;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+.pm-score-title{
+    padding: 5px;
+    text-align: center;
+    font-size: 16pt;
+}
+.pm-score-t{
+    padding: 5px;
+    margin: 2px;
+    font-size: 14pt;
+}
+.pm-score-f{
+    padding: 5px;
+    margin: 2px;
+    font-size: 14pt;
+}
+.pm-score-total{
+    padding: 5px;
+    margin: 2px;
+    font-size: 14pt;
+    text-align: center;
+}
+
 /* Display */
 .show{
     display: block;
+}
+.showSC{
+    display: flex;
 }
 .rotat{
     transform: rotate(135deg);

@@ -1,5 +1,5 @@
 // Multiple choice
-import {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData} from './common.js';
+import {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData, removeFormScore} from './common.js';
 
 const section_data = [
     '../json/test_1/section_all.json',
@@ -56,6 +56,7 @@ function createOPT(op, opName){
     let opt = document.createElement("div");
     opt.setAttribute("class", "pm-question-options");
     for(let k in op){
+        //console.log(k);
         let d = document.createElement("div");
         let i = document.createElement("input");
         i.setAttribute("type", "radio");
@@ -173,9 +174,28 @@ function markAns(myTitle, e, myans){
                 }
             }
             if (myTitle == 'Section ALL'){
-                console.log("true: ", t, " false: ",f);
+                let total = (100.00 / (t+f)) * t;
+                total = total.toFixed(2);
+                let tb = document.createElement("div");
+                let tbText = document.createTextNode("答題正確題數： "+t+"題");
+                let fb = document.createElement("div");
+                let fbText = document.createTextNode("答題錯誤題數： "+f+"題");
+                let tob = document.createElement("div");
+                let tobText = document.createTextNode("總分: "+total+"分");
+                tb.appendChild(tbText);
+                fb.appendChild(fbText);
+                tob.appendChild(tobText);
+                document.getElementById("pm-score-t").appendChild(tb);
+                document.getElementById("pm-score-f").appendChild(fb);
+                document.getElementById("pm-score-total").appendChild(tob);
+                document.getElementById("pm-score").classList.toggle("showSC");
             }
             formBtnEvent(true);
+            //console.log(document.documentElement.offsetHeight);
+            window.scrollTo({
+                top: document.documentElement.offsetHeight,
+                behavior: "smooth"
+            });
         }
     );
 }
@@ -326,6 +346,7 @@ backTitle.addEventListener(
     function(){
         removeFormData();
         removeSectionTitle();
+        removeFormScore();
         qtNum = [];
     }
 );
@@ -366,6 +387,7 @@ myform.addEventListener(
                 }
             }
         }
+        removeFormScore();
         myform.reset();
     }
 );

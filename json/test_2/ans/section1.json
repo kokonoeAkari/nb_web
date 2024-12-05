@@ -1,8 +1,16 @@
 {
     "Section I": {
-        "Dorsal root ganglion": "Transmits pain signals to the brain",
-        "Nociceptor": "Detects noxious stimuli",
-        "Spinal cord": "Integrates and processes pain signals",
-        "Thalamus": "Releases neurotransmitters for pain"
+        "Q1A": "B",
+        "Q1B": "C",
+        "Q1C": "D",
+        "Q1D": "A",
+        "Q2A": "B",
+        "Q2B": "C",
+        "Q2C": "A",
+        "Q2D": "D",
+        "Q3A": "C",
+        "Q3B": "A",
+        "Q3C": "B",
+        "Q3D": "D"
     }
 }

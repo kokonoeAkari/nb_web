@@ -24,6 +24,29 @@ function removeFormData(){
     while (formData.hasChildNodes()){
         formData.removeChild(formData.firstChild);
     }
+
 }
 
-export {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData}
+function removeFormScore(){
+    let tb = document.getElementById("pm-score-t");
+    let fb = document.getElementById("pm-score-f");
+    let tob = document.getElementById("pm-score-total");
+    if(tb.hasChildNodes()){
+        tb.removeChild(tb.firstChild);
+    }
+    if(fb.hasChildNodes()){
+        fb.removeChild(fb.firstChild);
+    }
+    if(tob.hasChildNodes()){
+        tob.removeChild(tob.firstChild);
+    }
+    let scb = document.getElementsByClassName("pm-score");
+    for (let i=0;i<scb.length;i++){
+        var x = scb[i];
+        if (x.classList.contains('showSC')) {
+            x.classList.remove('showSC');
+        }
+    }
+}
+
+export {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData, removeFormScore}

@@ -253,6 +253,19 @@ a{
 }
 .pm-question-options-selec{
     display: flex;
+    margin: 3px;
+    padding: 3px;
+    font-size: 13pt;
+}
+.pm-question-selec-desc{
+    width: 40%;
+}
+.pm-question-selec-options{
+    width: 60%;
+}
+.pm-question-options-selec div{
+    margin: 2px;
+    padding: 4px;
 }
 .formBTN{
     display: flex;
@@ -327,6 +340,9 @@ a{
 
 /* Medium devices (portrait tablets and large phones and phones, 768px and down) */
 @media only screen and (max-width: 768px) {
+    select{
+        width: 100%;
+    }
     .header{
         line-height: 37px;
     }
@@ -339,10 +355,19 @@ a{
     .pm-navbar-nav{
         display: none;
     }
+    .pm-question-options-selec{
+        display: block;
+    }
+    .pm-question-selec-desc, .pm-question-selec-options{
+        width: 80%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    select{
+        width: 300px;
+    }
     .pm-nav-item a span{
         display: none;
     }
@@ -350,6 +375,9 @@ a{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    select{
+        width: 450px;
+    }
     .pm-navbar-btn{
         display: none;
     }

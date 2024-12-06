@@ -61,9 +61,11 @@ function createOPT(op, ops, opName){
         var opt = document.createElement("div");
         opt.setAttribute("class", "pm-question-options-selec");
         let d = document.createElement("div");
+        d.setAttribute("class", "pm-question-selec-desc");
         let dText = document.createTextNode(op[k]);
         d.appendChild(dText);
         let ds = document.createElement("div");
+        ds.setAttribute("class", "pm-question-selec-options");
         let s = document.createElement("select");
         s.setAttribute("name", opName+opLst[count]);
         s.setAttribute("id", opName+opLst[count]);
@@ -132,6 +134,7 @@ function markAns(myTitle, e, myans){
         .done(function(data){
             let trueAns = data[myTitle];
             let op = document.querySelectorAll(".pm-question-options-selec");
+            console.log(op[0].childNodes[1].childNodes[0].childNodes[1].textContent);
             let t = 0;
             let f = 0;
             let c = 0;
@@ -320,7 +323,8 @@ backTitle.addEventListener(
     function(){
         removeFormData();
         removeSectionTitle();
-        myform.reset();
+        removeFormScore();
+        qtNum = [];
     }
 );
 

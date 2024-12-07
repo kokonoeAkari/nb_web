@@ -108,9 +108,17 @@ function loadQuestion(e, myTitle){
                 let desc = createQT("pm-question-desc", k+". "+q["desc"]);
                 let qt = createQT("pm-question-ques", "Question: "+q["question"]);
                 let op = createOPT(q['option'], q["options"], k);
+                let trueAnsBlock = document.createElement("div");
+                trueAnsBlock.setAttribute("class", "pm-question-trueAnsBlockLog");
+                let trueAnsText = document.createTextNode("正確答案");
+                trueAnsBlock.appendChild(trueAnsText);
+                let trueAnsLogBlock = document.createElement("div");
+                trueAnsLogBlock.setAttribute("class", "pm-question-trueAnsLog-block");
                 qtBlock.appendChild(desc);
                 qtBlock.appendChild(qt);
                 qtBlock.appendChild(op);
+                qtBlock.appendChild(trueAnsBlock);
+                qtBlock.appendChild(trueAnsLogBlock);
                 mainBlock.appendChild(qtBlock);
             }
             let formBtn = document.createElement("div");
@@ -129,15 +137,33 @@ function loadQuestion(e, myTitle){
     });
 }
 
+function createAnsLog(optionText, optionAns){
+    
+    let tb = document.createElement("div");
+    tb.setAttribute("class", "pm-question-trueans-block");
+    let opt = document.createElement("div");
+    let opa = document.createElement("div");
+    opt.setAttribute("class", "pm-question-trueans-desc");
+    opa.setAttribute("class", "pm-question-trueans-option");
+    let optText = document.createTextNode(optionText);
+    opt.appendChild(optText);
+    let opaText = document.createTextNode(optionAns);
+    opa.appendChild(opaText);
+    tb.appendChild(opt);
+    tb.appendChild(opa);
+    return tb
+}
+
 function markAns(myTitle, e, myans){
     $.getJSON(e)
         .done(function(data){
             let trueAns = data[myTitle];
             let op = document.querySelectorAll(".pm-question-options-selec");
-            console.log(op[0].childNodes[1].childNodes[0].childNodes[1].textContent);
+            let qtb = document.querySelectorAll(".pm-question-block");
             let t = 0;
             let f = 0;
             let c = 0;
+            let qtc = 0;
             for(let k in trueAns){
                 if(trueAns[k] == myans[k]){
                     op[c].style.backgroundColor = '#38f53859';
@@ -146,8 +172,28 @@ function markAns(myTitle, e, myans){
                 }
                 else{
                     op[c].style.backgroundColor = '#fd272759';
+                    switch(trueAns[k]){
+                        case 'A':
+                            var tb = createAnsLog(op[c].childNodes[0].textContent, op[c].childNodes[1].childNodes[0].childNodes[1].textContent);
+                            break;
+                        case 'B':
+                            var tb = createAnsLog(op[c].childNodes[0].textContent, op[c].childNodes[1].childNodes[0].childNodes[2].textContent);
+                            break;
+                        case 'C':
+                            var tb = createAnsLog(op[c].childNodes[0].textContent, op[c].childNodes[1].childNodes[0].childNodes[3].textContent);
+                            break;
+                        case 'D':
+                            var tb = createAnsLog(op[c].childNodes[0].textContent, op[c].childNodes[1].childNodes[0].childNodes[4].textContent);
+                            break;
+                        default:
+                            break;
+                    }
                     c++;
                     f++;
+                    qtb[qtc].childNodes[4].appendChild(tb);
+                }
+                if(c%4 == 0){
+                    qtc++;
                 }
             }
             if (myTitle == 'Section ALL'){
@@ -225,6 +271,10 @@ function formBtnEvent(e){
         for(let i=0;i<slt.length;++i){
             slt[i].disabled = true;
         }
+        let x = document.querySelectorAll(".pm-question-trueAnsBlockLog");
+        x.forEach(function(x){
+            x.classList.toggle("show");
+        })
     }
     else{
         document.getElementById("confirmAns").disabled = false;
@@ -234,6 +284,12 @@ function formBtnEvent(e){
         for(let i=0;i<slt.length;++i){
             slt[i].disabled = false;
         }
+        let x = document.querySelectorAll(".pm-question-trueAnsBlockLog");
+        x.forEach(function(x){
+            if(x.classList.contains("show")){
+                x.classList.remove("show");
+            }
+        })
     }
 }
 
@@ -360,6 +416,12 @@ myform.addEventListener(
             }
             
         }
+        let x = document.querySelectorAll(".pm-question-trueAnsLog-block");
+        x.forEach(function(x){
+            while(x.hasChildNodes()){
+                x.removeChild(x.firstChild);
+            }
+        });
         removeFormScore();
         myform.reset();
     }

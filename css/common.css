@@ -8,6 +8,19 @@ a{
     text-decoration: none;
     color: black;
 }
+select{
+    padding: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12pt;
+}
+select:disabled{
+    opacity: 1;
+    cursor: not-allowed;
+}
+option{
+    padding-inline: 4px;
+}
 
 /* Header */
 .header{
@@ -255,6 +268,7 @@ a{
     display: flex;
     margin: 3px;
     padding: 3px;
+    border-radius: 10px;
     font-size: 13pt;
 }
 .pm-question-selec-desc{
@@ -266,6 +280,33 @@ a{
 .pm-question-options-selec div{
     margin: 2px;
     padding: 4px;
+}
+.pm-question-trueAnsBlockLog{
+    display: none;
+    text-align: center;
+    font-size: 14pt;
+    background-color: rgb(195, 202, 207);
+    border-radius: 15px;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+.pm-question-trueAnsLog-block{
+    display: block;
+}
+.pm-question-trueans-block{
+    display: flex;
+    font-size: 13pt;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.pm-question-trueans-desc{
+    text-align: center;
+    width: 40%;
+}
+.pm-question-trueans-option{
+    width: 60%;
+    
 }
 .formBTN{
     display: flex;

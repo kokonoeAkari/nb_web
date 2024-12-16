@@ -1,5 +1,7 @@
-body{
+html, body{
+    margin: 0;
     background-color: rgb(255, 249, 242);
+    height: 100%;
 }
 ul{
     list-style-type: none;
@@ -21,14 +23,18 @@ select:disabled{
 option{
     padding-inline: 4px;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 /* Header */
 .header{
-    position: fixed;
     width: 100%;
-    top: 0;
     z-index: 1;
     background-color: #c5beb5;
+    height: 65px;
 }
 
 /* Logo */
@@ -150,7 +156,6 @@ option{
     justify-content: center;
     width: 99%;
     margin-top: 65px;
-    padding: 5px;
     z-index: 0;
 }
 
@@ -368,6 +373,16 @@ option{
     text-align: center;
 }
 
+.nb-main-content{
+    background-color: rgba(220, 224, 223, 0.808);
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+}
+.nb-body-block{
+    height: 100%;
+}
+
 /* Display */
 .show{
     display: block;
@@ -396,11 +411,20 @@ option{
     .pm-navbar-nav{
         display: none;
     }
+    .pm-content{
+        width: 85%;
+    }
     .pm-question-options-selec{
         display: block;
     }
     .pm-question-selec-desc, .pm-question-selec-options{
         width: 80%;
+    }
+    .nb-main-content{
+        display: block;
+    }
+    .nb-body-block{
+        width: 100%;
     }
 }
 
@@ -411,6 +435,9 @@ option{
     }
     .pm-nav-item a span{
         display: none;
+    }
+    .pm-content{
+        width: 85%;
     }
 }
 
@@ -430,6 +457,9 @@ option{
     }
     .pm-nav-item a span{
         display: block;
+    }
+    .pm-content{
+        width: 75%;
     }
 }
 

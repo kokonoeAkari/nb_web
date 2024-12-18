@@ -374,13 +374,100 @@ option{
 }
 
 .nb-main-content{
-    background-color: rgba(220, 224, 223, 0.808);
     width: 100%;
     flex-grow: 1;
     display: flex;
 }
+.nb-body-pic-block{
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(220, 224, 223, 0.808);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+.nb-body-pic-title{
+    height: 3%;
+    font-size: 15pt;
+    text-align: center;
+}
+.nb-body-pic{
+    height: 95%;
+    margin: 3px;
+    padding: 5px;
+}
 .nb-body-block{
     height: 100%;
+}
+.nb-body-content{
+    background-color: rgba(220, 224, 223, 0.808);
+    height: 98%;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.nb-body-title{
+    text-align: center;
+    font-size: 15pt;
+    height: 20px;
+    padding: 2px;
+}
+.nb-body-part-nav{
+    background-color: aliceblue;
+    height: 48px;
+    margin: 2px;
+}
+.nb-body-part-nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+.nb-body-part-nav ul li{
+    background-color: aqua;
+    font-size: 15pt;
+    margin: 5px 7px;
+    border-radius: 18px;
+}
+.nb-body-part-nav ul li a{
+    line-height: 1.4em;
+    padding: 5px 10px;
+}
+.nb-body-blocks-nav{
+    background-color: aliceblue;
+    height: 48px;
+    margin: 2px;
+}
+.nb-body-blocks-nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+.nb-body-blocks-nav ul li{
+    background-color: rgb(0, 255, 13);
+    font-size: 15pt;
+    margin: 5px 7px;
+    border-radius: 18px;
+}
+.nb-body-blocks-nav ul li a{
+    line-height: 1.4em;
+    padding: 5px 10px;
+}
+.nb-body-blocks-contents{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    overflow-y: auto;
+    max-height: 85%;
+}
+.nb-page{
+    padding: 2px;
+    height: 740px;
+    overflow-y: auto;
 }
 
 /* Display */
@@ -425,6 +512,7 @@ option{
     }
     .nb-body-block{
         width: 100%;
+        margin-top: 15px;
     }
 }
 
@@ -438,6 +526,12 @@ option{
     }
     .pm-content{
         width: 85%;
+    }
+    .nb-body-pic-block{
+        width: 45%;
+    }
+    .nb-body-block{
+        width: 55%;
     }
 }
 
@@ -460,6 +554,12 @@ option{
     }
     .pm-content{
         width: 75%;
+    }
+    .nb-body-pic-block{
+        width: 40%;
+    }
+    .nb-body-block{
+        width: 60%;
     }
 }
 

@@ -1,6 +1,6 @@
 html, body{
     margin: 0;
-    background-color: rgb(255, 249, 242);
+    background-color: rgb(239 231 220);
     height: 100%;
 }
 ul{
@@ -32,6 +32,7 @@ option{
 
 /* Header */
 .header{
+    position: fixed;
     width: 100%;
     z-index: 1;
     background-color: #c5beb5;
@@ -107,9 +108,8 @@ option{
 
 /* Header Nav dropdown */
 .pm-navbar-dropdown{
-    background-color: aliceblue;
+    background-color: #c5beb5;
     display: none;
-    margin-top: 5px;
     padding: 5px;
     animation-name: dropdown-animation;
     animation-duration: 0.3s;
@@ -158,7 +158,7 @@ option{
     position: relative;
     justify-content: center;
     width: 99%;
-    margin-top: 50px;
+    margin-top: 72px;
     z-index: 0;
 }
 
@@ -379,15 +379,17 @@ option{
 .nb-main-content{
     flex-grow: 1;
     display: flex;
-    flex-direction: row;
+    position: relative;
     width: 100%;
+    margin-top: 65px;
 }
 .nb-body-pic-block{
+    position: fixed;
     width: 40%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    margin: 2px;
-    padding: 5px;
+    margin: 5px;
 }
 .nb-body-pic-title{
     text-align: center;
@@ -395,7 +397,8 @@ option{
     font-size: 15pt;
     height: 30px;
     padding: 2px;
-    border-radius: 30px;
+    margin-top: 5px;
+    border-radius: 8px;
     background-color: rgba(220, 224, 223, 0.808);
 }
 .nb-body-pic{
@@ -403,9 +406,8 @@ option{
     padding: 5px;
 }
 .nb-body-block{
+    margin: 5px 5px 5px 42%;
     width: 60%;
-    margin: 2px;
-    padding: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -415,53 +417,88 @@ option{
     font-size: 15pt;
     height: 30px;
     padding: 2px;
-    border-radius: 30px;
+    margin-top: 5px;
+    border-radius: 8px;
     background-color: rgba(220, 224, 223, 0.808);
 }
 .nb-body-part-nav{
     margin: 2px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    height: 67px;
 }
 .nb-body-part-nav ul{
     display: flex;
-    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 18px;
     margin: 2px;
 }
 .nb-body-part-nav ul li{
     flex: 0 0 auto;
-    background-color: aqua;
-    font-size: 15pt;
     margin: 5px 7px;
-    border-radius: 18px;
 }
-.nb-body-part-nav ul li a{
+.nb-body-part-nav ul li button{
+    background-color: rgb(239 231 220);
+    font-size: 12pt;
     line-height: 1.4em;
-    padding: 5px 10px;
+    padding: 5px 30px;
+    border-radius: 18px;
+    border-width: 0;
+}
+.nb-body-part-nav ul li button:hover{
+    cursor: pointer;
+    background-color: rgb(214, 208, 199);
 }
 .nb-body-blocks-nav{
     margin: 2px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    height: 67px;
 }
 .nb-body-blocks-nav ul{
     display: flex;
-    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px 18px;
     margin: 2px;
 }
 .nb-body-blocks-nav ul li{
-    background-color: rgb(0, 255, 13);
-    font-size: 15pt;
     margin: 5px 7px;
-    border-radius: 18px;
 }
-.nb-body-blocks-nav ul li a{
+.nb-body-blocks-nav ul li button{
+    background-color: rgb(239 231 220);
+    font-size: 12pt;
     line-height: 1.4em;
-    padding: 5px 10px;
+    padding: 5px 30px;
+    border-radius: 18px;
+    border-width: 0;
+}
+.nb-body-blocks-nav ul li button:hover{
+    cursor: pointer;
+    background-color: rgb(214, 208, 199);
+}
+.nb-body-struc-nav{
+    margin: 2px;
+    padding: 0 15px 0 15px;
+}
+.nb-body-struc-nav ul{
+    background-color: #e9ded1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 8px;
+}
+.nb-body-struc-nav ul li{
+    margin: 5px 7px;
+}
+.nb-body-struc-nav ul li button{
+    background-color: #e9ded1;
+    font-size: 12pt;
+    line-height: 1.4em;
+    padding: 5px 30px;
+    border-radius: 18px;
+    border-width: 0;
+}
+.nb-body-struc-nav ul li button:hover{
+    cursor: pointer;
+    background-color: rgb(214, 208, 199);
 }
 .nb-body-blocks-contents{
     display: flex;
@@ -471,8 +508,6 @@ option{
 .nb-page{
     margin: 5px 0;
     padding: 5px;
-    height: 680px;
-    overflow-y: auto;
 }
 
 /* Display */
@@ -516,13 +551,14 @@ option{
         display: block;
     }
     .nb-body-pic-block{
-        height: 75%;
-        width: auto;
+        height: 650px;
+        width: 100%;
+        position: relative;
+        margin: 0;
     }
     .nb-body-block{
-        width: auto;
-        margin-top: 15px;
-        height: 90%;
+        width: 100%;
+        margin: 15px 0 0 0;
     }
     .nb-body-part-nav::-webkit-scrollbar,
     .nb-body-blocks-nav::-webkit-scrollbar {

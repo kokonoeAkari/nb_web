@@ -13,69 +13,71 @@
         <link rel="stylesheet" href="css/common.css"/>
     </head>
     <body>
-        <!-- header -->
-        <div class="header">
-            <div>
-                <h1 class="pm-logo"><a href="index.html">Logo</a></h1>
+        <div class="content">
+            <!-- header -->
+            <div class="header">
+                <div>
+                    <h1 class="pm-logo"><a href="index.html">Logo</a></h1>
+                </div>
+                <nav class="pm-navbar">
+                    <button class="pm-navbar-btn" type="button" title="navbar-btn">
+                        <img class="pm-navbar-btn-img" src="asset/image/icon.svg" alt="">
+                    </button>
+                    <ul class="pm-navbar-nav" id="pm-navbar-nav">
+                        <li class="pm-nav-item">
+                            <a href="nerveblock.html">
+                                <span><img src="asset/image/surgery.png" alt="surgery" width="30px" height="30px"></span>
+                                Nerve Block</a>
+                        </li>
+                        <li class="pm-nav-item">
+                            <a href="#">
+                                <span><img src="asset/image/exam.png" alt="exam" width="30px" height="30px"></span>
+                                試題測驗</a>
+                            <ul class="pm-nav-dropdown">
+                                <li class="">
+                                    <a href="exam_te1.html">選擇題</a>
+                                </li>
+                                <li class="">
+                                    <a href="exam_te2.html">配合題</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>  
+                </nav>
+                <nav class="pm-navbar-dropdown" id="pm-navbar-dropdown">
+                    <ul class="pm-navbar-nav-dropdown">
+                        <li class="pm-navbar-nav-dropdown-item">
+                            <a href="nerveblock.html">
+                                Nerve Block
+                                <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
+                            </a>
+                        </li>
+                        <li class="pm-navbar-nav-dropdown-item">
+                            <a href="#" id="examBTN">
+                                試題測驗
+                                <span><img src="asset/image/plus.svg" alt=""width="16px" height="16px"></span>
+                            </a>
+                            <ul class="pm-navbar-nav-dropdown-item-dropdown" id="pm-navbar-nav-dropdown-item-dropdown">
+                                <li class="pm-navbar-nav-dropdown-item">
+                                    <a href="exam_te1.html">
+                                        <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
+                                        Test 1 選擇題</a>
+                                </li>
+                                <li class="pm-navbar-nav-dropdown-item">
+                                    <a href="exam_te2.html">
+                                        <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
+                                        Test 2 配合題</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="pm-navbar">
-                <button class="pm-navbar-btn" type="button" title="navbar-btn">
-                    <img class="pm-navbar-btn-img" src="asset/image/icon.svg" alt="">
-                </button>
-                <ul class="pm-navbar-nav" id="pm-navbar-nav">
-                    <li class="pm-nav-item">
-                        <a href="nerveblock.html">
-                            <span><img src="asset/image/surgery.png" alt="surgery" width="30px" height="30px"></span>
-                            Nerve Block</a>
-                    </li>
-                    <li class="pm-nav-item">
-                        <a href="#">
-                            <span><img src="asset/image/exam.png" alt="exam" width="30px" height="30px"></span>
-                            試題測驗</a>
-                        <ul class="pm-nav-dropdown">
-                            <li class="">
-                                <a href="exam_te1.html">選擇題</a>
-                            </li>
-                            <li class="">
-                                <a href="exam_te2.html">配合題</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>  
-            </nav>
-            <nav class="pm-navbar-dropdown" id="pm-navbar-dropdown">
-                <ul class="pm-navbar-nav-dropdown">
-                    <li class="pm-navbar-nav-dropdown-item">
-                        <a href="nerveblock.html">
-                            Nerve Block
-                            <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                        </a>
-                    </li>
-                    <li class="pm-navbar-nav-dropdown-item">
-                        <a href="#" id="examBTN">
-                            試題測驗
-                            <span><img src="asset/image/plus.svg" alt=""width="16px" height="16px"></span>
-                        </a>
-                        <ul class="pm-navbar-nav-dropdown-item-dropdown" id="pm-navbar-nav-dropdown-item-dropdown">
-                            <li class="pm-navbar-nav-dropdown-item">
-                                <a href="exam_te1.html">
-                                    <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                                    Test 1 選擇題</a>
-                            </li>
-                            <li class="pm-navbar-nav-dropdown-item">
-                                <a href="exam_te2.html">
-                                    <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                                    Test 2 配合題</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        
-        <div class="main-content">
-            <div class="pm-home-content">
-                首頁內容
+            
+            <div class="main-content">
+                <div class="pm-home-content">
+                    資料來源: https://web.nerveblock.app/
+                </div>
             </div>
         </div>
         

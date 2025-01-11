@@ -191,9 +191,9 @@ function markAns(myTitle, e, myans){
                 document.getElementById("pm-score").classList.toggle("showSC");
             }
             formBtnEvent(true);
-            //console.log(document.documentElement.offsetHeight);
+            //console.log(document.documentElement.scrollHeight);
             window.scrollTo({
-                top: document.documentElement.offsetHeight,
+                top: document.documentElement.scrollHeight,
                 behavior: "smooth"
             });
         }

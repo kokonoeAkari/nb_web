@@ -216,7 +216,7 @@ function markAns(myTitle, e, myans){
             formBtnEvent(true);
             //console.log(document.documentElement.offsetHeight);
             window.scrollTo({
-                top: document.documentElement.offsetHeight,
+                top: document.documentElement.scrollHeight,
                 behavior: "smooth"
             });
         }

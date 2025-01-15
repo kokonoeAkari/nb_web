@@ -23,6 +23,22 @@ select:disabled{
 option{
     padding-inline: 4px;
 }
+h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h4{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 .content{
     display: flex;
     flex-direction: column;
@@ -402,8 +418,13 @@ option{
     background-color: rgba(220, 224, 223, 0.808);
 }
 .nb-body-pic{
-    margin: 5px;
-    padding: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.nb-body-pic img{
+    max-width: 80%;
+    height: 75vh;
+    display: block;
 }
 .nb-body-block{
     margin: 5px 5px 5px 42%;
@@ -510,6 +531,30 @@ option{
     padding: 5px;
 }
 
+.nb-content-title{
+    border-bottom: 1px solid;
+    display: flex;
+}
+.nb-content-title img{
+    width: 150px;
+    height: 150px;
+}
+.nb-content-title h1{
+    padding: 2px 5px 2px 5px;
+}
+.nb-content-block{
+    font-size: 14pt;
+    background-color: #d7dbdd;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+.nb-content-block div{
+    padding: 5px 5px 5px 15px;
+}
+.nb-content-block div a{
+    color: blue;
+}
+
 /* Display */
 .show{
     display: block;
@@ -551,7 +596,7 @@ option{
         display: block;
     }
     .nb-body-pic-block{
-        height: 650px;
+        height: 700px;
         width: 100%;
         position: relative;
         margin: 0;

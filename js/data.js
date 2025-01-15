@@ -19,25 +19,25 @@ const strucArr = {
         "Chest": ["PECS-II (Interpectoral plane and Pectoserratus plane block)", "Erector Spinae", "Serratus Anterior"],
         "Abdominal Wall": ["Rectus Sheath", "Transversus Abdominis Plane"],
         "Perineum": ["Perianal","Penile"],
-        "Upper Back": ["Erector"],
+        "Upper Back": ["Erector Spinae"],
         "Lower Back": ["Perianal"]
     },
     "Leg": {
-        "Thigh (Anterior)": [""],
-        "Lower Leg (Anterior)": [""],
-        "Thigh (Posterior)": [""],
-        "Lower Leg (Posterior)": [""],
-        "Foot": [""]
+        "Thigh (Anterior)": ["PENG", "Lateral Femoral Cutaneous", "Femoral", "Fascia Iliaca"],
+        "Lower Leg (Anterior)": ["Transgluteal Sciatic", "Saphenous", "Common Peroneal", "Popliteal Sciatic"],
+        "Thigh (Posterior)": ["Transgluteal Sciatic"],
+        "Lower Leg (Posterior)": ["Transgluteal Sciatic", "Saphenous", "Popliteal Sciatic"],
+        "Foot": ["Transgluteal Sciatic", "Tibial", "Popliteal Sciatic"]
     },
     "Arm": {
-        "Shoulder (Anterior)": [""],
-        "Proximal (Anterior)": [""],
-        "Forearm (Anterior)": [""],
-        "Hand (Anterior)": [""],
-        "Shoulder (Posterior)": [""],
-        "Proximal (Posterior)": [""],
-        "Forearm (Posterior)": [""],
-        "Hand (Posterior)": [""]
+        "Shoulder (Anterior)": ["Axillary Nerve", "Supraclavicular Brachial Plexus", "Interscalene Brachial Plexus"],
+        "Proximal (Anterior)": ["Axillary Brachial Plexus", "Infraclavicular Brachial Plexus", "Axillary Nerve", "Supraclavicular Brachial Plexus", "Interscalene Brachial Plexus"],
+        "Forearm (Anterior)": ["Axillary Brachial Plexus", "Medial Antebrachial Cutaneous", "Musculocutaneous", "Infraclavicular Brachial Plexus", "Supraclavicular Brachial Plexus", "Interscalene Brachial Plexus"],
+        "Hand (Anterior)": ["Axillary Brachial Plexus", "Digital", "Ulnar", "Median", "Infraclavicular Brachial Plexus", "Supraclavicular Brachial Plexus", "Interscalene Brachial Plexus"],
+        "Shoulder (Posterior)": ["Axillary Nerve", "Supraclavicular Brachial Plexus"],
+        "Proximal (Posterior)": ["Axillary Brachial Plexus", "Infraclavicular Brachial Plexus", "Axillary Nerve", "Supraclavicular Brachial Plexus"],
+        "Forearm (Posterior)": ["Axillary Brachial Plexus", "Medial Antebrachial Cutaneous", "Infraclavicular Brachial Plexus", "Supraclavicular Brachial Plexus"],
+        "Hand (Posterior)": ["Axillary Brachial Plexus", "Digital", "Ulnar", "Radial", "Infraclavicular Brachial Plexus", "Supraclavicular Brachial Plexus"]
     }
 };
 
@@ -52,25 +52,37 @@ const pageArr = {
         "Occipital": "page/HaN/Occipital.html"
     },
     "Torso": {
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
+        "PECS-II (Interpectoral plane and Pectoserratus plane block)": "page/Torso/PECSII.html",
+        "Erector Spinae": "page/Torso/ErectorSpinae.html",
+        "Serratus Anterior": "page/Torso/SerratusAnterior.html",
+        "Rectus Sheath": "page/Torso/RectusSheath.html",
+        "Transversus Abdominis Plane": "page/Torso/TransversusAbdominisPlane.html",
+        "Perianal": "page/Torso/Perianal.html",
+        "Penile": "page/Torso/Penile.html"
     },
     "Leg": {
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
+        "PENG": "page/Leg/PENG.html",
+        "Lateral Femoral Cutaneous": "page/Leg/LateralFemoralCutaneous.html",
+        "Femoral": "page/Leg/Femoral.html",
+        "Fascia Iliaca": "page/Leg/FasciaIliaca.html",
+        "Transgluteal Sciatic": "page/Leg/TransglutealSciatic.html",
+        "Saphenous": "page/Leg/Saphenous.html",
+        "Common Peroneal": "page/Leg/CommonPeroneal.html",
+        "Popliteal Sciatic": "page/Leg/PoplitealSciatic.html",
+        "Tibial": "page/Leg/Tibial.html"
     },
     "Arm": {
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
+        "Axillary Nerve": "page/Arm/AxillaryNerve.html",
+        "Supraclavicular Brachial Plexus": "page/Arm/SupraclavicularBrachialPlexus.html",
+        "Interscalene Brachial Plexus": "page/Arm/InterscaleneBrachialPlexus.html",
+        "Axillary Brachial Plexus": "page/Arm/AxillaryBrachialPlexus.html",
+        "Infraclavicular Brachial Plexus": "page/Arm/InfraclavicularBrachialPlexus.html",
+        "Medial Antebrachial Cutaneous": "page/Arm/MedialAntebrachialCutaneous.html",
+        "Musculocutaneous": "page/Arm/Musculocutaneous.html",
+        "Digital": "page/Arm/Digital.html",
+        "Ulnar": "page/Arm/Ulnar.html",
+        "Median": "page/Arm/Median.html",
+        "Radial": "page/Arm/Radial.html"
     }
 };
 
@@ -353,6 +365,7 @@ function regBTN(querySelec, do_func){
                 buttonValue = event.target.value;
                 switch(do_func){
                     case 1:
+                        document.getElementById('nb-page-content').innerHTML = '';
                         loadStruc(buttonValue);
                         break;
                     case 2:
@@ -407,6 +420,7 @@ partButtons.forEach((button, index) => {
             btn.style.backgroundColor = '';
         });
         document.getElementById('nb-body-struc-nav').innerHTML = '';
+        document.getElementById('nb-page-content').innerHTML = '';
         button.style.backgroundColor = 'rgb(214, 208, 199)';
         if (event.target && event.target.nodeName === 'BUTTON') {
             let buttonValues = event.target.value;

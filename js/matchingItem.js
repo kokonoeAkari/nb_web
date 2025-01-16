@@ -2,29 +2,29 @@
 import {removeSectionTitle, setSectionTitle, switchSectionTitle, removeFormData, removeFormScore} from './common.js';
 
 const section_data = [
-    '../json/test_2/section_all.json',
-    '../json/test_2/section1.json',
-    '../json/test_2/section2.json',
-    '../json/test_2/section3.json',
-    '../json/test_2/section4.json',
-    '../json/test_2/section5.json',
-    '../json/test_2/section6.json',
-    '../json/test_2/section7.json',
-    '../json/test_2/section8.json',
-    '../json/test_2/section9.json'
+    'json/test_2/section_all.json',
+    'json/test_2/section1.json',
+    'json/test_2/section2.json',
+    'json/test_2/section3.json',
+    'json/test_2/section4.json',
+    'json/test_2/section5.json',
+    'json/test_2/section6.json',
+    'json/test_2/section7.json',
+    'json/test_2/section8.json',
+    'json/test_2/section9.json'
 ];
 
 const section_ans = [
-    '../json/test_2/ans/section_all.json',
-    '../json/test_2/ans/section1.json',
-    '../json/test_2/ans/section2.json',
-    '../json/test_2/ans/section3.json',
-    '../json/test_2/ans/section4.json',
-    '../json/test_2/ans/section5.json',
-    '../json/test_2/ans/section6.json',
-    '../json/test_2/ans/section7.json',
-    '../json/test_2/ans/section8.json',
-    '../json/test_2/ans/section9.json'
+    'json/test_2/ans/section_all.json',
+    'json/test_2/ans/section1.json',
+    'json/test_2/ans/section2.json',
+    'json/test_2/ans/section3.json',
+    'json/test_2/ans/section4.json',
+    'json/test_2/ans/section5.json',
+    'json/test_2/ans/section6.json',
+    'json/test_2/ans/section7.json',
+    'json/test_2/ans/section8.json',
+    'json/test_2/ans/section9.json'
 ];
 
 const sec1_MI = document.getElementById("sec1");

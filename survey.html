@@ -1,0 +1,393 @@
+<div class="pm-survey-container">
+    <p><strong>End-of-Module Survey: Pain Medicine Learning Module</strong></p>
+    <p>Your feedback helps us improve and better tailor this resource for future learners.<br>
+        Please take 2~3 minutes to complete this anonymous survey.</p>
+
+    <form action="" onsubmit="handleSubmit(event)" id="contactForm" method="post">
+        <div class="form-section">
+            <h2>Learner Information</h2>
+            <div class="section">
+                <label><input type="radio" name="learner_type" value="medical student"
+                        onclick="showSection('medicalStudent')"> Medical Student</label>
+                <div id="medicalStudent" class="indent hide">
+                    <label for="school">School:</label>
+                    <input type="text" id="school" name="school">
+                </div>
+            </div>
+            <div class="section">
+                <label><input type="radio" name="learner_type" value="resident physician"
+                        onclick="showSection('residentPhysician')"> Resident Physician</label>
+                <div id="residentPhysician" class="indent hide">
+                    <label for="resident_specialty">Specialty:</label>
+                    <input type="text" id="resident_specialty" name="resident_specialty">
+                    <label for="resident_pgy">PGY:</label>
+                    <input type="number" id="resident_pgy" name="resident_pgy" min="1">
+                </div>
+            </div>
+            <div class="section">
+                <label><input type="radio" name="learner_type" value="attending physician"
+                        onclick="showSection('attendingPhysician')"> Attending Physician</label>
+                <div id="attendingPhysician" class="indent hide">
+                    <label for="attending_specialty">Specialty:</label>
+                    <input type="text" id="attending_specialty" name="attending_specialty">
+                    <label for="attending_pgy"><br>PGY (PGY level, for example, PGY 25, is encouraged to be shared.)
+                        [optional]:</label>
+                    <input type="number" id="attending_pgy" name="attending_pgy" min="1">
+                </div>
+            </div>
+            <div class="section">
+                <label><input type="radio" name="learner_type" value="other" onclick="showSection('otherSection')">
+                    Other</label>
+                <div id="otherSection" class="indent hide">
+                    <label for="other_description">Please specify:</label>
+                    <input type="text" id="other_description" name="other_description">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Overall Satisfaction</h2>
+            <div>How satisfied are you with the module overall?<br>
+                (1 = Not at all satisfied, 5 = Extremely satisfied)</div>
+            <label><input type="radio" name="overall_satisfaction" value="1"> 1</label>
+            <label><input type="radio" name="overall_satisfaction" value="2"> 2</label>
+            <label><input type="radio" name="overall_satisfaction" value="3"> 3</label>
+            <label><input type="radio" name="overall_satisfaction" value="4"> 4</label>
+            <label><input type="radio" name="overall_satisfaction" value="5"> 5</label>
+        </div>
+
+        <div class="form-section">
+            <h2>Content Quality</h2>
+            <div>The content was…</div>
+            <label><input type="radio" name="content_quality" value="Accurate"> Accurate</label>
+            <label><input type="radio" name="content_quality" value="Up-to-date"> Up-to-date</label>
+            <label><input type="radio" name="content_quality" value="Relevant to my level of training"> Relevant to my
+                level of training</label>
+            <label><input type="radio" name="content_quality" value="Well-organized"> Well-organized</label>
+            <div>Rate the clarity of the information presented:</div>
+            <label><input type="radio" name="content_quality_score" value="1"> 1</label>
+            <label><input type="radio" name="content_quality_score" value="2"> 2</label>
+            <label><input type="radio" name="content_quality_score" value="3"> 3</label>
+            <label><input type="radio" name="content_quality_score" value="4"> 4</label>
+            <label><input type="radio" name="content_quality_score" value="5"> 5</label>
+        </div>
+
+        <div class="form-section">
+            <h2>Learning Objectives</h2>
+            <div>To what extent did the module meet its stated learning objectives?</div>
+            <label><input type="radio" name="learning_objectives" value="Not at all"> Not at all</label>
+            <label><input type="radio" name="learning_objectives" value="Somewhat"> Somewhat</label>
+            <label><input type="radio" name="learning_objectives" value="Mostly"> Mostly</label>
+            <label><input type="radio" name="learning_objectives" value="Completely"> Completely</label>
+        </div>
+
+        <div class="form-section">
+            <h2>Engagement and Interactivity</h2>
+            <div>How engaging was the module?</div>
+            <label><input type="radio" name="engagement_and_interactivity" value="Not engaging"> Not engaging</label>
+            <label><input type="radio" name="engagement_and_interactivity" value="Minimally engaging"> Minimally
+                engaging</label>
+            <label><input type="radio" name="engagement_and_interactivity" value="Moderately engaging"> Moderately
+                engaging</label>
+            <label><input type="radio" name="engagement_and_interactivity" value="Very engaging"> Very engaging</label>
+            <div>Did the module include helpful interactive elements (e.g., quizzes, cases, visuals)?</div>
+            <label><input type="radio" name="engagement_and_interactivity_issues" value="Yes"> Yes</label>
+            <label><input type="radio" name="engagement_and_interactivity_issues" value="No"> No</label>
+            <label><input type="radio" name="engagement_and_interactivity_issues" value="Not applicable"> Not
+                applicable</label>
+        </div>
+
+        <div class="form-section">
+            <h2>Knowledge & Confidence</h2>
+            <div>After completing this module, how confident do you feel about your understanding of the following
+                topics?</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Not confident</th>
+                        <th>Somewhat</th>
+                        <th>confident</th>
+                        <th>Very confident</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic considerations</td>
+                        <td><input type="radio" name="basic_considerations" value="Not confident"
+                                aria-label="Not confident"></td>
+                        <td><input type="radio" name="basic_considerations" value="Somewhat" aria-label="Somewhat"></td>
+                        <td><input type="radio" name="basic_considerations" value="confident" aria-label="confident">
+                        </td>
+                        <td><input type="radio" name="basic_considerations" value="Very confident"
+                                aria-label="Very confident"></td>
+                    </tr>
+                    <tr>
+                        <td>Clinical evaluation and diagnostic examinations</td>
+                        <td><input type="radio" name="clinical_evaluation" value="Not confident"
+                                aria-label="Not confident"></td>
+                        <td><input type="radio" name="clinical_evaluation" value="Somewhat" aria-label="Somewhat"></td>
+                        <td><input type="radio" name="clinical_evaluation" value="confident" aria-label="confident">
+                        </td>
+                        <td><input type="radio" name="clinical_evaluation" value="Very confident"
+                                aria-label="Very confident"></td>
+                    </tr>
+                    <tr>
+                        <td>Perioperative pain management</td>
+                        <td><input type="radio" name="perioperative_pain" value="Not confident"
+                                aria-label="Not confident"></td>
+                        <td><input type="radio" name="perioperative_pain" value="Somewhat" aria-label="Somewhat"></td>
+                        <td><input type="radio" name="perioperative_pain" value="confident" aria-label="confident"></td>
+                        <td><input type="radio" name="perioperative_pain" value="Very confident"
+                                aria-label="Very confident"></td>
+                    </tr>
+                    <tr>
+                        <td>Chronic pain syndromes</td>
+                        <td><input type="radio" name="chronic_pain" value="Not confident" aria-label="Not confident">
+                        </td>
+                        <td><input type="radio" name="chronic_pain" value="Somewhat" aria-label="Somewhat"></td>
+                        <td><input type="radio" name="chronic_pain" value="confident" aria-label="confident"></td>
+                        <td><input type="radio" name="chronic_pain" value="Very confident" aria-label="Very confident">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cancer pain and pain in special situations</td>
+                        <td><input type="radio" name="cancer_pain" value="Not confident" aria-label="Not confident">
+                        </td>
+                        <td><input type="radio" name="cancer_pain" value="Somewhat" aria-label="Somewhat"></td>
+                        <td><input type="radio" name="cancer_pain" value="confident" aria-label="confident"></td>
+                        <td><input type="radio" name="cancer_pain" value="Very confident" aria-label="Very confident">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pharmacology and pharmacologic modalities</td>
+                        <td><input type="radio" name="pharmacology" value="Not confident" aria-label="Not confident">
+                        </td>
+                        <td><input type="radio" name="pharmacology" value="Somewhat" aria-label="Somewhat"></td>
+                        <td><input type="radio" name="pharmacology" value="confident" aria-label="confident"></td>
+                        <td><input type="radio" name="pharmacology" value="Very confident" aria-label="Very confident">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Therapeutic interventions</td>
+                        <td><input type="radio" name="therapeutic_interventions" value="Not confident"
+                                aria-label="Not confident"></td>
+                        <td><input type="radio" name="therapeutic_interventions" value="Somewhat" aria-label="Somewhat">
+                        </td>
+                        <td><input type="radio" name="therapeutic_interventions" value="confident"
+                                aria-label="confident"></td>
+                        <td><input type="radio" name="therapeutic_interventions" value="Very confident"
+                                aria-label="Very confident"></td>
+                    </tr>
+                    <tr>
+                        <td>Interventional techniques for pain management</td>
+                        <td><input type="radio" name="interventional_techniques" value="Not confident"
+                                aria-label="Not confident"></td>
+                        <td><input type="radio" name="interventional_techniques" value="Somewhat" aria-label="Somewhat">
+                        </td>
+                        <td><input type="radio" name="interventional_techniques" value="confident"
+                                aria-label="confident"></td>
+                        <td><input type="radio" name="interventional_techniques" value="Very confident"
+                                aria-label="Very confident"></td>
+                    </tr>
+                    <tr>
+                        <td>Other nerve blocks in pain medicine</td>
+                        <td><input type="radio" name="nerve_blocks" value="Not confident" aria-label="Not confident">
+                        </td>
+                        <td><input type="radio" name="nerve_blocks" value="Somewhat" aria-label="Somewhat"></td>
+                        <td><input type="radio" name="nerve_blocks" value="confident" aria-label="confident"></td>
+                        <td><input type="radio" name="nerve_blocks" value="Very confident" aria-label="Very confident">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="form-section">
+            <h2>Usability and Accessibility</h2>
+            <div>How would you rate the usability of the platform/module interface?</div>
+            <label><input type="radio" name="usability_and_accessibility" value="Poor"> Poor</label>
+            <label><input type="radio" name="usability_and_accessibility" value="Fair"> Fair</label>
+            <label><input type="radio" name="usability_and_accessibility" value="Good"> Good</label>
+            <label><input type="radio" name="usability_and_accessibility" value="Excellent"> Excellent</label>
+            <div>Were there any technical issues?</div>
+            <label><input type="radio" name="usability_and_accessibility_issues" value="Yes"
+                    onclick="showSection('technical_issuesYES')"> Yes</label>
+            <label><input type="radio" name="usability_and_accessibility_issues" value="No"
+                    onclick="showSection('technical_issuesNO')"> No</label>
+            <div id="technical_issuesYES" class="indent hide">
+                <label for="usability_and_accessibility_yes">If yes, please describe: </label>
+                <textarea name="usability_and_accessibility_yes" id="usability_and_accessibility_yes" cols="100"
+                    rows="8" class="resiz"></textarea>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Impact and Application</h2>
+            <div>Do you feel this module will improve your clinical practice or decision-making in pain management?
+            </div>
+            <label><input type="radio" name="learning_objectives" value="Yes"> Yes</label>
+            <label><input type="radio" name="learning_objectives" value="No"> No</label>
+            <label><input type="radio" name="learning_objectives" value="Not sure"> Not sure</label>
+        </div>
+
+        <div class="form-section">
+            <h2>Suggestions and Comments</h2>
+            <div>What did you like most about this module?</div>
+            <textarea name="suggestions_and_comments_module" id="suggestions_and_comments_module" cols="100" rows="8"
+                placeholder="Enter your feedback here" class="resiz"></textarea>
+            <div>What can be improved?</div>
+            <textarea name="suggestions_and_comments_improve" id="suggestions_and_comments_improve" cols="100" rows="8"
+                placeholder="Enter your feedback here" class="resiz"></textarea>
+            <div>Any additional comments?</div>
+            <textarea name="suggestions_and_comments_additional_comments"
+                id="suggestions_and_comments_additional_comments" cols="100" rows="8"
+                placeholder="Enter your feedback here" class="resiz"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+    <div id="form-result"
+        style="white-space: pre-wrap; background: #f9f9f9; padding: 1em; border: 1px solid #ccc; margin-top: 20px;">
+    </div>
+</div>
+<script>
+    function showSection(selectedId) {
+        const sections = ['medicalStudent', 'residentPhysician', 'attendingPhysician', 'otherSection', 'technical_issuesYES'];
+        if (selectedId === 'technical_issuesNO') {
+            document.getElementById('technical_issuesYES').style.display = 'none';
+        } else {
+            sections.forEach(id => {
+                document.getElementById(id).style.display = (id === selectedId) ? 'block' : 'none';
+            });
+        }
+    }
+    // 🔄 function: 用區塊 ID 對應回 value 值
+    function sectionIdToValue(id) {
+        switch (id) {
+            case 'medicalStudent': return 'medical student';
+            case 'residentPhysician': return 'resident physician';
+            case 'attendingPhysician': return 'attending physician';
+            case 'otherSection': return 'other';
+        }
+    }
+
+    function cleanupSections() {
+        const allSections = ['medicalStudent', 'residentPhysician', 'attendingPhysician', 'otherSection'];
+        // 遍歷每個區塊，如果不是選中的，就清空裡面的欄位值
+        allSections.forEach(sectionId => {
+            const radios = document.querySelector(`input[name="learner_type"][value="${sectionIdToValue(sectionId)}"]`);
+            if (!radios || !radios.checked) {
+                const inputs = document.querySelectorAll(`#${sectionId} input`);
+                inputs.forEach(input => input.value = '');
+            }
+        });
+        let radio = document.querySelector(`input[name="learner_type"][value="usability_and_accessibility_issues"]`);
+        if (!radio || !radio.checked) {
+            const inputs = document.querySelector(`#technical_issuesYES textarea`);
+            inputs.value = '';
+        }
+    }
+
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        // 清除未勾選值區塊的值
+        cleanupSections();
+
+        const form = event.target;
+        const formData = new FormData(form);
+        // 找出選中的 learner_type
+        const selectedType = document.querySelector('input[name="learner_type"]:checked')?.value;
+
+        const scriptURL = '';
+
+        let summary = '';
+
+        // Helper: 顯示欄位
+        const get = (name) => formData.get(name) || '';
+
+        // Learner Information
+        const learnerType = get('learner_type');
+        summary += `Learner Information\n`;
+        summary += `- Learner Type: ${learnerType}\n`;
+
+        if (learnerType === 'medical student') {
+            summary += `- School: ${get('school')}\n`;
+        } else if (learnerType === 'resident physician') {
+            summary += `- Specialty: ${get('resident_specialty')}\n`;
+            summary += `- PGY: ${get('resident_pgy')}\n`;
+        } else if (learnerType === 'attending physician') {
+            summary += `- Specialty: ${get('attending_specialty')}\n`;
+            summary += `- PGY: ${get('attending_pgy')}\n`;
+        } else if (learnerType === 'other') {
+            summary += `- Description: ${get('other_description')}\n`;
+        }
+
+        // Overall Satisfaction
+        summary += `\nOverall Satisfaction\n`;
+        summary += `- Satisfaction score: ${get('overall_satisfaction')}\n`;
+
+        // Content Quality
+        summary += `\nContent Quality\n`;
+        summary += `- Description: ${get('content_quality')}\n`;
+        summary += `- Clarity score: ${get('content_quality_score')}\n`;
+
+        // Learning Objectives
+        summary += `\nLearning Objectives\n`;
+        summary += `- Fulfillment: ${get('learning_objectives')}\n`;
+
+        // Engagement and Interactivity
+        summary += `\nEngagement and Interactivity\n`;
+        summary += `- Engagement level: ${get('engagement_and_interactivity')}\n`;
+        summary += `- Interactive helpful: ${get('engagement_and_interactivity_issues')}\n`;
+
+        // Knowledge & Confidence (loop through topics)
+        const topics = [
+            'basic_considerations',
+            'clinical_evaluation',
+            'perioperative_pain',
+            'chronic_pain',
+            'cancer_pain',
+            'pharmacology',
+            'therapeutic_interventions',
+            'interventional_techniques',
+            'nerve_blocks'
+        ];
+
+        summary += `\nKnowledge & Confidence\n`;
+        topics.forEach(topic => {
+            const value = get(topic);
+            if (value) summary += `- ${topic.replace(/_/g, ' ')}: ${value}\n`;
+        });
+
+        // Usability and Accessibility
+        summary += `\nUsability and Accessibility\n`;
+        summary += `- Usability rating: ${get('usability_and_accessibility')}\n`;
+        summary += `- Technical issues: ${get('usability_and_accessibility_issues')}\n`;
+        if (get('usability_and_accessibility_issues') === 'Yes') {
+            summary += `- Description: ${get('usability_and_accessibility_yes')}\n`;
+        }
+
+        // Impact and Application
+        summary += `\nImpact and Application\n`;
+        summary += `- Will improve practice: ${get('learning_objectives')}\n`;
+
+        // Suggestions
+        summary += `\nSuggestions and Comments\n`;
+        summary += `- Liked most: ${get('suggestions_and_comments_module')}\n`;
+        summary += `- Improvements: ${get('suggestions_and_comments_improve')}\n`;
+        summary += `- Additional comments: ${get('suggestions_and_comments_additional_comments')}\n`;
+
+        document.getElementById("form-result").textContent = summary;
+
+        /*fetch(scriptURL, { method: 'POST', body: formData })
+            .then(response => {
+                alert('Success!');
+                form.reset(); // Reset the form after successful submission
+            })
+            .catch(error => alert('Error!'));*/
+    }
+</script>

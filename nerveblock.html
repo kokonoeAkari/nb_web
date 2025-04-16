@@ -1,103 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Nerve Block</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="#">
-
-        <!-- JS -->
-        <script src="libs/jquery/jquery-3.7.1.js"></script>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/common.css"/>
-    </head>
-    <body>
-        <div class="content">
-            <!-- header -->
-            <div class="header">
-                <div>
-                    <h1 class="pm-logo"><a href="index.html">Logo</a></h1>
-                </div>
-                <nav class="pm-navbar">
-                    <button class="pm-navbar-btn" type="button" title="navbar-btn">
-                        <img class="pm-navbar-btn-img" src="asset/image/icon.svg" alt="">
-                    </button>
-                    <ul class="pm-navbar-nav" id="pm-navbar-nav">
-                        <li class="pm-nav-item">
-                            <a href="nerveblock.html" style="background-color:gainsboro;border-radius: 10px;">
-                                <span><img src="asset/image/surgery.png" alt="surgery" width="30px" height="30px"></span>
-                                Nerve Block</a>
-                        </li>
-                        <li class="pm-nav-item">
-                            <a href="#">
-                                <span><img src="asset/image/exam.png" alt="exam" width="30px" height="30px"></span>
-                                試題測驗</a>
-                            <ul class="pm-nav-dropdown">
-                                <li class="">
-                                    <a href="exam_te1.html">選擇題</a>
-                                </li>
-                                <li class="">
-                                    <a href="exam_te2.html">配合題</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>  
-                </nav>
-                <nav class="pm-navbar-dropdown" id="pm-navbar-dropdown">
-                    <ul class="pm-navbar-nav-dropdown">
-                        <li class="pm-navbar-nav-dropdown-item">
-                            <a href="nerveblock.html">
-                                Nerve Block
-                                <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                            </a>
-                        </li>
-                        <li class="pm-navbar-nav-dropdown-item">
-                            <a id="examBTN">
-                                試題測驗
-                                <span><img src="asset/image/plus.svg" alt=""width="16px" height="16px" id="examImg"></span>
-                            </a>
-                            <ul class="pm-navbar-nav-dropdown-item-dropdown" id="pm-navbar-nav-dropdown-item-dropdown">
-                                <li class="pm-navbar-nav-dropdown-item">
-                                    <a href="exam_te1.html">
-                                        <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                                        Test 1 選擇題</a>
-                                </li>
-                                <li class="pm-navbar-nav-dropdown-item">
-                                    <a href="exam_te2.html">
-                                        <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                                        Test 2 配合題</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <!-- content -->
-            <div class="nb-main-content">
-                <div class="nb-body-pic-block">
-                    <div style="padding: 0 20px;"><div class="nb-body-pic-title">Human body diagram</div></div>
-                    <div style="padding: 0 20px;"><div class="nb-body-pic">
-                        <!--<img src="asset/diag/body.png" alt="human-body">-->
-                    </div></div>
-                </div>
-                <div class="nb-body-block">
-                    <div style="padding: 0 20px;"><div class="nb-body-title">Body</div></div>
-                    <nav class="nb-body-part-nav" id="nb-body-part-nav"></nav>
-                    <div style="padding: 0 20px;"><div class="nb-body-title">Body parts</div></div>
-                    <nav class="nb-body-blocks-nav" id="nb-body-blocks-nav"></nav>
-                    <nav class="nb-body-struc-nav" id="nb-body-struc-nav"></nav>
-                    <div class="nb-body-blocks-contents">
-                        <div class="nb-page">
-                            <div id="nb-page-content"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- content -->
+<div class="nb-main-content">
+    <div class="nb-body-block">
+        <div class="nb-body-title">Body</div>
+        <nav class="nb-body-part-nav" id="nb-body-part-nav"></nav>
+        <div class="nb-body-title">Body parts</div>
+        <nav class="nb-body-blocks-nav" id="nb-body-blocks-nav"></nav>
+        <nav class="nb-body-struc-nav" id="nb-body-struc-nav"></nav>
+        <div class="nb-body-blocks-contents">
+            <div id="nb-page-content"></div>
         </div>
-        <!-- JS -->
-        <script src="js/main.js"></script>
-        <script src="js/data.js"></script>
-    </body>
-</html>
+    </div>
+</div>
+</div>

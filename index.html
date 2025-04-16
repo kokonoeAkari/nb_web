@@ -1,87 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Pain Medicine</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="#">
 
-        <!-- JS -->
-        <script src="libs/jquery/jquery-3.7.1.js"></script>
+<head>
+    <title>Pain Medicine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/common.css"/>
-    </head>
-    <body>
-        <div class="content">
-            <!-- header -->
-            <div class="header">
-                <div>
-                    <h1 class="pm-logo"><a href="index.html">Logo</a></h1>
-                </div>
-                <nav class="pm-navbar">
-                    <button class="pm-navbar-btn" type="button" title="navbar-btn">
-                        <img class="pm-navbar-btn-img" src="asset/image/icon.svg" alt="">
-                    </button>
-                    <ul class="pm-navbar-nav" id="pm-navbar-nav">
-                        <li class="pm-nav-item">
-                            <a href="nerveblock.html">
-                                <span><img src="asset/image/surgery.png" alt="surgery" width="30px" height="30px"></span>
-                                Nerve Block</a>
-                        </li>
-                        <li class="pm-nav-item">
-                            <a href="#">
-                                <span><img src="asset/image/exam.png" alt="exam" width="30px" height="30px"></span>
-                                試題測驗</a>
-                            <ul class="pm-nav-dropdown">
-                                <li class="">
-                                    <a href="exam_te1.html">選擇題</a>
-                                </li>
-                                <li class="">
-                                    <a href="exam_te2.html">配合題</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>  
-                </nav>
-                <nav class="pm-navbar-dropdown" id="pm-navbar-dropdown">
-                    <ul class="pm-navbar-nav-dropdown">
-                        <li class="pm-navbar-nav-dropdown-item">
-                            <a href="nerveblock.html">
-                                Nerve Block
-                                <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                            </a>
-                        </li>
-                        <li class="pm-navbar-nav-dropdown-item">
-                            <a href="#" id="examBTN">
-                                試題測驗
-                                <span><img src="asset/image/plus.svg" alt=""width="16px" height="16px"></span>
-                            </a>
-                            <ul class="pm-navbar-nav-dropdown-item-dropdown" id="pm-navbar-nav-dropdown-item-dropdown">
-                                <li class="pm-navbar-nav-dropdown-item">
-                                    <a href="exam_te1.html">
-                                        <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                                        Test 1 選擇題</a>
-                                </li>
-                                <li class="pm-navbar-nav-dropdown-item">
-                                    <a href="exam_te2.html">
-                                        <span><img src="asset/image/angle-small-right.png" alt=""width="20px" height="20px"></span>
-                                        Test 2 配合題</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
+    <!-- JS -->
+    <script src="libs/jquery/jquery-3.7.1.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/common.css" />
+</head>
+
+<body>
+    <div class="content">
+        <!-- header -->
+        <div class="header">
+            <div class="pm-logo"><a href="index.html"><img src="asset/image/logo.png" alt="home" width="500px" height="60px"></a>
             </div>
-            
-            <div class="main-content">
-                <div class="pm-home-content">
-                    
-                </div>
+            <nav class="pm-navbar">
+                <button class="pm-navbar-btn" type="button" title="navbar-btn">
+                    <img class="pm-navbar-btn-img" src="asset/image/icon.svg" alt="">
+                </button>
+                <ul class="pm-navbar-nav" id="pm-navbar-nav">
+                    <li class="pm-nav-item">
+                        <a href="#" data-page="nerveblock.html">
+                            Nerve Block</a>
+                    </li>
+                    <li class="pm-nav-item">
+                        <a href="#">
+                            Test Questions</a>
+                        <ul class="pm-nav-dropdown">
+                            <li class="">
+                                <a href="#" data-page="exam_te1.html">Multiple-choice Questions</a>
+                            </li>
+                            <li class="">
+                                <a href="#" data-page="exam_te2.html">Matching Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pm-nav-item">
+                        <a href="#" data-page="survey.html">
+                            Survey</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="pm-navbar-dropdown" id="pm-navbar-dropdown">
+                <ul class="pm-navbar-nav-dropdown">
+                    <li class="pm-navbar-nav-dropdown-item">
+                        <a href="#" data-page="nerveblock.html">
+                            Nerve Block
+                            <span><img src="asset/image/angle-small-right.png" alt="" width="20px" height="20px"></span>
+                        </a>
+                    </li>
+                    <li class="pm-navbar-nav-dropdown-item">
+                        <a href="#" id="examBTN">
+                            <span><img src="asset/image/plus.svg" alt="" width="16px" height="16px"></span>
+                            Test Questions
+                        </a>
+                        <ul class="pm-navbar-nav-dropdown-item-dropdown" id="pm-navbar-nav-dropdown-item-dropdown">
+                            <li class="pm-navbar-nav-dropdown-item">
+                                <a href="#" data-page="exam_te1.html">
+                                    <span><img src="asset/image/angle-small-right.png" alt="" width="20px"
+                                            height="20px"></span>
+                                    Test 1 Multiple-choice Questions</a>
+                            </li>
+                            <li class="pm-navbar-nav-dropdown-item">
+                                <a href="#" data-page="exam_te2.html">
+                                    <span><img src="asset/image/angle-small-right.png" alt="" width="20px"
+                                            height="20px"></span>
+                                    Test 2 Matching Questions</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="pm-navbar-nav-dropdown-item">
+                        <a href="#" data-page="survey.html">
+                            Survey
+                            <span><img src="asset/image/angle-small-right.png" alt="" width="20px" height="20px"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-content" id="main-content">
+            <div class="pm-home-content">
+                <p>
+                    Website, Platform, Learning Module Created and Maintained by 
+                    <strong>Kuan-Han Chen, MD</strong>.
+                </p>
+                <p>
+                    &copy; Copyright owned by 
+                    <strong>Kuan-Han Chen, MD</strong> and referenced sources.
+                </p>
             </div>
         </div>
-        
-        <!-- JS -->
-        <script src="js/main.js"></script>
-    </body>
+    </div>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script>
+        $('a[data-page]').on('click', function (e) {
+            e.preventDefault();
+            const page = $(this).data('page');
+            if (!page) return;
+
+            // 如果要記錄當前頁，避免重複載入，也可以加入：
+            if (window.currentPage === page) return;
+            window.currentPage = page;
+
+            loadPageWithScript(page);
+        });
+
+        let currentModule = null;
+
+        async function loadPageWithScript(page) {
+            const $container = $('#main-content');
+
+            if (currentModule?.cleanup) {
+                currentModule.cleanup();
+            }
+
+            $container.fadeOut(200, async () => {
+                $container.load(page, async () => {
+                    if (page === 'exam_te1.html' || page === 'exam_te2.html' || page === 'nerveblock.html') {
+                        currentModule = await import(`./js/${page}`.replace('.html', '.js'));
+                        currentModule.init();
+                    } else {
+                        currentModule = null;
+                    }
+
+                    $container.fadeIn(200);
+                });
+            });
+        }
+    </script>
+</body>
+
 </html>

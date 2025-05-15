@@ -105,8 +105,8 @@ function loadBodyPart() {
     const buttons = document.querySelectorAll('.bodyPartBTN');
     buttons.forEach(btn => {
         const listener = (event) => {
-            buttons.forEach(b => b.style.backgroundColor = '');
-            event.target.style.backgroundColor = 'rgb(214, 208, 199)';
+            buttons.forEach(b => b.classList.remove('selected'));
+            event.target.classList.add('selected');
             nowBody = event.target.value;
             document.getElementById('nb-body-struc-nav').innerHTML = '';
             document.getElementById('nb-page-content').innerHTML = '';
@@ -120,9 +120,9 @@ function loadBodyPart() {
 function regBTN(selector, type) {
     const buttons = document.querySelectorAll(selector);
     buttons.forEach(btn => {
-        const listener = (e) => {
-            buttons.forEach(b => b.style.backgroundColor = '');
-            btn.style.backgroundColor = 'rgb(214, 208, 199)';
+        const listener = (event) => {
+            buttons.forEach(b => b.classList.remove('selected'));
+            event.target.classList.add('selected');
             buttonValue = btn.value;
             if (type === 1) {
                 document.getElementById('nb-page-content').innerHTML = '';

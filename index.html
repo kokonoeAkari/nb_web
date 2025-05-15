@@ -10,18 +10,22 @@
     <!-- JS -->
     <script src="libs/jquery/jquery-3.7.1.js"></script>
 
+    <!-- font -->
+    <link href="#" rel="stylesheet">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="css/common.css" />
 </head>
 
 <body>
-    <div class="content">
+    <div class="content" id="content">
         <!-- header -->
         <div class="header">
-            <div class="pm-logo"><a href="index.html"><img src="asset/image/logo.png" alt="home" width="500px" height="60px"></a>
+            <div class="pm-logo">
+                <a href="index.html">New York Presbyterian - Brooklyn Methodist Hospital Nerve Block Learning Module</a>
             </div>
             <nav class="pm-navbar">
-                <button class="pm-navbar-btn" type="button" title="navbar-btn">
+                <button class="pm-navbar-btn" id="pm-navbar-btn" type="button" title="navbar-btn">
                     <img class="pm-navbar-btn-img" src="asset/image/icon.svg" alt="">
                 </button>
                 <ul class="pm-navbar-nav" id="pm-navbar-nav">
@@ -47,55 +51,64 @@
                     </li>
                 </ul>
             </nav>
-            <nav class="pm-navbar-dropdown" id="pm-navbar-dropdown">
-                <ul class="pm-navbar-nav-dropdown">
-                    <li class="pm-navbar-nav-dropdown-item">
-                        <a href="#" data-page="nerveblock.html">
-                            Nerve Block
-                            <span><img src="asset/image/angle-small-right.png" alt="" width="20px" height="20px"></span>
-                        </a>
-                    </li>
-                    <li class="pm-navbar-nav-dropdown-item">
-                        <a href="#" id="examBTN">
-                            <span><img src="asset/image/plus.svg" alt="" width="16px" height="16px"></span>
-                            Test Questions
-                        </a>
-                        <ul class="pm-navbar-nav-dropdown-item-dropdown" id="pm-navbar-nav-dropdown-item-dropdown">
-                            <li class="pm-navbar-nav-dropdown-item">
-                                <a href="#" data-page="exam_te1.html">
-                                    <span><img src="asset/image/angle-small-right.png" alt="" width="20px"
-                                            height="20px"></span>
-                                    Test 1 Multiple-choice Questions</a>
-                            </li>
-                            <li class="pm-navbar-nav-dropdown-item">
-                                <a href="#" data-page="exam_te2.html">
-                                    <span><img src="asset/image/angle-small-right.png" alt="" width="20px"
-                                            height="20px"></span>
-                                    Test 2 Matching Questions</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="pm-navbar-nav-dropdown-item">
-                        <a href="#" data-page="survey.html">
-                            Survey
-                            <span><img src="asset/image/angle-small-right.png" alt="" width="20px" height="20px"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+        </div>
+
+        <div class="pm-navbar-dropdown" id="pm-navbar-dropdown">
+            <div class="pm-navbar-dropdown-title" id="pm-navbar-dropdown-title">
+                Contents
+            </div>
+            <ul class="pm-navbar-nav-dropdown">
+                <li class="pm-navbar-nav-dropdown-item">
+                    <a href="#" data-page="nerveblock.html">
+                        Nerve Block
+                    </a>
+                </li>
+                <li class="pm-navbar-nav-dropdown-item">
+                    <a href="#" id="examBTN">
+                        Test Questions
+                    </a>
+                    <ul class="pm-navbar-nav-dropdown-item-dropdown" id="pm-navbar-nav-dropdown-item-dropdown">
+                        <li class="pm-navbar-nav-dropdown-item">
+                            <a href="#" data-page="exam_te1.html">
+                                Test 1 Multiple-choice Questions</a>
+                        </li>
+                        <li class="pm-navbar-nav-dropdown-item">
+                            <a href="#" data-page="exam_te2.html">
+                                Test 2 Matching Questions</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="pm-navbar-nav-dropdown-item">
+                    <a href="#" data-page="survey.html">
+                        Survey
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <button type="button" class="toggle-btn" id="toggleSidebar"> > </button>
+            </div>
         </div>
 
         <div class="main-content" id="main-content">
             <div class="pm-home-content">
                 <p>
-                    Website, Platform, Learning Module Created and Maintained by 
+                    Website, Platform, Learning Module Created and Maintained by
                     <strong>Kuan-Han Chen, MD</strong>.
                 </p>
                 <p>
-                    &copy; Copyright owned by 
+                    &copy; Copyright owned by
                     <strong>Kuan-Han Chen, MD</strong> and referenced sources.
                 </p>
             </div>
+        </div>
+
+
+
+        <div>
+            <button type="button" id="toTopBtn" title="Go to top">Top</button>
+        </div>
+        <div class="tech-scroll-bar" id="tech-scroll-bar">
+            <div class="tech-scroll-thumb" id="tech-scroll-thumb"></div>
         </div>
     </div>
 
@@ -112,6 +125,7 @@
             window.currentPage = page;
 
             loadPageWithScript(page);
+
         });
 
         let currentModule = null;
@@ -131,11 +145,58 @@
                     } else {
                         currentModule = null;
                     }
-
                     $container.fadeIn(200);
+                    document.getElementById('main-content').scrollTo({ top: 0, behavior: 'smooth' });
                 });
             });
         }
+
+        const toTopBtn = document.getElementById('toTopBtn');
+        const scrollContainer = document.getElementById('main-content'); // 要監聽的容器
+
+        scrollContainer.addEventListener('scroll', () => {
+            if (scrollContainer.scrollTop > 200) {
+                toTopBtn.style.display = 'block';
+            } else {
+                toTopBtn.style.display = 'none';
+            }
+        });
+
+        // 點擊回到最上方
+        toTopBtn.onclick = function () {
+            scrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+
+        const content = document.getElementById('content');
+        const mainContent = document.getElementById('main-content');
+        const thumb = document.getElementById('tech-scroll-thumb');
+
+        let scrollTimer = null;
+
+        function updateThumb() {
+            const containerHeight = mainContent.clientHeight;
+            const contentHeight = mainContent.scrollHeight;
+            const scrollTop = mainContent.scrollTop;
+
+            const thumbHeight = Math.max((containerHeight / contentHeight) * containerHeight, 30);
+            const thumbTop = (scrollTop / (contentHeight - containerHeight)) * (containerHeight - thumbHeight) + 91;
+
+            thumb.style.height = `${thumbHeight}px`;
+            thumb.style.top = `${thumbTop}px`;
+        }
+
+        mainContent.addEventListener('scroll', () => {
+            content.classList.add('scrolling');
+            updateThumb();
+
+            clearTimeout(scrollTimer);
+            scrollTimer = setTimeout(() => {
+                content.classList.remove('scrolling');
+            }, 800);
+        });
+
+        window.addEventListener('resize', updateThumb);
+        window.addEventListener('load', updateThumb);
     </script>
 </body>
 

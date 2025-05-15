@@ -234,26 +234,35 @@
         <div class="form-section">
             <h2>Suggestions and Comments</h2>
             <div>What did you like most about this module?</div>
-            <textarea name="suggestions_and_comments_module" id="suggestions_and_comments_module" cols="100" rows="8"
-                placeholder="Enter your feedback here" class="resiz"></textarea>
+            <textarea name="suggestions_and_comments_module" id="suggestions_and_comments_module"
+                placeholder="Enter your feedback here" class="resiz" oninput="autoGrow(this)"></textarea>
             <div>What can be improved?</div>
-            <textarea name="suggestions_and_comments_improve" id="suggestions_and_comments_improve" cols="100" rows="8"
-                placeholder="Enter your feedback here" class="resiz"></textarea>
+            <textarea name="suggestions_and_comments_improve" id="suggestions_and_comments_improve"
+                placeholder="Enter your feedback here" class="resiz" oninput="autoGrow(this)"></textarea>
             <div>Any additional comments?</div>
             <textarea name="suggestions_and_comments_additional_comments"
-                id="suggestions_and_comments_additional_comments" cols="100" rows="8"
-                placeholder="Enter your feedback here" class="resiz"></textarea>
+                id="suggestions_and_comments_additional_comments" placeholder="Enter your feedback here" class="resiz"
+                oninput="autoGrow(this)"></textarea>
         </div>
-        <div>
+        <div class="form-section-btn">
             <button type="submit">Submit</button>
         </div>
-
     </form>
+    <div id="thankYouMessage" class="thank-you-box fade-in hide">
+        thank you for your feedback!<br>
+        Your feedback is important to us and will help us improve the module for future learners.
+    </div>
     <!-- <div id="form-result"
         style="white-space: pre-wrap; background: #f9f9f9; padding: 1em; border: 1px solid #ccc; margin-top: 20px;">
     </div>-->
 </div>
 <script>
+
+    function autoGrow(el) {
+        el.style.height = "auto"; // reset height
+        el.style.height = (el.scrollHeight) + "px"; // set to scrollHeight
+    }
+
     function showSection(selectedId) {
         const sections = ['medicalStudent', 'residentPhysician', 'attendingPhysician', 'otherSection', 'technical_issuesYES'];
         if (selectedId === 'technical_issuesNO') {
@@ -299,6 +308,7 @@
 
         const form = event.target;
         const formData = new FormData(form);
+        const message = document.getElementById('thankYouMessage');
         // 找出選中的 learner_type
         const selectedType = document.querySelector('input[name="learner_type"]:checked')?.value;
 
@@ -389,5 +399,14 @@
                 form.reset(); // Reset the form after successful submission
             })
             .catch(error => alert('Error!'));*/
+
+        // 隱藏表單
+        form.classList.add('hide');
+
+        // 顯示訊息框並淡入
+        message.classList.remove('hide');
+        setTimeout(() => {
+            message.classList.add('show');
+        }, 10); // 延遲觸發 transition
     }
 </script>

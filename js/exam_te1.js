@@ -37,18 +37,21 @@ function createElement(tag, className, text) {
 function createOptions(options, name) {
     const container = createElement('div', 'pm-question-options');
     Object.entries(options).forEach(([key, value]) => {
-        const wrapper = createElement('div');
+        const wrapper = createElement('div', 'pm-question-options-div');
         const input = document.createElement('input');
         input.type = 'radio';
         input.id = `${name}${key}`;
         input.name = name;
         input.value = key;
 
+        const icn = document.createElement('span');
+        icn.className = 'pm-question-options-icn';
+
         const label = document.createElement('label');
         label.setAttribute('for', input.id);
         label.textContent = `${key}. ${value}`;
 
-        wrapper.append(input, label);
+        wrapper.append(input, icn, label);
         container.appendChild(wrapper);
     });
     return container;
@@ -102,20 +105,18 @@ function markAnswer(title, answerUrl, userAnswers) {
             const options = optionBlocks[idx].childNodes;
 
             if (userAns === correctAns) {
-                blocks[idx].style.backgroundColor = '#38f53859';
+                const correctOption = options[['A', 'B', 'C', 'D'].indexOf(correctAns)];
+                correctOption.classList.add('correct', 'answered');
                 correct++;
             } else {
                 if (correctAns) {
                     const correctOption = options[['A', 'B', 'C', 'D'].indexOf(correctAns)];
-                    correctOption?.style?.setProperty('background-color', '#38f538');
-                    correctOption?.style?.setProperty('border-radius', '8px');
+                    correctOption.classList.add('correct');
                 }
                 if (userAns) {
                     const wrongOption = options[['A', 'B', 'C', 'D'].indexOf(userAns)];
-                    wrongOption?.style?.setProperty('background-color', '#fd2727');
-                    wrongOption?.style?.setProperty('border-radius', '8px');
+                    wrongOption.classList.add('incorrect');
                 }
-                blocks[idx].style.backgroundColor = '#ff939359';
                 wrong++;
             }
         });
@@ -194,6 +195,7 @@ function init() {
     const resetHandler = () => {
         toggleForm(false);
         document.querySelectorAll('.pm-question-block, .pm-question-options > div').forEach(el => el.removeAttribute('style'));
+        document.querySelectorAll('.pm-question-block, .pm-question-options > div').forEach(el => el.classList.remove('correct', 'incorrect', 'answered'));
         removeFormScore();
         myform.reset();
     };

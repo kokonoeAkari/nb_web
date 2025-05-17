@@ -156,16 +156,18 @@ function loadBlock(part) {
 
 function loadModule(pagePath) {
     const container = $('#nb-page-content');
+    const overlay = $('#loading-overlay');
 
-    // 隱藏內容，等待圖片載入完成再顯示
+    // 顯示 loading 遮罩
+overlay.removeClass('hide');
     container.css('visibility', 'hidden');
 
-    container.load(pagePath, function () {
+        container.load(pagePath, function () {
         const images = container.find('img');
         let loadedCount = 0;
-
+        
         if (images.length === 0) {
-            container.css('visibility', 'visible').addClass('fadein');
+            done();
         } else {
             images.each(function () {
                 if (this.complete) {
@@ -179,12 +181,19 @@ function loadModule(pagePath) {
         function checkImages() {
             loadedCount++;
             if (loadedCount === images.length) {
-                container.css('visibility', 'visible').addClass('fadein');
+                setTimeout(() => {
+                    done();
+                }, 1500);
+                
             }
+        }
+
+        function done() {
+            overlay.addClass('hide');
+            container.css('visibility', 'visible').addClass('fadein');
         }
     });
 }
-
 
 // 對外公開初始化與清除
 export function init() {

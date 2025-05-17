@@ -252,9 +252,9 @@
         thank you for your feedback!<br>
         Your feedback is important to us and will help us improve the module for future learners.
     </div>
-    <!-- <div id="form-result"
+    <div id="form-result"
         style="white-space: pre-wrap; background: #f9f9f9; padding: 1em; border: 1px solid #ccc; margin-top: 20px;">
-    </div>-->
+    </div>
 </div>
 <script>
 
@@ -391,7 +391,7 @@
         summary += `- Improvements: ${get('suggestions_and_comments_improve')}\n`;
         summary += `- Additional comments: ${get('suggestions_and_comments_additional_comments')}\n`;
 
-        //document.getElementById("form-result").textContent = summary;// test
+        document.getElementById("form-result").textContent = summary;// test
 
         /*fetch(scriptURL, { method: 'POST', body: formData })
             .then(response => {
@@ -407,6 +407,17 @@
         message.classList.remove('hide');
         setTimeout(() => {
             message.classList.add('show');
-        }, 10); // 延遲觸發 transition
+        }, 10); // 觸發 transition
+
+        // 等 3 秒後淡出訊息並恢復表單
+        setTimeout(() => {
+            message.classList.remove('show');
+
+            // 等淡出動畫結束再隱藏訊息並顯示表單
+            setTimeout(() => {
+                message.classList.add('hide');
+                form.classList.remove('hide');
+            }, 500); // 這個時間要跟 CSS transition 時間對應
+        }, 3000); // 顯示訊息的時間
     }
 </script>

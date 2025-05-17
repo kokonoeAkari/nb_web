@@ -1118,6 +1118,8 @@ button.StrucBlocksBTN.selected {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0;
+    transition: opacity 0.5s ease;
 }
 
 .resiz {
@@ -1173,6 +1175,8 @@ button.StrucBlocksBTN.selected {
 /* =========Display========= */
 .show {
     display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .hide {

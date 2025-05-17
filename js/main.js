@@ -1,5 +1,5 @@
 const dropdownBTN = document.getElementById("pm-navbar-btn");
-console.log(dropdownBTN);
+//console.log(dropdownBTN);
 const dropexam = document.getElementById("examBTN");
 
 // Close the dropdown if the user clicks outside of it

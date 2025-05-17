@@ -24,7 +24,7 @@ const strucArr = {
     "Torso": {
         "Chest": ["PECS-II (Interpectoral plane and Pectoserratus plane block)", "Erector Spinae", "Serratus Anterior"],
         "Abdominal Wall": ["Rectus Sheath", "Transversus Abdominis Plane"],
-        "Perineum": ["Perianal","Penile"],
+        "Perineum": ["Perianal", "Penile"],
         "Upper Back": ["Erector Spinae"],
         "Lower Back": ["Perianal"]
     },
@@ -155,8 +155,36 @@ function loadBlock(part) {
 }
 
 function loadModule(pagePath) {
-    $('#nb-page-content').load(pagePath);
+    const container = $('#nb-page-content');
+
+    // 隱藏內容，等待圖片載入完成再顯示
+    container.css('visibility', 'hidden');
+
+    container.load(pagePath, function () {
+        const images = container.find('img');
+        let loadedCount = 0;
+
+        if (images.length === 0) {
+            container.css('visibility', 'visible').addClass('fadein');
+        } else {
+            images.each(function () {
+                if (this.complete) {
+                    checkImages();
+                } else {
+                    $(this).on('load error', checkImages);
+                }
+            });
+        }
+
+        function checkImages() {
+            loadedCount++;
+            if (loadedCount === images.length) {
+                container.css('visibility', 'visible').addClass('fadein');
+            }
+        }
+    });
 }
+
 
 // 對外公開初始化與清除
 export function init() {

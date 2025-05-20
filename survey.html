@@ -245,15 +245,13 @@
                 oninput="autoGrow(this)"></textarea>
         </div>
         <div class="form-section-btn">
-            <button type="submit">Submit</button>
+            <button id="submitBtn" type="submit">Submit</button>
+            <div id="loadingIndicator" class="btnSpinner hide"></div>
         </div>
     </form>
     <div id="thankYouMessage" class="thank-you-box fade-in hide">
         thank you for your feedback!<br>
         Your feedback is important to us and will help us improve the module for future learners.
-    </div>
-    <div id="form-result"
-        style="white-space: pre-wrap; background: #f9f9f9; padding: 1em; border: 1px solid #ccc; margin-top: 20px;">
     </div>
 </div>
 <script>
@@ -273,6 +271,14 @@
             });
         }
     }
+
+    function hideSection(selectedId = null) {
+        const sections = ['medicalStudent', 'residentPhysician', 'attendingPhysician', 'otherSection', 'technical_issuesYES'];
+        sections.forEach(id => {
+            document.getElementById(id).style.display = (selectedId === id) ? 'block' : 'none';
+        });
+    }
+
     // 🔄 function: 用區塊 ID 對應回 value 值
     function sectionIdToValue(id) {
         switch (id) {
@@ -293,7 +299,7 @@
                 inputs.forEach(input => input.value = '');
             }
         });
-        let radio = document.querySelector(`input[name="learner_type"][value="usability_and_accessibility_issues"]`);
+        let radio = document.querySelector(`input[name="usability_and_accessibility_issues"][value="Yes"]`);
         if (!radio || !radio.checked) {
             const inputs = document.querySelector(`#technical_issuesYES textarea`);
             inputs.value = '';
@@ -312,7 +318,7 @@
         // 找出選中的 learner_type
         const selectedType = document.querySelector('input[name="learner_type"]:checked')?.value;
 
-        const scriptURL = '';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzD9UaJhFsIvxXrDZRcPfSHfPGWwhyF21QrT-l76781YB1W0BuYGfOEmOv7Np4VBNNIJg/exec';
 
         let summary = '';
 
@@ -391,33 +397,57 @@
         summary += `- Improvements: ${get('suggestions_and_comments_improve')}\n`;
         summary += `- Additional comments: ${get('suggestions_and_comments_additional_comments')}\n`;
 
-        document.getElementById("form-result").textContent = summary;// test
+        //document.getElementById("form-result").textContent = summary;// test
 
-        /*fetch(scriptURL, { method: 'POST', body: formData })
+        const submitBtn = document.getElementById('submitBtn');
+        const loadingIndicator = document.getElementById('loadingIndicator');
+        // 送出前：顯示載入狀態，停用按鈕
+        submitBtn.disabled = true;
+        submitBtn.innerText = 'Sending...';
+        loadingIndicator.classList.remove('hide');
+
+        fetch(scriptURL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'text/plain'
+            },
+            body: summary
+        })
+            .then(res => res.text())
             .then(response => {
-                alert('Success!');
-                form.reset(); // Reset the form after successful submission
+                console.log("Success:", response);
+                //alert('Success!');
+                // 隱藏表單
+                form.classList.add('hide');
+
+                // 顯示訊息框並淡入
+                message.classList.remove('hide');
+                setTimeout(() => {
+                    message.classList.add('show');
+                }, 10); // 觸發 transition
+
+                // 等 3 秒後淡出訊息並恢復表單
+                setTimeout(() => {
+                    message.classList.remove('show');
+
+                    // 等淡出動畫結束再隱藏訊息並顯示表單
+                    setTimeout(() => {
+                        message.classList.add('hide');
+                        form.classList.remove('hide');
+                    }, 500); // 這個時間要跟 CSS transition 時間對應
+                    form.reset();
+                    hideSection();
+                    submitBtn.disabled = false;
+                    submitBtn.innerText = 'Submit';
+                    loadingIndicator.classList.add('hide'); // Reset the form after successful submission
+                }, 3000); // 顯示訊息的時間
             })
-            .catch(error => alert('Error!'));*/
-
-        // 隱藏表單
-        form.classList.add('hide');
-
-        // 顯示訊息框並淡入
-        message.classList.remove('hide');
-        setTimeout(() => {
-            message.classList.add('show');
-        }, 10); // 觸發 transition
-
-        // 等 3 秒後淡出訊息並恢復表單
-        setTimeout(() => {
-            message.classList.remove('show');
-
-            // 等淡出動畫結束再隱藏訊息並顯示表單
-            setTimeout(() => {
-                message.classList.add('hide');
-                form.classList.remove('hide');
-            }, 500); // 這個時間要跟 CSS transition 時間對應
-        }, 3000); // 顯示訊息的時間
+            .catch(error => {
+                console.error("Error:", error);
+                alert('Error!');
+                submitBtn.disabled = false;
+                submitBtn.innerText = 'Submit';
+                loadingIndicator.classList.add('hide');
+            });
     }
 </script>

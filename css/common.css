@@ -994,10 +994,6 @@ button.StrucBlocksBTN.selected {
     display: block;
 }
 
-.nb-content-note {
-    padding: 0 0.2rem;
-}
-
 .nb-content-block {
     background-color: #0f172a;
     border-left: 4px solid #38bdf8;
@@ -1015,12 +1011,12 @@ button.StrucBlocksBTN.selected {
 
 .nb-content-block h3 {
     color: #7dd3fc;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     margin: 10px 0;
 }
 
 .nb-content-block div {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 10px 0 10px 8px;
     line-height: 1.6;
 }
@@ -1041,7 +1037,7 @@ button.StrucBlocksBTN.selected {
     position: relative;
     color: #e8ebef;
     margin-bottom: 8px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .nb-content-block ol li::before {
